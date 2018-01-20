@@ -8,7 +8,11 @@ def compute_word_frequencies(tokens):
     for token in tokens:
         frequencies[str.lower(token)]+=1
 
-    return frequencies
+    freq_sort = [(v, k) for (k, v) in frequencies.items()]
+    freq_sort.sort(reverse=True)
+    # print frequencies
+    for (k,v) in freq_sort:
+        print(k, v)
 
 def tokenize(text_file_path):
     tokens = []
@@ -16,7 +20,6 @@ def tokenize(text_file_path):
         for line in file:
             words = line.split(separator)
             tokens.extend(words)
-            # for word in words: tokens[str.lower(word)]+=1
     return tokens
 
 
