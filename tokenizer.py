@@ -3,16 +3,19 @@ from collections import defaultdict
 
 separator = ' '
 
+def print_sorted_order(frequency_map):
+    freq_sort = [(v, k) for (k, v) in frequency_map.items()]
+    freq_sort.sort(reverse=True)
+    for (k,v) in freq_sort:
+        print(k, v)
+
 def compute_word_frequencies(tokens, print_sorted_order=False):
     frequencies = defaultdict(int)
     for token in tokens:
         frequencies[str.lower(token)]+=1
 
     if print_sorted_order:
-        freq_sort = [(v, k) for (k, v) in frequencies.items()]
-        freq_sort.sort(reverse=True)
-        for (k,v) in freq_sort:
-            print(k, v)
+        print_sorted_order(frequencies)
 
     return frequencies
 
