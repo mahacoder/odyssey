@@ -3,16 +3,18 @@ from collections import defaultdict
 
 separator = ' '
 
-def compute_word_frequencies(tokens):
+def compute_word_frequencies(tokens, print_sorted_order=False):
     frequencies = defaultdict(int)
     for token in tokens:
         frequencies[str.lower(token)]+=1
 
-    freq_sort = [(v, k) for (k, v) in frequencies.items()]
-    freq_sort.sort(reverse=True)
-    # print frequencies
-    for (k,v) in freq_sort:
-        print(k, v)
+    if print_sorted_order:
+        freq_sort = [(v, k) for (k, v) in frequencies.items()]
+        freq_sort.sort(reverse=True)
+        for (k,v) in freq_sort:
+            print(k, v)
+
+    return frequencies
 
 def tokenize(text_file_path):
     tokens = []
@@ -29,8 +31,7 @@ def main():
     args = parser.parse_args()
     filepath = args.filepath
     tokens = tokenize(filepath)
-    word_frequencies = compute_word_frequencies(tokens)
-    print(word_frequencies)
+    word_frequencies = compute_word_frequencies(tokens, True)
 
 
 if __name__=='__main__':
