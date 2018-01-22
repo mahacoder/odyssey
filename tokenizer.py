@@ -12,7 +12,7 @@ def print_sorted_order(frequency_map):
 def compute_word_frequencies(tokens, print_sorted_order=False):
     frequencies = defaultdict(int)
     for token in tokens:
-        frequencies[str.lower(token)]+=1
+        frequencies[token]+=1
 
     if print_sorted_order:
         print_sorted_order(frequencies)
@@ -20,11 +20,11 @@ def compute_word_frequencies(tokens, print_sorted_order=False):
     return frequencies
 
 def tokenize(text_file_path):
-    tokens = []
+    tokens = set()
     with open(text_file_path) as file:
         for line in file:
-            words = line.split(separator)
-            tokens.extend(words)
+            for word in line.split(separator):
+                tokens.add(str.lower(word))
     return tokens
 
 
