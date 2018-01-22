@@ -10,12 +10,8 @@ def print_sorted_order(frequency_map):
     for (k,v) in freq_sort:
         print(k, v)
 
-def compute_word_frequencies(tokens, print_sorted_order_flag=False):
+def compute_word_frequencies(tokens):
     frequencies = Counter(tokens)
-
-    if print_sorted_order_flag:
-        print_sorted_order(frequencies)
-
     return frequencies
 
 def tokenize(text_file_path):
@@ -33,7 +29,8 @@ def main():
     args = parser.parse_args()
     filepath = args.filepath
     tokens = tokenize(filepath)
-    word_frequencies = compute_word_frequencies(tokens, True)
+    word_frequencies = compute_word_frequencies(tokens)
+    print_sorted_order(word_frequencies)
 
 
 if __name__=='__main__':
