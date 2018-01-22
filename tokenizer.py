@@ -1,5 +1,6 @@
 import argparse
 from collections import defaultdict
+from collections import Counter
 
 separator = ' '
 
@@ -9,22 +10,20 @@ def print_sorted_order(frequency_map):
     for (k,v) in freq_sort:
         print(k, v)
 
-def compute_word_frequencies(tokens, print_sorted_order=False):
-    frequencies = defaultdict(int)
-    for token in tokens:
-        frequencies[token]+=1
+def compute_word_frequencies(tokens, print_sorted_order_flag=False):
+    frequencies = Counter(tokens)
 
-    if print_sorted_order:
+    if print_sorted_order_flag:
         print_sorted_order(frequencies)
 
     return frequencies
 
 def tokenize(text_file_path):
-    tokens = set()
+    tokens = []
     with open(text_file_path) as file:
         for line in file:
             for word in line.split(separator):
-                tokens.add(str.lower(word))
+                tokens.append(str.lower(word))
     return tokens
 
 
