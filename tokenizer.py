@@ -9,7 +9,7 @@ def print_sorted_order(frequency_map, **kwargs):
     freq_sort.sort(reverse=True)
 
     if 'output_file_name' in kwargs:
-        with open(kwargs[output_file_name], 'w+') as f:
+        with open(kwargs['output_file_name'], 'w+') as f:
             for (k,v) in freq_sort:
                 f.write(str(k)+','+str(v)+'\n')
     else:
@@ -50,7 +50,7 @@ def main():
     filepath = args.filepath
     tokens = tokenize(filepath)
     word_frequencies = compute_word_frequencies(tokens)
-    print_sorted_order(word_frequencies, output_file_name='output/out.txt')
+    print_sorted_order(word_frequencies, output_file_name='output/lotr_tokens.txt')
     print('Unique words=', len(word_frequencies))
 
 
