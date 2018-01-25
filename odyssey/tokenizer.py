@@ -40,15 +40,16 @@ def tokenize(text_file_path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("filepath", help="path of the file to tokenize")
+    parser.add_argument("--output_file", help="path of the output file")
     args = parser.parse_args()
     filepath = args.filepath
     tokens = tokenize(filepath)
-    # print('Length of tokens =', len(tokens))
     word_frequencies = compute_word_frequencies(tokens)
-    # print_sorted_order(word_frequencies)
-    print_sorted_order(word_frequencies, output_file_name='output/sherlock_tokens.txt')
-    # print('Unique words =', len(word_frequencies))
-
+    if args.output_file:
+        print_sorted_order(word_frequencies, output_file_name=args.output_file)
+    else:
+        print_sorted_order(word_frequencies)
+        
 
 if __name__=='__main__':
     main()
