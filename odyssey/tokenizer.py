@@ -1,4 +1,5 @@
 import argparse
+import re
 from collections import defaultdict
 from collections import Counter
 
@@ -35,8 +36,7 @@ def tokenize(text_file_path):
         try:
             for line in file:
                 for word in line.split(separator):
-                    word = word.rstrip()
-                    word = modify(word)
+                    word = re.sub('[^A-Za-z\d]+', '', word)
                     if len(word)!=0: tokens.append(str.lower(word))
         except Exception as e:
             raise Exception('Cannot read file. Caught exception')
@@ -49,9 +49,10 @@ def main():
     args = parser.parse_args()
     filepath = args.filepath
     tokens = tokenize(filepath)
+    print('Length of tokens =', len(tokens))
     word_frequencies = compute_word_frequencies(tokens)
-    print_sorted_order(word_frequencies, output_file_name='output/lotr_tokens.txt')
-    print('Unique words=', len(word_frequencies))
+    print_sorted_order(word_frequencies, output_file_name='output/regex _tokens.txt')
+    print('Unique words =', len(word_frequencies))
 
 
 if __name__=='__main__':
