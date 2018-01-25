@@ -1,5 +1,6 @@
 import argparse
 import re
+import codecs
 from collections import defaultdict
 from collections import Counter
 
@@ -10,25 +11,18 @@ def print_sorted_order(frequency_map, **kwargs):
     freq_sort.sort(reverse=True)
 
     if 'output_file_name' in kwargs:
-        with open(kwargs['output_file_name'], 'w+') as f:
+        with codecs.open(kwargs['output_file_name'], 'w+', 'utf-8') as f:
             for (k,v) in freq_sort:
-                f.write(str(k)+','+str(v)+'\n')
+                f.write(str(v)+','+str(k)+'\n')
     else:
         for (k,v) in freq_sort:
-            print(k, v)
+            print(v, k)
 
 
 def compute_word_frequencies(tokens):
     frequencies = Counter(tokens)
     return frequencies
 
-def modify(word):
-    to_check = ['"', "?", ".", ";", "'", ",", "!", "`", ":", "-", "#", "(", ")"]
-    while len(word)>0 and word[-1] in to_check:
-        word=word[:-1]
-    while len(word)>0 and word[0] in to_check:
-        word = word[1:]
-    return word
 
 def tokenize(text_file_path):
     tokens = []
@@ -49,10 +43,11 @@ def main():
     args = parser.parse_args()
     filepath = args.filepath
     tokens = tokenize(filepath)
-    print('Length of tokens =', len(tokens))
+    # print('Length of tokens =', len(tokens))
     word_frequencies = compute_word_frequencies(tokens)
-    print_sorted_order(word_frequencies, output_file_name='output/regex _tokens.txt')
-    print('Unique words =', len(word_frequencies))
+    # print_sorted_order(word_frequencies)
+    print_sorted_order(word_frequencies, output_file_name='output/sherlock_tokens.txt')
+    # print('Unique words =', len(word_frequencies))
 
 
 if __name__=='__main__':
