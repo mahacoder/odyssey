@@ -17,7 +17,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("filepath1", help="path of the file to compare")
     parser.add_argument("filepath2", help="path of the file to compare")
-    parser.add_argument("print_common", help="True to display common keys")
+    parser.add_argument("print_common", help="True/T to display common keys")
     args = parser.parse_args()
     filepath_1 = args.filepath1
     filepath_2 = args.filepath2
