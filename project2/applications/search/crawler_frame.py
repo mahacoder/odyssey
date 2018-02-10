@@ -47,24 +47,22 @@ class CrawlerFrame(IApplication):
             "Time time spent this session: ",
             time() - self.starttime, " seconds.")
 
-def links_from_link(url):
-    page = requests.get(url).text
-    doc = html.document_fromstring(page)
+def links_from_link(content):
+    doc = html.document_fromstring(content)
     x = doc.xpath("//a")
+    root_url = "http://www.ics.uci.edu/"
     l = []
     s = '/'
     for i in x:
         t = i.get("href")
-        if len(t)<2:
+        if t is None:
             continue
-        elif t[0:4] != "http" and t[0]!= s:
-             t = url+t
-             l.append(t)
-        elif(t[0:4] != "http"):
-             t = url+t[1:]
+        if t[0:4] != "http":
+             t = root_url+t
              l.append(t)
         else:
             l.append(t)
+    print(len(l))
     return l
 
 def extract_next_links(rawDataObj):
@@ -79,9 +77,9 @@ def extract_next_links(rawDataObj):
     Suggested library: lxml
     '''
     if rawDataObj.is_redirected == True:
-        outputLinks = links_from_link(rawDataObj.final_url)
+        outputLinks = links_from_link(rawDataObj.content)
     else:
-        outputLinks = links_from_link(rawDataObj.url)
+        outputLinks = links_from_link(rawDataObj.content)
     return outputLinks
 
 def is_valid(url):
