@@ -4,6 +4,7 @@ from spacetime.client.IApplication import IApplication
 from spacetime.client.declarations import Producer, GetterSetter, Getter, ServerTriggers
 from lxml import html,etree
 import re, os
+import requests
 from time import time
 from uuid import uuid4
 
@@ -78,9 +79,9 @@ def extract_next_links(rawDataObj):
     Suggested library: lxml
     '''
     if rawDataObj.is_redirected == True:
-        outputLinks = links_from_link(final_url)
+        outputLinks = links_from_link(rawDataObj.final_url)
     else:
-        outputLinks = links_from_link(url)
+        outputLinks = links_from_link(rawDataObj.url)
     return outputLinks
 
 def is_valid(url):
