@@ -45,19 +45,42 @@ class CrawlerFrame(IApplication):
         print (
             "Time time spent this session: ",
             time() - self.starttime, " seconds.")
-    
+
+def links_from_link(url):
+    page = requests.get(url).text
+    doc = html.document_fromstring(page)
+    x = doc.xpath("//a")
+    l = []
+    s = '/'
+    for i in x:
+        t = i.get("href")
+        if len(t)<2:
+            continue
+        elif t[0:4] != "http" and t[0]!= s:
+             t = url+t
+             l.append(t)
+        elif(t[0:4] != "http"):
+             t = url+t[1:]
+             l.append(t)
+        else:
+            l.append(t)
+    return l
+
 def extract_next_links(rawDataObj):
-    outputLinks = []
     '''
     rawDataObj is an object of type UrlResponse declared at L20-30
     datamodel/search/server_datamodel.py
     the return of this function should be a list of urls in their absolute form
     Validation of link via is_valid function is done later (see line 42).
-    It is not required to remove duplicates that have already been downloaded. 
+    It is not required to remove duplicates that have already been downloaded.
     The frontier takes care of that.
-    
+
     Suggested library: lxml
     '''
+    if rawDataObj.is_redirected == True:
+        outputLinks = links_from_link(final_url)
+    else:
+        outputLinks = links_from_link(url)
     return outputLinks
 
 def is_valid(url):
