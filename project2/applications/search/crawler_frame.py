@@ -57,7 +57,7 @@ class CrawlerFrame(IApplication):
         print (
             "Time time spent this session: ",
             time() - self.starttime, " seconds.")
-    
+
 def create_url(current_url, relative_url):
     global counter
     url = ''
@@ -71,7 +71,7 @@ def create_url(current_url, relative_url):
         counter-=1
     url = current_url+'/'+relative_url
     return url
-   
+
 def links_from_link(content, current_url, http_code):
     global max_link_count
     global max_link_page
@@ -152,6 +152,7 @@ def is_valid(url):
             + "|thmx|mso|arff|rtf|jar|csv"\
             + "|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower()) \
             and not re.search("calendar", url.lower()) \
+            and not re.search("mailto", url.lower()) \
             and not len(parsed.query)!=0
     except TypeError:
         print ("TypeError for ", parsed)
