@@ -1,3 +1,4 @@
+import codecs
 import logging
 from datamodel.search.AsbapatApushpenKbaijalKyuseony_datamodel import AsbapatApushpenKbaijalKyuseonyLink, OneAsbapatApushpenKbaijalKyuseonyUnProcessedLink, add_server_copy, get_downloaded_content
 from spacetime.client.IApplication import IApplication
@@ -51,6 +52,7 @@ class CrawlerFrame(IApplication):
             time() - self.starttime, " seconds.")
     
 def create_url(current_url, relative_url):
+    global counter
     url = ''
     counter = 0
     while relative_url[0:3]=='../':
@@ -104,7 +106,7 @@ def extract_next_links(rawDataObj):
     The frontier takes care of that.
     Suggested library: lxml
     '''
-
+    global visited_count
     visited_count += 1
     if rawDataObj.is_redirected == True:
         outputLinks = links_from_link(rawDataObj.content, rawDataObj.final_url
