@@ -11,8 +11,8 @@ from rtypes.pcc.types.impure import impure
 from datamodel.search.server_datamodel import Link, ServerCopy
 
 @pcc_set
-class AsbapatApushpenLink(Link):
-    USERAGENTSTRING = "AsbapatApushpen"
+class TesttesterLink(Link):
+    USERAGENTSTRING = "Testtester"
 
     @dimension(str)
     def user_agent_string(self):
@@ -24,33 +24,33 @@ class AsbapatApushpenLink(Link):
         pass
 
 
-@subset(AsbapatApushpenLink)
-class AsbapatApushpenUnprocessedLink(object):
+@subset(TesttesterLink)
+class TesttesterUnprocessedLink(object):
     @staticmethod
     def __predicate__(l):
         return not (l.download_complete or l.error_reason)
 
 
 @impure
-@subset(AsbapatApushpenUnprocessedLink)
-class OneAsbapatApushpenUnProcessedLink(AsbapatApushpenLink):
+@subset(TesttesterUnprocessedLink)
+class OneTesttesterUnProcessedLink(TesttesterLink):
     __limit__ = 1
     @staticmethod
     def __predicate__(l):
         return not (l.download_complete or l.error_reason)
 
-@projection(AsbapatApushpenLink, AsbapatApushpenLink.url, AsbapatApushpenLink.download_complete)
-class AsbapatApushpenProjectionLink(object):
+@projection(TesttesterLink, TesttesterLink.url, TesttesterLink.download_complete)
+class TesttesterProjectionLink(object):
     pass
 
-@trigger(OneAsbapatApushpenUnProcessedLink, TriggerTime.after, TriggerAction.read)
+@trigger(OneTesttesterUnProcessedLink, TriggerTime.after, TriggerAction.read)
 def get_downloaded_content(dataframe, new, old, current):
     server_copy = dataframe.get(ServerCopy, oid=current.url)
     if server_copy:
         current.copy_from(server_copy)
 
 
-@trigger(AsbapatApushpenLink, TriggerTime.after, TriggerAction.update)
+@trigger(TesttesterLink, TriggerTime.after, TriggerAction.update)
 def add_server_copy(dataframe, new, old, current):
     server_copy = dataframe.get(ServerCopy, oid=current.url)
     if not server_copy:
