@@ -73,6 +73,8 @@ def create_url(current_url, relative_url):
     return url
    
 def links_from_link(content, current_url, http_code):
+    global max_link_count
+    global max_link_page
     root_url = "http://www.ics.uci.edu"
     links = []
     if http_code==200 and len(content)==0:
@@ -97,8 +99,8 @@ def links_from_link(content, current_url, http_code):
                     links.append(target)
                 else:
                     target = create_url(current_url, target)
-                    with codecs.open('relative_url.txt', mode='a', encoding='utf-8') as file:
-                        file.write(target+'\n')
+                    # with codecs.open('relative_url.txt', mode='a', encoding='utf-8') as file:
+                    #     file.write(target+'\n')
             else:
                 links.append(target)
     if len(links)>max_link_count:
@@ -143,7 +145,7 @@ def is_valid(url):
     if parsed.scheme not in set(["http", "https"]):
         is_valid_flag = False
     try:
-        is_valid_flag = not ".ics.uci.edu" in parsed.hostname \
+        is_valid_flag = ".ics.uci.edu" in parsed.hostname \
             and not re.match(".*\.(css|js|bmp|gif|jpe?g|ico" + "|png|tiff?|mid|mp2|mp3|mp4"\
             + "|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf" \
             + "|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso|epub|dll|cnf|tgz|sha1" \
