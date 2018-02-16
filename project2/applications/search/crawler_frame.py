@@ -17,6 +17,7 @@ invalid_count = 0
 max_link_count = 0
 max_link_page = ''
 visited_count = 0
+redirect_count = 0
 
 @Producer(AsbapatApushpenKbaijalKyuseonyLink)
 @GetterSetter(OneAsbapatApushpenKbaijalKyuseonyUnProcessedLink)
@@ -47,6 +48,12 @@ class CrawlerFrame(IApplication):
                     self.frame.add(AsbapatApushpenKbaijalKyuseonyLink(l))
 
     def shutdown(self):
+        with open("run_stats.txt", "w") as file:
+            file.write('Invalid Count='+str(invalid_count)+'\n')
+            file.write('Visited Count='+str(visited_count)+'\n')
+            file.write('Redirect Count='+str(redirect_count)+'\n')
+            file.write('Page with maximum links:'+max_link_page+'\n')
+            file.write('Number of links found in above page='+str(max_link_count)+'\n')
         print (
             "Time time spent this session: ",
             time() - self.starttime, " seconds.")
@@ -69,11 +76,13 @@ def links_from_link(content, current_url, http_code):
     root_url = "http://www.ics.uci.edu"
     links = []
     if http_code==200 and len(content)==0:
-        with codecs.open('empty_html.txt', mode='a', encoding='utf-8') as html_file:
-            html_file.write(current_url+'\n')
+        pass
+        # with codecs.open('empty_html.txt', mode='a', encoding='utf-8') as html_file:
+        #     html_file.write(current_url+'\n')
     elif len(content)==0:
-        with codecs.open('non_200.txt', mode='a', encoding='utf-8') as non_200:
-            non_200.write(current_url+'|'+str(http_code)+'\n')
+        pass
+        # with codecs.open('non_200.txt', mode='a', encoding='utf-8') as non_200:
+        #     non_200.write(current_url+'|'+str(http_code)+'\n')
     else:
         doc = html.document_fromstring(content)
         xpath = doc.xpath("//a")
@@ -92,8 +101,11 @@ def links_from_link(content, current_url, http_code):
                         file.write(target+'\n')
             else:
                 links.append(target)
-    with open('stats.txt', 'a') as f:
-        f.write(current_url+','+str(len(links))+'\n')
+    if len(links)>max_link_count:
+        max_link_page = current_url
+        max_link_count = len(links)
+    # with open('stats.txt', 'a') as f:
+    #     f.write(current_url+','+str(len(links))+'\n')
     return links
 
 def extract_next_links(rawDataObj):
@@ -106,9 +118,10 @@ def extract_next_links(rawDataObj):
     The frontier takes care of that.
     Suggested library: lxml
     '''
-    global visited_count
+    global visited_count, redirect_count
     visited_count += 1
     if rawDataObj.is_redirected == True:
+        redirect_count += 1
         outputLinks = links_from_link(rawDataObj.content, rawDataObj.final_url
             , rawDataObj.http_code)
     else:
@@ -123,31 +136,25 @@ def is_valid(url):
     Robot rules and duplication rules are checked separately.
     This is a great place to filter out crawler traps.
     '''
-    # parsed = urlparse(url)
-    # if parsed.scheme not in set(["http", "https"]):
-    #     return False
-    # try:
-    #     return ".ics.uci.edu" in parsed.hostname \
-    #         and not re.match(".*\.(css|js|bmp|gif|jpe?g|ico" + "|png|tiff?|mid|mp2|mp3|mp4"\
-    #         + "|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf" \
-    #         + "|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso|epub|dll|cnf|tgz|sha1" \
-    #         + "|thmx|mso|arff|rtf|jar|csv"\
-    #         + "|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
 
-    # except TypeError:
-    #     print ("TypeError for ", parsed)
-    #     return False
-
+    global invalid_count
     parsed = urlparse(url)
+    is_valid_flag = False
     if parsed.scheme not in set(["http", "https"]):
-        return False
+        is_valid_flag = False
     try:
-        return ".ics.uci.edu" in parsed.hostname \
-            and not re.match("\?"+"\@"+"(?![ -~])."+".*\.(css|js|bmp|gif|jpe?g|ico" + "|png|tiff?|mid|mp2|mp3|mp4"\
+        is_valid_flag = not ".ics.uci.edu" in parsed.hostname \
+            and not re.match(".*\.(css|js|bmp|gif|jpe?g|ico" + "|png|tiff?|mid|mp2|mp3|mp4"\
             + "|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf" \
             + "|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso|epub|dll|cnf|tgz|sha1" \
             + "|thmx|mso|arff|rtf|jar|csv"\
-            + "|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower()) and not re.findall(r'\?',parsed.path.lower()) and not re.search("calendar",parsed.path.lower())
+            + "|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower()) \
+            and not re.search("calendar", url.lower()) \
+            and not len(parsed.query)!=0
     except TypeError:
         print ("TypeError for ", parsed)
-        return False
+        is_valid_flag = False
+
+    if not is_valid_flag:
+        invalid_count += 1
+    return is_valid_flag
