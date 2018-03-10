@@ -78,11 +78,11 @@ def links_from_link(content, current_url, http_code):
     root_url = "http://www.ics.uci.edu"
     links = []
     if http_code==200 and len(content)==0:
-        pass
+        return links
         # with codecs.open('empty_html.txt', mode='a', encoding='utf-8') as html_file:
         #     html_file.write(current_url+'\n')
-    elif len(content)==0:
-        pass
+    elif len(content)==0 or content is None:
+        return links
         # with codecs.open('non_200.txt', mode='a', encoding='utf-8') as non_200:
         #     non_200.write(current_url+'|'+str(http_code)+'\n')
     else:
@@ -147,7 +147,7 @@ def is_valid(url):
     try:
         is_valid_flag = ".ics.uci.edu" in parsed.hostname \
             and not re.match(".*\.(css|js|bmp|gif|jpe?g|ico" + "|png|tiff?|mid|mp2|mp3|mp4"\
-            + "|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf" \
+            + "|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|txt|pdf" \
             + "|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso|epub|dll|cnf|tgz|sha1" \
             + "|thmx|mso|arff|rtf|jar|csv"\
             + "|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower()) \
