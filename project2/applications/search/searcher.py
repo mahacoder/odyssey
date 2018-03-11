@@ -10,7 +10,7 @@ from tokenizer import tokenize
 
 def search_query(query):
     ind = indexer.Indexer()
-    ind.construct_index(os.path.join(path_till_odyssey, pages_dir_name))
+    ind.initialize_index(os.path.join(path_till_odyssey, pages_dir_name))
     inverted_index_list = ind.inverted_index_list
     score = 0
     results = {}
@@ -25,9 +25,21 @@ def search_query(query):
                     results[doc] = ind.tfidf(term, doc)
         return results
 
-def top_num_results(frequency, num = 3):
+def top_num_results(frequency):
     freq_sort = sorted(frequency.items(), key=lambda x:x[1], reverse=True)
-    return freq_sort[:num]
+    return freq_sort
+
+def find_url(docs, num):
+    with open('doc_url_map.p', 'r') as fp:
+        url_list = pickle.load(fp)
+        for i in docs:
+            if num<0:
+                break
+            try:
+                print(url_list[i])
+                num -= 1
+            except:
+                pass
 
 if __name__ == '__main__':
     cwd = os.getcwd()
@@ -35,5 +47,4 @@ if __name__ == '__main__':
     pages_dir_name = 'pages'
     print("Please enter query:")
     query = raw_input().split()
-    for i in top_num_results(search_query(query),3):
-        print i[0]
+    find_url(top_num_results(search_query(query)), 3)

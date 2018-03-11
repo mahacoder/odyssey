@@ -3,6 +3,8 @@ import os
 import sys
 import pprint
 import pickle
+import math
+
 sys.path.append(os.path.join(os.getcwd(), 'odyssey'))
 
 from tokenizer import tokenize
@@ -14,7 +16,6 @@ class Indexer():
 
     #creating inverted index per term
     def create_inverted_index(self, term, document, position_list):
-
         #if term is new, then make a new document list
         if term not in self.inverted_index_list:
             document_list = {}
@@ -34,32 +35,40 @@ class Indexer():
     #constructing part (whole)
     def construct_index(self, directory_path):
         tokens_from_file = []
-        for file_path in os.listdir(directory_path): 
+        for file_path in os.listdir(directory_path):
              tokens_from_file = tokenize(os.path.join(directory_path, file_path))
              self.create_document_inverted_list(tokens_from_file, file_path)
 
-#tf = count the number of positions
-def term_frequency(self, term, document_name):
-    return len(self.inverted_index_list[term][document_name])
+    def initialize_index(self, directory_path):
+        try:
+            with open('inverted_index.p', 'rb') as fp:
+                self.inverted_index_list =  = pickle.load(fp)
+        except:
+            self.construct_index(directory_path)
+    #tf = count the number of positions
+    def term_frequency(self, term, document_name):
+        return len(self.inverted_index_list[term][document_name])
 
-#in the website, they use this function and so as lecture
-def sublinear_term_frequency(self, term, document_name):
-    count = term_frequency(term, document_name) 
-    if count==0:
-        return 0
-    return 1 + math.log(count)
+    #in the website, they use this function and so as lecture
+    def sublinear_term_frequency(self, term, document_name):
+        count =self.term_frequency(term, document_name)
+        if count==0:
+            return 0
+        return 1 + math.log(count)
 
-#function for calculating idf
-def inverse_document_frequencies(self, term):
-    # pass directory name or make it global
-    file_list = os.listdir(r'C:\Users\anant\repos\projects\odyssey\HTMLdocs')
-    return math.log(len(file_list)/len(self.inverted_index_list[term]))
-
-#calculate the tfidf
-def tfidf(self, term, document_name):
-    idf = self.inverse_document_frequencies(term)
-    tf = self.sublinear_term_frequency(term, document_name)
-    return tf * idf
+    #function for calculating idf
+    def inverse_document_frequencies(self, term):
+        # pass directory name or make it global
+        try:
+            file_list = os.listdir('/HTMLdocs')
+            return math.log(len(file_list)/len(self.inverted_index_list[term]))
+        except:
+            return math.log(300/len(self.inverted_index_list[term]))
+    #calculate the tfidf
+    def tfidf(self, term, document_name):
+        idf = self.inverse_document_frequencies(term)
+        tf = self.sublinear_term_frequency(term, document_name)
+        return tf * idf
 
 if __name__=='__main__':
     cwd = os.getcwd()
