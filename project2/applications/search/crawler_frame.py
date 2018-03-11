@@ -5,7 +5,6 @@ import math #added because of tf-idf
 import sys
 sys.path.append('../')
 
-from tokenizer import tokenize 
 from datamodel.search.AsbapatApushpenKbaijalKyuseony_datamodel import AsbapatApushpenKbaijalKyuseonyLink, OneAsbapatApushpenKbaijalKyuseonyUnProcessedLink, add_server_copy, get_downloaded_content
 from spacetime.client.IApplication import IApplication
 from spacetime.client.declarations import Producer, GetterSetter, Getter, ServerTriggers
@@ -13,7 +12,6 @@ from lxml import html,etree
 import re, os
 from time import time
 from uuid import uuid4
-from __future__ import division #added because of tf-idf
 
 from urlparse import urlparse, parse_qs
 from uuid import uuid4
@@ -25,8 +23,6 @@ max_link_count = 0
 max_link_page = ''
 visited_count = 0
 redirect_count = 0
-inverted_index_list = {} #dictionary type
-PATH_T0_FILES = os.path.join(os.getcwd, 'files')
 
 @Producer(AsbapatApushpenKbaijalKyuseonyLink)
 @GetterSetter(OneAsbapatApushpenKbaijalKyuseonyUnProcessedLink)
