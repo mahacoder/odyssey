@@ -1,6 +1,8 @@
+import json
 import os
 import sys
 import pprint
+import pickle
 sys.path.append(os.path.join(os.getcwd(), 'odyssey'))
 
 from tokenizer import tokenize
@@ -62,9 +64,14 @@ def tfidf(self, term, document_name):
 if __name__=='__main__':
     cwd = os.getcwd()
     path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
-    pages_dir_name = 'pages'
+    pages_dir_name = 'HTMLdocs'
     print('path to pages: ', os.path.join(path_till_odyssey, pages_dir_name))
     indexer = Indexer()
     indexer.construct_index(os.path.join(path_till_odyssey, pages_dir_name))
-    pp = pprint.PrettyPrinter(indent=4)
-    pp.pprint(indexer.inverted_index_list)
+    # pp = pprint.PrettyPrinter(indent=4)
+    # pp.pprint(indexer.inverted_index_list)
+    with open('inverted_index.json', 'w') as fp:
+        json.dump(indexer.inverted_index_list, fp)
+
+    with open('inverted_index.p', 'wb') as fp:
+        pickle.dump(indexer.inverted_index_list, fp, protocol=pickle.HIGHEST_PROTOCOL)
