@@ -36,25 +36,25 @@ class Indexer():
              tokens_from_file = tokenize(os.path.join(directory_path, file_path))
              self.create_document_inverted_list(tokens_from_file, file_path)
 
-    #tf = count the number of positions> DONE
-    def term_frequency(self, term, document_name):
-        return len(self.inverted_index_list[term][document_name])
+#tf = count the number of positions> DONE
+def term_frequency(self, term, document_name):
+    return len(self.inverted_index_list[term][document_name])
 
-    #in the website, they use this function and so as lecture
-    def sublinear_term_frequency(self, term, document_name):
-        return 1 + math.log(term_frequency(term, document_name))
+#in the website, they use this function and so as lecture
+def sublinear_term_frequency(self, term, document_name):
+    return 1 + math.log(term_frequency(term, document_name))
 
-    #function for calculating idf
-    def inverse_document_frequencies(self, term):
-        # pass directory name or make it global
-        file_list = os.listdir("directory name")#calcuate N
-        return math.log(len(file_list)/len(self.inverted_index_list[term]))
+#function for calculating idf
+def inverse_document_frequencies(self, term):
+    # pass directory name or make it global
+    file_list = os.listdir("directory name")#calcuate N
+    return math.log(len(file_list)/len(self.inverted_index_list[term]))
 
-    #calculate the tfidf
-    def tfidf(self, term, document_name):
-        idf = self.inverse_document_frequencies(term)
-        tf = self.sublinear_term_frequency(term, document_name)
-        return tf * idf
+#calculate the tfidf
+def tfidf(self, term, document_name):
+    idf = self.inverse_document_frequencies(term)
+    tf = self.sublinear_term_frequency(term, document_name)
+    return tf * idf
 
 if __name__=='__main__':
     cwd = os.getcwd()
