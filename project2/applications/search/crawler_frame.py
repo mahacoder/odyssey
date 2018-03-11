@@ -2,6 +2,7 @@ import codecs
 import logging
 import string #added because of tf-idf
 import math #added because of tf-idf
+import pickle
 import sys
 sys.path.append('../')
 
@@ -9,6 +10,10 @@ from datamodel.search.AsbapatApushpenKbaijalKyuseony_datamodel import AsbapatApu
 from spacetime.client.IApplication import IApplication
 from spacetime.client.declarations import Producer, GetterSetter, Getter, ServerTriggers
 from lxml import html,etree
+from io import StringIO, BytesIO
+from lxml.html.clean import clean_html
+from bs4 import BeautifulSoup
+from lxml.html.clean import Cleaner
 import re, os
 from time import time
 from uuid import uuid4
@@ -23,6 +28,7 @@ max_link_count = 0
 max_link_page = ''
 visited_count = 0
 redirect_count = 0
+document_counter = 0
 
 @Producer(AsbapatApushpenKbaijalKyuseonyLink)
 @GetterSetter(OneAsbapatApushpenKbaijalKyuseonyUnProcessedLink)
@@ -131,9 +137,11 @@ def extract_next_links(rawDataObj):
         redirect_count += 1
         outputLinks = links_from_link(rawDataObj.content, rawDataObj.final_url
             , rawDataObj.http_code)
+        createDocumentWithContent(rawDataObj)
     else:
         outputLinks = links_from_link(rawDataObj.content, rawDataObj.url
             , rawDataObj.http_code)
+        createDocumentWithContent(rawDataObj)
     return outputLinks
 
 def is_valid(url):
@@ -166,3 +174,45 @@ def is_valid(url):
     if not is_valid_flag:
         invalid_count += 1
     return is_valid_flag
+
+def createDocumentWithContent(dataObject):
+    counterURL = {}
+    global document_counter
+    doc_name = r'C:\Users\anant\repos\projects\odyssey\HTMLdocs\doc_' + str(document_counter)
+
+    with open(doc_name+ ".txt",'wb') as f:
+    
+        doc = "doc_" + str(document_counter)
+        print (dataObject.url)
+        counterURL[doc] = dataObject.url
+        print (counterURL)
+        document_counter = document_counter + 1
+        f.write(dataObject.content)
+
+    mapper_file_name = "doc_url_map"
+    fileObject = open(mapper_file_name,'wb') 
+    pickle.dump(counterURL,fileObject)   
+    fileObject.close()
+    
+    getCleanText(doc_name)
+
+
+def getCleanText(textData):
+    array = []
+    fh = open(textData+ ".txt", "r") 
+    if fh.read(1):
+        cleaner = Cleaner()
+        parser = etree.HTMLParser()
+        tree   = etree.parse(BytesIO(fh.read()), parser)
+        result = etree.tostring(tree.getroot(), method="html")
+        mresult = re.sub(r' {[^}]*}','',result)
+
+
+        soup = BeautifulSoup(mresult)
+        for tag in soup.find_all():
+        #print (tag.name)
+            array.append(tag.name)
+        cleaner.remove_tags = array
+
+        with open(textData+ ".txt",'wb') as f:
+            f.write(cleaner.clean_html(mresult))   
