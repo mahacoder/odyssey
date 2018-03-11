@@ -29,6 +29,7 @@ max_link_page = ''
 visited_count = 0
 redirect_count = 0
 document_counter = 0
+counterURL = {}
 
 @Producer(AsbapatApushpenKbaijalKyuseonyLink)
 @GetterSetter(OneAsbapatApushpenKbaijalKyuseonyUnProcessedLink)
@@ -176,7 +177,7 @@ def is_valid(url):
     return is_valid_flag
 
 def createDocumentWithContent(dataObject):
-    counterURL = {}
+    global counterURL
     global document_counter
     doc_name = r'C:\Users\anant\repos\projects\odyssey\HTMLdocs\doc_' + str(document_counter)
 
@@ -189,11 +190,11 @@ def createDocumentWithContent(dataObject):
         document_counter = document_counter + 1
         f.write(dataObject.content)
 
-    mapper_file_name = "doc_url_map"
+    mapper_file_name = "doc_url_map.p"
     fileObject = open(mapper_file_name,'wb') 
     pickle.dump(counterURL,fileObject)   
     fileObject.close()
-    
+
     getCleanText(doc_name)
 
 
