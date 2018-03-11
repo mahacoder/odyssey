@@ -29,25 +29,28 @@ class Indexer():
             position_list = [idx for idx, val in enumerate(tokens) if term==val]
             self.create_inverted_index(term, document, position_list)
 
-    #custructing part (whole)
+    #constructing part (whole)
     def construct_index(self, directory_path):
         tokens_from_file = []
         for file_path in os.listdir(directory_path): 
              tokens_from_file = tokenize(os.path.join(directory_path, file_path))
              self.create_document_inverted_list(tokens_from_file, file_path)
 
-#tf = count the number of positions> DONE
+#tf = count the number of positions
 def term_frequency(self, term, document_name):
     return len(self.inverted_index_list[term][document_name])
 
 #in the website, they use this function and so as lecture
 def sublinear_term_frequency(self, term, document_name):
-    return 1 + math.log(term_frequency(term, document_name))
+    count = term_frequency(term, document_name) 
+    if count==0:
+        return 0
+    return 1 + math.log(count)
 
 #function for calculating idf
 def inverse_document_frequencies(self, term):
     # pass directory name or make it global
-    file_list = os.listdir("directory name")#calcuate N
+    file_list = os.listdir(r'C:\Users\anant\repos\projects\odyssey\HTMLdocs')
     return math.log(len(file_list)/len(self.inverted_index_list[term]))
 
 #calculate the tfidf
