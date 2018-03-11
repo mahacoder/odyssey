@@ -67,57 +67,6 @@ class CrawlerFrame(IApplication):
             "Time time spent this session: ",
             time() - self.starttime, " seconds.")
 
-#tokenization function in the website
-tokenize = lambda doc: doc.lower().split(" ")
-
-#creating inverted index per term
-def create_inverted_index(term, document, position):
-
-    #if term is new, then make a new document list
-    if term in inverted_index_list == False:
-        document_list = {}
-
-        document_list[document] = position
-        inverted_index_list[term] = document_list
-
-    #if term is existed, then append to a document list
-    else:
-        inverted_index_list[term][document] = position
-
-#this function is converting all terms in the document into inverted index
-def create_document_inverted_list(tokens, document):
-    for term in tokens:
-        # position_list = []
-        position_list = [tokens.index(i) for i in tokens if term == tokens.index(i)]
-        create_inverted_index(term,document,position_list)
-
-#custructing part (whole)
-def construct_index(directory_path):
-    tokens_from_file = []
-    for file_path in os.listdir(directory_path): 
-         tokens_from_file = tokenize(os.path.join(directory_path. file_path))
-         create_document_inverted_list(tokens_from_file, file_path)
-
-#tf = count the number of positions> DONE
-def term_frequency(term, document_name):
-    return len(inverted_index_list[term][document_name])
-
-#in the website, they use this function and so as lecture
-def sublinear_term_frequency(term, document_name):
-    return 1 + math.log(term_frequency(term, document_name))
-
-#function for calculating idf
-def inverse_document_frequencies(term):
-    # pass directory name or make it global
-    file_list = os.listdir("directory name")#calcuate N
-    return math.log(len(file_list)/len(inverted_index_list[term]))
-
-#calculate the tfidf
-def tfidf(term):
-    idf = inverse_document_frequencies(term)
-    tf = sublinear_term_frequency(term, document)
-    return tf * idf
-
 def create_url(current_url, relative_url):
     global counter
     url = ''
