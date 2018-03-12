@@ -25,7 +25,7 @@ def compute_word_frequencies(tokens):
 
 def tokenize(text_file_path):
     tokens = []
-    with open(text_file_path, encoding="utf-8") as file:
+    with open(text_file_path) as file:
         for line in file:
             for word in line.split(separator):
                 word = re.sub('[^A-Za-z\d]+', '', word)
