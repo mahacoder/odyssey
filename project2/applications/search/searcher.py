@@ -42,4 +42,4 @@ if __name__ == '__main__':
     pages_dir_name = 'pages'
     print("Please enter query:")
     query = raw_input().split()
-    find_url(top_num_results(search_query(query), 3))
+    find_url(top_num_results(search_query(query), 5))
