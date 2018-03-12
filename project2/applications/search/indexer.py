@@ -65,6 +65,8 @@ class Indexer():
         path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
         pages_dir_name = 'HTMLdocs'
         file_list = os.listdir(os.path.join(path_till_odyssey, pages_dir_name))
+        if not inverted_index_list[term]:
+            return 0
         return math.log(len(file_list)/len(self.inverted_index_list[term]))
 
     #calculate the tfidf

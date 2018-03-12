@@ -3,6 +3,7 @@ import sys
 import pprint
 import pickle
 import indexer
+import random
 
 sys.path.append(os.path.join(os.getcwd(), 'odyssey'))
 
@@ -23,6 +24,14 @@ def search_query(query):
                     results[doc] += ind.tfidf(term, doc)
                 else:
                     results[doc] = ind.tfidf(term, doc)
+        '''If no search results, return random results
+        Need to work on this more and try to find better results
+        '''
+        if not results:
+            for i in range(10):
+                term = random.choice(inverted_index_list.keys())
+                doc = random.choice(inverted_index_list[term].keys())
+                results[doc] = 0
         return results
 
 def top_num_results(frequency, num):
@@ -32,7 +41,6 @@ def top_num_results(frequency, num):
 def find_url(docs):
     with open('doc_url_map.p', 'r') as fp:
         url_list = pickle.load(fp)
-        print(len(url_list))
         for i in docs:
             print(url_list[i])
 
