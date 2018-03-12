@@ -42,9 +42,11 @@ class Indexer():
     def initialize_index(self, directory_path):
         try:
             with open('inverted_index.p', 'rb') as fp:
-                self.inverted_index_list =  = pickle.load(fp)
+                self.inverted_index_list = pickle.load(fp)
+                return False
         except:
             self.construct_index(directory_path)
+            return True
     #tf = count the number of positions
     def term_frequency(self, term, document_name):
         return len(self.inverted_index_list[term][document_name])
@@ -76,11 +78,12 @@ if __name__=='__main__':
     pages_dir_name = 'HTMLdocs'
     print('path to pages: ', os.path.join(path_till_odyssey, pages_dir_name))
     indexer = Indexer()
-    indexer.construct_index(os.path.join(path_till_odyssey, pages_dir_name))
+    is_newIndex = indexer.construct_index(os.path.join(path_till_odyssey, pages_dir_name))
     # pp = pprint.PrettyPrinter(indent=4)
     # pp.pprint(indexer.inverted_index_list)
-    with open('inverted_index.json', 'w') as fp:
-        json.dump(indexer.inverted_index_list, fp)
+    if is_newIndex:
+        with open('inverted_index.json', 'w') as fp:
+            json.dump(indexer.inverted_index_list, fp)
 
-    with open('inverted_index.p', 'wb') as fp:
-        pickle.dump(indexer.inverted_index_list, fp, protocol=pickle.HIGHEST_PROTOCOL)
+        with open('inverted_index.p', 'wb') as fp:
+            pickle.dump(indexer.inverted_index_list, fp, protocol=pickle.HIGHEST_PROTOCOL)
