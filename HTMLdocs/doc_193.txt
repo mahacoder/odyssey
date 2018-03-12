@@ -1,0 +1,21 @@
+<div>!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"&gt;
+
+ 
+  Index of /~minhaenl
+ 
+ 
+Index of /~minhaenl
+NameLast modifiedSizeDescription
+Parent Directory   -  
+MH/31-Jul-2016 18:16    -  
+class/01-Dec-2017 13:23    -  
+data/22-Aug-2016 20:14    -  
+emotimo_motor_problem.mov26-Jul-2016 15:53   56M 
+index1.html11-Jun-2015 18:48  5.7K 
+lab/03-Mar-2016 15:08    -  
+web_data/11-Jun-2015 18:32    -  
+
+
+Apache/2.2.15 (CentOS) Server at www.ics.uci.edu Port 80
+
+</div>

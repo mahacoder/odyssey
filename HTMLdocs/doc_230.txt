@@ -1,0 +1,70 @@
+<div>!DOCTYPE html&gt;
+
+
+Theory Seminar
+
+
+
+
+
+
+
+
+CompSci 269S, Winter 2018: Theory Seminar
+
+
+
+The Theory Group normally meets Fridays at 1:00pm; this quarter we are 
+in DBH 1423.
+
+
+Below is this quarter's schedule.
+
+
+Jan 12:
+Organizational meeting
+ 
+Jan 19:
+Timothy Johnson
+Adaptive Cuckoo Filters
+ 
+Jan 26:
+Pedro Matias
+Approximation Schemes for 0-1 Knapsack
+ 
+Feb 2:
+Juan Besa
+4-Modal Embeddings of Directed Graphs
+ 
+Feb 9:
+Siddharth Gupta
+Linear-Time Algorithm for Sliding Tokens on Trees
+ 
+Feb 16:
+Elham Havvaei
+A Naive Algorithm for Feedback Vertex Set
+ 
+Feb 23:
+Grady Yu
+TBA
+ 
+Mar 2:
+Jordan Jorgensen
+TBA
+ 
+Mar 9:
+Martha Osegueda
+TBA
+ 
+Mar 16:
+Nil Mamano
+TBA
+ 
+
+
+Previous
+quarters' theory seminars
+
+
+
+</div>

@@ -1,0 +1,281 @@
+<div>!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN"&gt;
+
+
+
+  ICS 90: New Student Seminar
+
+
+
+
+
+ICS 90: New Student Seminar
+Fall 2017
+
+
+
+
+Checkin Link (see Recording Attendance below)
+Click the 
+
+Checkin
+link when you are told the appropriate word in class.
+If you cannot check in, see Rich, right after class, othewise you will be
+marked absent.
+
+
+
+Instructors
+
+David G. Kay
+  (kay@uci.edu)
+Rich Pattis
+  (pattis@ics.uci.edu)
+
+
+
+Course Goals and Plans
+The three main goals of ICS 90 are to help new students make a successful
+transition to UCI, to build a sense of community in ICS, and to introduce 
+new undergrads to the school, some of the faculty, the majors we offer,
+and the work we do.
+
+In a typical class session, two faculty members will speak for half an hour
+each, about their work and background; David and Rich will then also spend
+a half hour addressing more general issues about college life, the field of
+computing, and strategies for success in ICS.
+
+
+
+Student Expectations
+
+ICS 90 is a one-unit course graded Pass/Not Pass. We have designed it 
+not to require work outside of the class meetings, but we do expect every
+student to attend every class. If you cannot attend a class for any reason,
+send an email explanation to
+Rich Pattis
+as soon as possible. 
+ It's in class where the learning happens, so you should be present. Before
+the first class we will send an email to all our students describing how we
+will record attendance electronically.
+
+For issues that come up between class meetings, we have set up a forum at
+piazza.com.
+Sign yourself up and then
+participate by posting
+questions or
+supplying answers. You may also have opportunities to use Piazza in class
+for polls and surveys.
+You may bring your phone, tablet, or laptop for attendance-taking and for
+using Piazza, but do not use it for other purposes, unless asked by the speaker.
+After you check in, please turn off your devices and put them away: it is
+impolite to the speaker, distractive to surrounding students, and you will
+absorb less of the lecture. Students overestimate their ability to multitask.
+
+
+Seating: Two Classrooms
+
+ICS 90 meets in two rooms at the same time:  BS3 1200 and PSLH 100.
+You are officially enrolled in one lecture or the other, but ignore which
+room you're enrolled in and instead sit in the following room:
+
+* If your class level is FR or SO, sit in BS3 1200 (attending
+    6:00pm to 7:20pm).
+* If your class level is JR, you will be directed to sit in either BS3 1200 or PSLH 100  (attending 6:00pm to 7:00pm).
+* If your class level is SR, sit in PSLH 100 (attending 6:00pm to 7:00pm).
+
+You should NOT try to re-register for the room you will sit in!
+
+This is your official "class level" as shown on WebReg at UCI.
+
+We will email everyone the official name/class level/room bindings
+at the beginning of the week school starts. Both rooms are filled, so
+students should sit in their assigned room.
+
+
+Most weeks, one faculty member will speak starting at 6:00pm and another
+will speak starting at 6:30pm. All students are required to be present for
+these talks. The last 20 minutes of each week's class will be devoted to
+broader information about college-level work and ICS. This material
+is aimed primarily at new students and is required for those whose class
+level is FR or SO. We will have these discussions in BS3 1200 only.
+Upper division students (JR and SR) are welcome to attend this last 20
+minutes (the room is just a few minutes away), but they may also
+choose to skip it.
+
+
+Recording Attendance
+
+Bring a phone, tablet, laptop, smart device to class that allows web browsing.
+
+During the lecture we will ask you to navigate to the ICS-90 Checkin page
+and record that you are attending class by following the Checkin link at the
+top of this web page. There you will see a message with instructions about
+how to continue. There, you will enter a special word that we will announce
+in class. On some days there might be multiple checkin words.
+
+It is an Academic Integrity violation to run this App and then leave
+class early, unless you have an emergency or have arranged permission
+beforehand with Rich Pattis. Likewise, you cannot check in remotely, or
+check in for other students. But you may allow present students to use
+your device to run the Checkin App.
+
+
+
+
+
+Schedule of Faculty Speakers
+
+
+
+Date
+Speaker
+Topic
+
+10/4
+    
+        6:00-6:30: David and Rich
+        
+        
+        6:30-7:20: David and Rich
+        
+        
+        
+    
+        Course Introduction and Attendance Taking Procedures (we will take attendance)
+        
+        
+        Freshman/Sophomores only, in BSC3 1200
+        Content (David's HS vs. College, David's College Advice, and Rich's Talk) and Questions
+        
+        Majors(Rich) and 
+        Majors(David)
+    
+
+10/11
+    
+        6:00-7:00: Michelle Nguyen
+        
+         
+    
+        Academic Planning Workshop
+    
+
+
+10/18
+    
+        6:00-7:00:
+
+         Sandy Smart-Ashburn (AT&amp;T, UCI Alum)
+        
+         
+        
+        7:30-9:30 (optional) Rich Pattis
+    
+	TBA
+        
+         
+        
+        Hosts a Showing of the moive "The Paper Chase"
+    
+
+10/25
+    
+        6:00-7:00: David Perry (GoVyrl)
+        
+         
+    
+	TBA
+        
+         
+    
+
+
+11/1
+    
+        6:00-6:30: Geoffrey Bowker       
+        6:30-7:00: Ramesh Jain
+    
+      	The Sociology of Information Infrastructure
+        
+        Personal Health Navigator
+    
+
+
+
+11/8
+    
+        6:00-6:30: Michael Franz
+        
+        6:30-7:00: Constance Steinkuehler
+    
+        Computer Security - A Cat vs. Mouse Game
+        
+	Cognition and Esports
+    
+
+11/15
+    
+        6:00-6:30: Wayne Hayes
+        
+        6:30-7:00: Kurt Squire
+    
+        What do Galaxies and Biology have in Common
+        
+	Designing Games for Learning
+    
+
+
+11/22
+    
+        No Speakers
+    
+        No Class
+        
+        Pre-Thanksgiving Holiday
+    
+
+11/29
+    
+        6:30-7:00: Constance Steinkuehler
+        
+        6:30-7:00: Mimi Ito
+        
+        
+        6:00-7:00: Vincent Steckler (Avast)
+    
+	Cognition and Esports (Room BS3 1200)
+        
+	Anthropology of Internet Culture (Room BS3 1200)
+        
+        
+        TBA (Room PSLH 100)
+    
+
+
+12/6
+    
+        6:00-6:30: Charless Fowlkes
+        
+        6:30-7:00: Amelia Regan
+    
+        Mapping the World with Computer Vision
+        
+	Computation and Transportation
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>

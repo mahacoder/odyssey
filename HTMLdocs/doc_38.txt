@@ -1,0 +1,324 @@
+<div>html xmlns="http://www.w3.org/1999/xhtml"&gt;
+
+                CS 199 / IN4MATX 199 Course Policies @ the bren school of information and computer sciences
+                
+                
+                
+                
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+
+         #school_header
+
+
+         #school_link
+
+
+         #uci_link
+
+
+      
+
+
+
+      
+
+         
+
+         
+
+      
+
+
+
+
+
+
+
+
+
+    
+
+                
+            
+                
+                
+                
+                    ABOUT
+
+                    
+                    
+                        About the School
+                        Dean's Welcome
+                        Facts and Figures
+                        Donald Bren Hall
+                        Visit the Bren School
+                        Equity &amp; Diversity
+                        Contact Us
+                        
+                                   
+                
+                
+                
+                
+                     DEPARTMENTS 
+                    
+
+                    
+                        Computer Science
+                        Informatics
+                        Statistics
+                                   
+                
+                
+                
+                
+                     RESEARCH 
+                
+                
+                    
+                        Research Areas
+                        Research Centers
+                        Research Highlights
+                    
+                
+                
+                
+                
+                
+                
+                    EDUCATION
+                    
+
+                    
+                        Graduate ▸ 
+                        
+                            
+                            Prospective Students
+                            How to Apply
+                            Programs of Study
+                            Academic Year Plan
+                            Forms
+                            Policies
+                            Funding &amp; Housing
+                            Computing Support
+                            Campus Resources
+                            Visit the Bren School
+                            Graduate Student Handbook
+                            Contact
+                            
+
+                        
+                        
+                        Undergraduate ▸ 
+                        
+                            
+                            Contact
+                            Academic Advising
+                            Course Updates
+                            Academic Year Plan
+                            Petitions
+                            ICS Majors
+                            ICS Minors
+
+                            Policies: Academic Integrity
+                            Policies: Academic Standing
+                            Policies: Add, drop, &amp; change options
+                            Policies: Coursework outside UCI
+                            Policies: Grade policy
+                            Policies: Laptop &amp; computer use
+                            Policies: Withdrawal/Readmission
+                            Policies: CS 199 / IN4MATX 199 Courses
+
+                              Graduation
+                              ICS Student Life
+                              Upcoming Events
+                              Computing Support
+                              
+                           
+                        
+
+                        
+                        Prospective Undergrad
+
+
+                        Scholarships &amp; Fellowships
+                        
+                                                    
+                                   
+                
+
+    
+                
+                    
+                    PEOPLE                      
+                    
+                
+                    
+                        Faculty
+                        Staff
+                        Graduate Students
+                        Alumni
+                       
+                
+                                
+                
+                 
+                
+                    NEWS &amp; EVENTS
+                    
+                    
+                    
+                        Newsroom
+                        Events
+                        Press Releases
+                        Annual Reports
+                        Student Blogs
+                       
+                
+
+                
+                
+                    GET INVOLVED
+                
+                
+                    
+                    
+                            Make a Gift
+                            Leadership Council
+                            Corporate Partners
+                            Sponsor Projects
+                            Product Development Competition
+                            ZotLink Jobs &amp; Internships
+                            
+                                   
+                
+
+
+                 
+                                 
+
+            
+
+ url('/bin/icssearchstyle/css/icssearch.css');
+
+
+
+
+            
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+Bren school home &gt; Undergraduate &gt; policies
+
+
+  
+CS 199 / IN4MATX 199 Courses
+
+
+
+
+Only Informatics majors may use CS 199 or IN4MATX 199 courses to complete upper div elective requirements.
+
+Informatics majors with the Organizations and Information Technology (OIT) track are allowed to use CS 199 courses (IN4MATX 199 courses are not allowed).
+Informatics majors with the Health Informatics (HI) track are eligible to use IN4MATX 199 courses or CS 199 courses.
+Informatics majors with the Human Computer Interaction (HCI) track are not eligible to use either.
+
+
+» To receive credit for 199
+Students who wish to take a 199 independent study course to apply it toward their degree requirements must adhere to the following:
+
+The 199 course must be at least 4 units.
+Student must submit an undergraduate student petition for consideration to the Informatics department Vice Chair, with the following information:
+
+Unit value of the 199 independent study
+Instructor name
+A description of the independent study work
+
+
+
+*Please note that petitions are reviewed on a case by case basis and approval may not be granted. *Only one 199 course may be used toward degree requirements.
+» To enroll in 199
+
+Research which faculty you would like to work with by using the Research Areas page.
+Contact the faculty and express your interest in working with them.  If the faculty agrees to work with you:
+
+Clarify what type of work is expected of you
+Ensure that the amount and type of work you do warrants the enrollment of 4 units.
+Ask for the authorization code to enroll in their 199
+
+
+
+
+
+
+
+
+More Undergraduate »
+
+Contact
+Academic advising
+Course updates
+Academic year plan
+ICS majors
+
+Double major
+2nd baccalaureate
+
+
+ICS minors
+Petitions
+Policies
+
+Academic honesty
+Academic standing
+Add, drop, &amp; change options
+Coursework outside UCI
+Grade policy
+Laptop &amp; computer use
+Withdrawal/Readmission
+CS 199 / IN4MATX 199
+
+
+Graduation
+ICS student life
+Upcoming events
+Computing support
+
+Quick Links 
+        
+
+Copyright Inquiries | UCI Directory | Intranet | icswebmaster
+
+
+
+
+</div>

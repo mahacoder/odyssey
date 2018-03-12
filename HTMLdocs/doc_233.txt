@@ -1,0 +1,133 @@
+<div>
+
+
+  TwitterMap
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+      
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+    
+
+    
+
+    
+    
+    
+    
+      
+         Cloudberry
+          |
+        Video 
+      
+   
+
+    
+   
+
+   
+   
+
+
+
+  
+    
+  
+
+  
+    
+      
+        
+        
+        
+        
+        
+        
+          
+          
+          
+        
+      
+    
+    
+      
+        
+        
+        
+           About 
+          Cloudberry is a research prototype to support interactive analytics and visualization of large amounts of spatial-temporal data. 
+           Basic Information: 
+          
+            Data set: Tweets
+            Number of records: &gt; 500,000,000 
+            Collection period: From 2015-11-23 
+            Total data size: &gt; 500G bytes
+            The live tweets is appending to db at the speed of ~30 tweets/sec 
+            Source code
+          
+          The backend is running the big data management system Apache AsterixDB
+          to support large compute clusters. Here is the small NUC cluster where the server runs! 
+          
+          For questions and comments, please contact 
+              
+                ics-cloudberry@uci.edu
+        
+      
+    
+  
+
+  
+    
+  
+
+
+
+
+
+
+
+
+</div>

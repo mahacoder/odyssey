@@ -1,0 +1,296 @@
+<div>!DOCTYPE html&gt;
+
+
+	
+	
+	
+		
+Distinguished Seminars – Institute for Future Health
+
+
+
+
+		
+		
+img.wp-smiley,
+img.emoji
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+	
+		.site-branding
+
+		.site-branding .site-title,
+		.site-description
+	
+	
+
+
+
+	
+		Skip to content
+
+		
+			
+				
+
+                    
+
+				    
+
+
+				
+
+									
+
+					
+													
+								Home
+About
+Health
+People
+Education
+Resources
+
+	Blog
+	Knowledge Repository
+	Videos
+
+
+Events
+
+	Campus Events
+	Conference Presentations
+	Seminars
+	Meetings
+
+
+News
+Partners
+Contact
+							
+						
+													
+								Facebook
+Twitter
+							
+											
+							
+
+		
+
+		
+
+
+	
+		
+
+	
+		Distinguished Seminars	
+
+	
+	
+		
+March 5, 2018
+
+“Meeting User Needs: Re-envisioning Digital Mental Health”
+Madhu Reddy
+Professor &amp; Associate Dean for Graduate Programs, School of Communication Northwestern University
+Location and time: 4 p.m. in Donald Bren Hall 3011
+Abstract:Depression is a common problem that imposes a tremendous societal burden in terms of cost, morbidity, quality of life, and mortality. However, few people are able to obtain adequate or appropriate treatment for depression. Digital mental health (DMH) technologies such as web-based and mobile applications have shown great potential, with a large number of randomized controlled trials (RCTs) consistently demonstrating efficacy, particularly when coupled with support from a clinician or coordinator. Yet for all of the promise, evidence is emerging that these findings do not carry over when these tools are implemented in real-world settings. Indeed, a large-scale implementation trial of two well-known web-based tools (Beating the Blues and MoodGym) for treating depression found that patients did not want to engage with the tools. This research-to-practice gap is not being addressed by our current approaches for designing, implementing, and evaluating DMH technologies. In particular, we face three major challenges: (1) these technologies are often designed without sufficient stakeholder input throughout the design process; (2) we often plan for implementation only after the efficacy testing is completed; and (3) technological capabilities, care systems, and user expectations change rapidly but we currently are not flexible and rapid in how we respond to these changes.
+In this talk, I will discuss how we are attempting to address these research-to-practice gaps through our Accelerated Creation-to-Sustainment (ACTS) model developed by our multidisciplinary team of DMH and HCI researchers. In particular, I will focus on the work that we are doing to try to better understand the needs of users, both patient and healthcare organization stakeholders, in terms of DMH technologies and services. I will then conclude with some thoughts about future directions for the field of digital mental health. 
+
+
+Jan. 8, 2018
+
+“Advancing Healthcare with AI and VR”
+Edward Chang
+President of Research &amp; Healthcare (DeepQ) at HTC
+Location and time: 4 p.m. in Donald Bren Hall 6011
+Abstract:Quality, cost, and accessibility form an iron triangle that has prevented healthcare from achieving accelerated advancement in the last few decades. Improving any one of the three metrics may lead to degradation of the other two. However, thanks to recent breakthroughs in artificial intelligence (AI) and virtual reality (VR), this iron triangle can finally be shattered. In this talk, I will share the experience of developing DeepQ, an AI platform for AI-assisted diagnosis and VR-facilitated surgery. I will present three healthcare initiatives we have undertaken since 2012: Healthbox, Tricorder, and VR surgery, and explain how AI and VR play pivotal roles in improving diagnosis accuracy and treatment effectiveness. And more specifically, how we have dealt with not only big data analytics, but also small data learning, which is typical in the medical domain. The talk concludes with roadmaps and a list of open research issues in signal processing and AI to achieve precision medicine and surgery.
+
+
+
+Dec. 11, 2017
+
+“Biomarker Development for Alzheimer’s Disease: Opportunities, Challenges, and the Need for Big Data Analytics”
+Massimo Fiandaca and Mark Mapstone
+Department of Neurology, UCI School of Medicine
+4 p.m. in Donald Bren Hall 4011
+
+Abstract:Alzheimer’s disease (AD) is a devastating brain illness that slowly robs older adults of their memory and independence. We currently have no cures or disease modifying therapies and only temporary and minimally effective treatments for certain symptoms. Biomarkers obtained from blood or other body fluids may provide key insights into the underlying pathobiology of AD, before the illness becomes evident. Biomarker analysis of the preclinical phase may inform us regarding the relevant pathobiology and thereby suggest novel therapies that might mitigate or prevent AD.
+One of the major hurdles to biomarker research is the complexity of the clinical pathophysiology and by extension, the density of the data. It is clear that multiple levels of clinical, lifestyle, environmental, and biological information, over time, must be considered for accurate and early detection of preclinical (asymptomatic) AD. A multimodal “big data” analytic approach will be required to manage these mutually informative, but distinct datasets, in developing a better understanding of AD, and other human conditions.
+In this talk, Drs. Fiandaca and Mapstone will describe their work in preclinical AD biomarker development. They will give an overview of their recent findings related to metabolomic markers of AD and present the potential for integration of other relevant –omics, including proteomics, transcriptomics, genomics, and epigenomics for enhanced understanding of the underlying pathobiology. They will also present work on metabolomics of successful cognitive aging which will be important when considering approaches to primary prevention of AD. This talk hopes to present the unique opportunities and challenges associated with complex multidimensional datasets and the growing need for big data analytic approaches in medicine.
+
+
+Oct. 30, 2017
+
+“Computing Medicine”
+Ophir Frieder
+Professor of Computer Science; Professor of Biostatistics, Bioinformatics and Biomathematics, Georgetown University
+4 p.m. in Donald Bren Hall 4011
+
+Abstract:Computing continues to change the landscape of nearly all domains, medicine included. For instance, drug resistance is predicted and avoided via data mining applications; radiological reading errors are detected and prevented via natural language processing; and disease outbreak is detected early via text mining techniques. These are but just some examples where computing is reshaping medical practice. Specifically, we describe the monitoring of social media to detect disease outbreak and describe the implications of such surveillance schemes to healthcare planning for a major children-focused hospital. We continue by describing how conventional mining approaches significantly improve urinary tract infection treatment plans as developed jointly with and for another major hospital. Finally, we describe automated means for the detection of differences in radiological readings and describe how such detection schemes are used in yet a third major hospital.
+
+
+
+Oct. 16, 2017
+
+“Data Driven Self-Learning for Knowledge Discovery In Health”
+Aidong Zhang
+Distinguished Professor of Computer Science and Engineering, State University of New York
+4 p.m. in Donald Bren Hall 4011
+
+Abstract:With the growth of world wide web and large-scale digitization of documents, we are overwhelmed with massive information, formally through publication of various scientific journals or informally through internet. As an example, consider MEDLINE, a premier bibliographic database in life sciences, with currently more than 23 million references from approximately 5,600 worldwide journals. As a consequence, Literature Based Discovery (LBD) has become a sub-field of Text Mining that leverages these published articles to formulate hypotheses. This area of research, which incorporates techniques from Natural Language Processing (NLP), Information Retrieval (IR), and Artificial Intelligence (AI), has significant potential to reduce discovery time in medical and health research fields. In this talk, I will discuss how a self-learning based framework for knowledge discovery based on word embeddings can be designed to mine hidden associations between non-interacting medical concepts by rationally connecting independent nuggets of published literature. The self-learning process can model the evolutionary behavior of concepts to uncover latent associations between medical concepts, which allows us to learn the evolutionary trajectories of medical terms and detect informative terms in a completely unsupervised manner. Hence, meaningful hypotheses can be efficiently generated without prior knowledge. With the capability to discern reliable information from various resources, this self-learning framework provides a platform for combining heterogeneous resources and intelligently learning new knowledge with no user intervention.
+
+
+
+
+
+
+Past UCI Seminars
+May 8, 2017
+
+“Information Technology for the Health Care Enterprise” by
+Ram D. Sriram, National Institute of Standards and Technology
+11 a.m. in Donald Bren Hall 3011
+Abstract: According to a recent report by the Center for Medicare and Medicaid Services (CMS), the United States spent nearly $3.2 trillion dollars on health care in 2015, which is about 18% of the nation’s GDP. Several studies have pointed out that properly implemented health information technology (HIT) could result in significant savings and improved health care. We use the term “health care informatics” for all software aspects of the healthcare enterprise: health information technology, modeling and simulation, bioinformatics, medical devices integration, and bioimaging. In this talk, I will discuss our work (at NIST) on health care informatics, focusing on: 1) Testing the nationwide health information network; 2) Medical device interoperability; 3) Systems biology/medicine, with a focus on protein-protein interaction; and 4) Medical/bioimaging.
+
+
+
+
+April 21, 2017
+Computer Science Seminar Series
+11 a.m.- 12 p.m. in Donald Bren Hall 6011
+“Multimedia Big Data based Personalized Health Management” by
+Professor Wen Gao, Peking University
+Host: Bren Professor Ramesh Jain
+Abstract: With the fact that “Healthy China” rises to national strategy, the medical services have transferred from after-disease treatment to preventive health management. Health management models vary from person to person, and the personalized health management needs to focus on the monitoring and analysis of individual lifestyle and behavior patterns. The real-time behavior data, which is automatically collected via wearable devices and social media, enables all-round recording of individual lifestyle and behavior patterns and thus can be exploited for personalized health management. There are some key issues we need to solve before building up this kind of system. First, how to storage and manage the huge personal multimedia data from surrounding camera and microphone and other devices. Second, how to acquire the personal historic data from the wearable devices they might keep all user data in their own loop. Third, quite close to the second issue but even hard to deal with, how we can get the real-time behavior data for the decision system of healthcare from wearable devices providers in case their data is not open to public yet. In this talk, I will discuss some solutions to solve the issues, including but not limited to, heterogeneous and multi-source health data structuring, standardization for the data format of wearable device, public multimedia data center for personal healthcare, disease association pattern mining from dynamic and static health data, personalized and real-time health management for dynamic decision support.
+
+
+
+	
+
+	
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+							
+					Home
+About
+Health
+People
+Education
+Resources
+
+	Blog
+	Knowledge Repository
+	Videos
+
+
+Events
+
+	Campus Events
+	Conference Presentations
+	Seminars
+	Meetings
+
+
+News
+Partners
+Contact
+				
+			
+							
+					Facebook
+Twitter
+				
+			
+
+
+            
+					© 2018 UC Regents
+					Feedback
+					Privacy Policy
+            
+
+
+
+
+
+            
+				
+			
+
+
+
+			
+				
+
+
+			
+
+
+
+
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+</div>

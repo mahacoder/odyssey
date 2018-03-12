@@ -1,0 +1,327 @@
+<div>
+  
+    
+    charless c. fowlkes - uc irvine - computer vision 
+    
+    
+    
+      
+        
+
+  
+  
+    
+      
+      
+
+  
+
+charless c. fowlkes
+associate professor
+computer science
+uc irvine
+
+fowlkes@ics.uci.edu
+4076 dbh 
+949.824.6945
+
+uci : cs : vision group
+
+
+      
+      
+  home
+  publications
+  presentations
+  software
+  cv
+
+
+    
+    
+        
+        
+        
+        
+        My research is in computational vision, in particular how to integrate
+        mechanisms for visual
+        recognition and perceptual organization with
+         3D scene understanding.
+        We apply these computational models to a variety of problems including 
+        development of tools for  biological image
+        and shape analysis in neuroscience, animal development and
+        palynology as well as applications to 
+        forensic science.
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+        recent research highlights: 
+        
+        
+
+        Z. Wang, X. Liu, L. Chen, L. Wang, Y. Qiao, X. Xie,  C. Fowlkes,
+        "Structured Triplet Learning with POS-tag Guided Attention for Visual Question Answering",
+        WACV, Lake Tahoe, NV (March 2018)
+        
+        
+
+         S. Kong, C. Fowlkes, "Recurrent Pixel Embedding for Instance Grouping", Technical Report, (Dec. 2017) 
+        arXiv:1712.08273
+        [pdf]
+        
+        
+         M. Lee, C. Fowlkes,
+        "Spacetime Localization and Mapping", 
+        ICCV, Venice, (October 2017).
+        [pdf]
+        
+
+         B. Kong, J. Supancic, D. Ramanan, C. Fowlkes,
+        "Cross-Domain Forensic Shoeprint Matching",  
+        BMVC, London, (Sept 2017).
+        [pdf]
+             *best industrial paper honourable mention*
+        
+
+         S. Kong, C. Fowlkes, "Recurrent Scene Parsing with Perspective Understanding in the Loop", Technical Report, (May 2017) 
+        arXiv:1705.07238
+        [pdf]
+        
+
+         S. Kong, C. Fowlkes, "Low-rank Bilinear Pooling for Fine-Grained Classification", 
+        CVPR, (July 2017).
+        arXiv:1611.05109
+        [pdf]
+        
+
+         R. Diaz, C. Fowlkes,
+        "Cluster-wise Ratio Tests for Fast Camera Localization",
+        Int. Workshop on Visual Odometry, CVPR, (July 2017).
+        arXiv:1612.01689
+        [pdf]
+        [code]
+        
+
+         S. Wang, S. Wolf, C. Fowlkes, J. Yarkony, "Tracking Objects with
+        Higher Order Interactions using Delayed Column Generation", 
+        AISTATS, (April 2017). 
+        arXiv:1512.02413
+        [pdf]
+        
+
+        
+
+        S. Wang, C. Fowlkes, "Learning Optimal Parameters for Multi-target
+        Tracking with Contextual Interactions",
+        IJCV, 122:484 (2017).
+        
+        arXiv:1610.01394
+        [pdf]
+        
+
+         
+        G. Ghiasi, C. Fowlkes, "Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation", 
+        ECCV, Amsterdam, (Oct. 2016).
+        arXiv:1605.02264
+        [pdf]
+        [code] 
+        
+
+        
+
+        
+        R. Diaz, M. Lee, J. Schubert, C. Fowlkes,
+        "Lifting GIS Maps into Strong Geometric Context",  
+        WACV Lake Placid, NY (March 2016).
+        arXiv:1507.03698
+        [pdf]
+        
+
+        
+        J. Yarkony, C. Fowlkes, "Planar Ultrametrics for Image Segmentation", 
+        NIPS,  (Dec. 2015).
+        arXiv:1507.02407  
+        [pdf]
+        
+
+         
+        G. Ghiasi, C. Fowlkes, "Occlusion Coherence: Detecting and Localizing Occluded Faces", Technical Report, (June 2015)
+        arXiv:1506.08347 
+        [pdf]
+        [code]
+        [dataset]
+        
+        
+
+        
+        more recent pubs here...
+        
+        
+
+
+
+        students:
+        
+        current academic advisees and lab members
+        
+        Bailey Kong (PhD)
+        Shu Kong (PhD) 
+        Minhaeng Lee (PhD)
+        Phuc Nguyen (PhD, co-advised with Deva Ramanan) 
+        Daeyun Shin (PhD) 
+        Zhe Wang (PhD) 
+        Jasmine Bhanushali (MS) 
+        Dongxu Zhao (MS) 
+        Liyan Chen (BS) 
+        Brandon Plihal (BS) 
+        Shaurya Rathore (BS) 
+        
+
+        
+        past academic advisees
+        
+        Maharshi Patel (BS, 2017) now at Microsoft
+        Golnaz Ghiasi (PhD, 2016) now at Google
+        Raúl Díaz (PhD, 2016) now at HP
+        Sam Hallman (PhD, 2015) now at Amazon
+        Gio Borje (BS, 2015) now at LinkedIn
+        Samreen Anjum (MS, 2014) now at Qatar Computing Research Institute
+        Shaofei Wang (MS, 2013)
+        Jason Lee (BS, 2013) now at OCLARO
+        Julian Yarkony (PhD,2012) now at Experian Data Lab
+        Matthew Nease (BS, 2012) now at Edmunds
+        Shu-Chi Hsu (MS, 2012)
+        Ragib Morshed (MS, 2011) now at Adconion 
+        Nityananda Jayadevaprakash (MS, 2010) now at Apple
+        Sangeeta Jha  (MS, 2010) now at Intel 
+        Tony Tran (MS, 2009) now at Uber
+        Dennis Park (MS, 2009) now at Vicarious
+        
+        past co-advisees and visitors 
+        
+        Katiana Khouri (MCBS rotation, 2017) 
+        Yoon Jung (BS, 2017) 
+        
+        Michael Chiang (PhD w/Olivier Cinquin, 2015)
+        Joseph Nash (CCBS rotation, 2015)
+        Hyeoungho Bae (PhD w/Pai Chu, 2013) now at Microsoft
+        Yihang Bo (visiting PhD, 2010-2011) now at Beijing Film Academy  
+        
+        
+
+
+
+
+
+        awards:
+        
+        
+
+         Helmholtz
+        Prize in 2015 for significant impact in computer vision with our paper:
+        "A Database of Human Segmented Natural Images and its Application to Evaluating Segmentation
+        Algorithms and Measuring Ecological Statistics",
+        D. Martin, C. Fowlkes, D. Tal, J. Malik.  
+        ICCV 2001
+        [pdf]
+                        
+
+        Marr Prize in 2009 for our paper:
+        "Discriminative models for multi-class object layout",
+        C. Desai, D. Ramanan, C. Fowlkes.  ICCV 2009
+       [pdf]
+        
+
+         Award for Teaching Excellence in Undergarduate Education, UCI ICS, 2014
+
+         National Science Foundation CAREER Award, 2013
+
+        
+        
+
+
+
+
+
+        teaching:
+        
+        Big Data Image Processing and Analysis.
+        Monday, September 18-22, 2017. 
+        Center for Complex Biological Systems, 
+        University of California, Irvine.
+
+        
+        cs 117 : project in computer vision [w09,f13,s15,s17]
+        ics 162 : modeling and world building [f12,s14,f15]
+        cs 116 : computational photography and vision [w10,w11,w13,w14,w16,w17]
+        cs 216 : image understanding [f08,f10,f11,f12,s14,w16,s17]
+        cs 217 : light and geometry in vision [s10,w12,s15]
+        cs 295 : research topics in vision [s09,w10,w11]
+        cs 177 : applications of probability in computer science [s08]
+        
+        
+
+
+
+        funding:
+        
+        My research is currently supported by:
+        
+        NSF (
+        IIS-1618806,
+        IIS-1253538,
+        CNS-1730158
+        )
+         NIH (
+        NIBIB R25:EB022366, 
+        OD OT2:OD023848,
+        OD OT2:OD024899
+        )
+         NIST CSAFE: Center for Statistics and Applications in Forensic Evidence
+         Hardware donation from NVIDIA
+       
+        
+        previously: 
+        
+        National Science Foundation (
+        DBI-1053036,
+        DBI-1262547
+        )
+         Research Gift from Adobe
+        Google Research Award
+        UC Labs Research Program
+        
+        
+
+
+
+
+        service and meetings organized: 
+        
+         Area chair for CVPR (2010,2012,2016, 2017), ICCV (2015, 2017), ECCV (2016), ISMB (2016)
+         Associate editor for CVIU (2016-), IEEE/ACM TCBB (2015-)
+         USA-Sino Summer School in Vision, Learning, Pattern Recognition (VLPR 2012) Fudan Unviersity, Shanghai, China July 2012.
+        
+        
+         The Eighth Workshop on Perceptual Organization in Computer Vision (POCV 2012), CVPR, Providence, RI.
+        
+        
+         Southern California Computer Vision Meetup (2009-2012)
+        
+        
+
+    
+
+  
+</div>

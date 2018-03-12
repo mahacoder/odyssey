@@ -1,0 +1,295 @@
+<div>html xmlns="http://www.w3.org/1999/xhtml"&gt;
+
+                press releases @ the bren school of information and computer sciences
+                
+                
+                
+                
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+
+         #school_header
+
+
+         #school_link
+
+
+         #uci_link
+
+
+      
+
+
+
+      
+
+         
+
+         
+
+      
+
+
+
+
+
+
+
+
+
+    
+
+                
+            
+                
+                
+                
+                    ABOUT
+
+                    
+                    
+                        About the School
+                        Dean's Welcome
+                        Facts and Figures
+                        Donald Bren Hall
+                        Visit the Bren School
+                        Equity &amp; Diversity
+                        Contact Us
+                        
+                                   
+                
+                
+                
+                
+                     DEPARTMENTS 
+                    
+
+                    
+                        Computer Science
+                        Informatics
+                        Statistics
+                                   
+                
+                
+                
+                
+                     RESEARCH 
+                
+                
+                    
+                        Research Areas
+                        Research Centers
+                        Research Highlights
+                    
+                
+                
+                
+                
+                
+                
+                     EDUCATION 
+                    
+
+                    
+                        Graduate ▸ 
+                        
+                            
+                            Prospective Students
+                            How to Apply
+                            Programs of Study
+                            Academic Year Plan
+                            Forms
+                            Policies
+                            Funding &amp; Housing
+                            Computing Support
+                            Campus Resources
+                            Visit the Bren School
+                            Graduate Student Handbook
+                            Contact
+                            
+
+                        
+                        
+                        Undergraduate ▸ 
+                        
+                            
+                            Contact
+                            Academic Advising
+                            Course Updates
+                            Academic Year Plan
+                            Petitions
+                            ICS Majors
+                            ICS Minors
+
+                            Policies: Academic Integrity
+                            Policies: Academic Standing
+                            Policies: Add, drop, &amp; change options
+                            Policies: Coursework outside UCI
+                            Policies: Grade policy
+                            Policies: Laptop &amp; computer use
+                            Policies: Withdrawal/Readmission
+                            Policies: CS 199 / IN4MATX 199 Courses
+
+                              Graduation
+                              ICS Student Life
+                              Upcoming Events
+                              Computing Support
+                              
+                           
+                        
+
+                        
+                        Prospective Undergrad
+
+
+                        Scholarships &amp; Fellowships
+                        
+                                                    
+                                   
+                
+
+    
+                
+                    
+                    PEOPLE                      
+                    
+                
+                    
+                        Faculty
+                        Staff
+                        Graduate Students
+                        Alumni
+                       
+                
+                                
+                
+                 
+                
+                    NEWS &amp; EVENTS
+                    
+                    
+                    
+                        Newsroom
+                        Events
+                        Press Releases
+                        Annual Reports
+                        Student Blogs
+                       
+                
+
+                
+                
+                    GET INVOLVED
+                
+                
+                    
+                    
+                            Make a Gift
+                            Leadership Council
+                            Corporate Partners
+                            Sponsor Projects
+                            Product Development Competition
+                            ZotLink Jobs &amp; Internships
+                            
+                                   
+                
+
+
+                 
+                                 
+
+            
+
+ url('/bin/icssearchstyle/css/icssearch.css');
+
+
+
+
+            
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+Bren school home &gt; Community &gt; News &gt; Press releases
+
+
+  
+Press releases
+
+
+
+
+
+
+
+
+ November 20,  2017Ten UCI researchers named AAAS fellowsOctober 31,  2017New Report Finds Tech Inequality Persists, Proposes SolutionsOctober 3,  2017Conference Targets Digital Citizenship for Young PeopleSeptember 6,  2017UCI, Part of a Six-Institution Collaboration, Receives NSF Grant for Groundbreaking Study on Big Data EthicsMay 2,  2017UCI CalTeach and ICS partner with Google to train computer science teachers March 30,  2017UCI Launches Connected Learning LabFebruary 1,  2017eSports leader UCI to host panel discussion on women in gamingJanuary 27,  2017UCI's HyperXite team to compete in Hyperloop challenge at SpaceX headquarters      
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+
+
+
+
+
+More news and events »
+
+News Stories
+Press releases
+Video highlights
+Annual reports
+Student Blogs
+Calendar of events
+
+
+Media interested in interviewing ICS faculty, students or alumni should contact Matt Miller at (949) 824-1562 or via email at matt.miller@uci.edu.
+Quick Links 
+        
+
+Copyright Inquiries | UCI Directory | Intranet | icswebmaster
+
+
+
+
+</div>

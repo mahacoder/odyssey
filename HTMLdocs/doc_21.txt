@@ -1,0 +1,81 @@
+<div>
+
+              
+
+                 ICS ELMS Authentication
+
+                 
+
+				    body, textarea, input, select, h2, h3, h4, h5, h6
+
+
+				    .missing-input 
+
+				    DIV 
+
+
+				    body 
+
+				    #error 
+
+                 
+
+              
+
+
+
+   
+
+
+
+   
+
+
+
+
+            
+               
+               
+               ELMS-MSDNAA Login
+            
+
+
+
+
+
+   
+
+
+   Please enter your ICS username and password.
+
+
+        
+
+
+               
+
+               Username:  
+                                     "@ics.uci.edu" part not required 
+               Password:  
+
+                      
+
+        
+
+
+
+   
+
+    
+
+
+   
+
+
+   
+
+
+   
+
+
+</div>

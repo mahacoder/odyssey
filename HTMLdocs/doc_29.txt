@@ -1,0 +1,104 @@
+<div>
+
+Bren School ICS Announcements
+
+
+
+
+
+
+   .central-wrapping li
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+            ICS Computing Support Announcements
+            
+
+
+            RSS 
+
+
+        
+
+
+
+
+
+   
+      
+        
+            
+
+
+                 
+                    System Downtime
+
+             
+                
+                    
+
+There are currently no announcements of this type.system
+                        
+                    
+                
+
+
+
+                 
+                    Software
+
+             
+                
+                    
+
+There are currently no announcements of this type.software
+                        
+                    
+                
+
+
+
+                 
+                    General Announcements
+
+             
+                
+                    
+
+There are currently no announcements of this type.announcements
+                        
+                    
+                
+
+
+
+         
+
+
+
+
+
+</div>

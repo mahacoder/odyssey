@@ -1,0 +1,176 @@
+<div>!DOCTYPE html&gt;
+
+
+
+Department of Statistics - Donald Bren School of Information &amp; Computer Sciences – Department of Statistics - Donald Bren School of Information &amp; Computer Sciences
+		
+		
+
+		
+			.slide-excerpt
+			.slide-excerpt
+			.slide-excerpt
+			.flexslider
+			.slide-image
+		
+		
+			@media only screen
+			and (min-device-width : 320px)
+			and (max-device-width : 480px)
+			}
+		 
+
+
+
+
+		
+		
+img.wp-smiley,
+img.emoji
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Department of Statistics - Donald Bren School of Information &amp; Computer SciencesDepartment of Statistics - Donald Bren School of Information &amp; Computer Sciences
+Explore
+
+	Chair’s Welcome
+	What is Statistics?
+	Seminar Series
+	UCI Center for Statistical Consulting
+	Contact the Department
+	Tutoring Resources
+
+
+Faculty
+
+	Faculty Directory
+	Job Opportunities
+
+
+Research
+Graduate Degrees
+
+	M.S. &amp; Ph.D. in Statistics
+	Current Course Listings
+	Graduate Student Directory
+
+
+Undergraduate Degrees
+
+	B.S. in Data Science
+	Minor in Statistics
+	Current Course Listings
+
+
+
+		
+			
+				
+										
+
+											
+							
+							
+																Statistics Department Welcomes Two New Faculty for 2017
+															
+						
+					
+						
+												
+											
+
+					
+									
+
+											
+							
+							
+																Gillen Furthers Healthcare Research with Two NIH Grants
+															
+						
+					
+						
+												
+											
+
+					
+								
+			
+		
+
+
+Welcome
+Since 2002, UCI’s Department of Statistics has continued to grow as a leader in creating statistical methodology for use in data science applications. With an emphasis on research in statistical theory and interdisciplinary collaborations, the department has grown over the years to house the Center for Statistical Consulting, providing statistical expertise through collaborative relationships with researchers across the campus and community, and was one of the first in the world to offer an undergraduate degree in data science. Explore the statistics website to learn more about our accomplishments and how you can become part of our community.
+Job Opportunities
+For a listing of current academic positions open in the Statistics Department, visit the Academic Recruitment website.
+
+Statistics Seminar Series
+Thursday, Feb. 8 at 4 p.m.
+Donald Bren Hall 6011Erik Erhardt
+Associate Professor, Department of Mathematics and Statistics
+University of New Mexico
+Visualizing Scientific Data
+
+Check out our full schedule of speakers here »
+
+				Latest News
+		
+											
+					Minin Co-Edits Special Section on Infectious Diseases in Statistical Science
+											February 12, 2018
+									
+											
+					Lakeland Times: “Autism numbers spike: The latest call to action” (Stern quoted)
+											January 22, 2018
+									
+											
+					Utts Discusses “Statistics for Good Governance” at International Conference in Sri Lanka
+											January 18, 2018
+									
+											
+					2018 ICS Projects and Predictions
+											January 16, 2018
+									
+											
+					New Faculty Spotlight: Statistics Professor Vladimir Minin is Pleased to Join Growing Community
+											October 30, 2017
+									
+					
+		
+			News Archive
+
+		
+			
+
+				
+						
+				
+
+				
+					
+					   © 2018 UC Regents
+					   Feedback
+					   Privacy Policy
+					
+				
+
+			
+	
+
+
+
+</div>

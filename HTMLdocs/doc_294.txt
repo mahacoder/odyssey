@@ -1,0 +1,819 @@
+<div>!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+
+  
+  
+
+
+  
+    
+      cs122a-2016-spring – Public
+    
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+  
+  
+    
+      
+        
+      
+      
+      
+      
+    
+      LoginPreferencesAbout Trac
+    
+  
+    
+    
+  
+    
+      
+  wiki:cs122a-2016-spring
+
+      
+        Context Navigation
+          
+              Start PageIndexHistory
+          
+        
+      
+    
+      
+        
+          
+          
+            Last modified 21 months ago
+            Last modified on 06/10/16 14:07:51
+          
+          
+
+
+  
+    CS122A/EECS116, Spring 2016: Introduction to Data Management
+    
+      
+        Online Discussion
+        
+          
+            Syllabus
+          
+        
+      
+      
+        Course Objectives
+      
+      
+        Prerequisites
+      
+      
+        Textbooks
+      
+      
+        Exam Schedule
+        
+          
+            Midterm Exam
+          
+          
+            Final Exam
+          
+        
+      
+      
+        Exams, Assignments, and Grading
+        
+          
+            Grading Criteria
+          
+          
+            Homework
+          
+          
+            Discussion Sessions
+          
+          
+            Grade Change Policy
+          
+          
+            Working in Groups
+          
+          
+            Policy on Academic Honesty
+          
+        
+      
+      
+        DBMS Platform
+      
+      
+        HW Due Dates &amp; Links
+        
+          
+            Homework Assignments
+          
+          
+            Discussion Section Quizzes
+          
+        
+      
+    
+  
+
+
+
+CS122A/EECS116, Spring 2016: Introduction to Data Management
+
+ Lecture  Tue/Thu 12:30 pm – 1:50 pm  ​Schneiderman Lecture Hall, Room 100A 
+ Discussion 1  WED 5:00 pm – 5:50 pm  ​Steinhaus Hall, Room 128 
+ Discussion 2  WED 6:00 pm – 6:50 pm  ​Steinhaus Hall, Room 128 
+ Discussion 3  WED 7:00 pm – 7:50 pm  ​Steinhaus Hall, Room 128 
+ Discussion 4  WED 8:00 pm – 8:50 pm  ​Steinhaus Hall, Room 128 
+
+
+Staff:
+
+
+ Name  Email  Hours  Place 
+ ​Chen Li (Instructor)  chenli AT ics DOT uci DOT edu  Tuesdays 2-3 pm  DBH 2092 
+ Abdulrahman Abdulhamid Alsaudi  alsaudia AT uci DOT edu  Fridays 2 - 3 pm  DBH 2081 
+ Taewoo Kim  taewok2 AT ics DOT uci DOT edu  Thursdays 2 - 3 pm  DBH 2066 
+ Niranjan Uma Naresh  un.niranjan AT uci DOT edu  Wednesdays 12 - 1 pm  DBH 4243 
+ Xikui Wang  xikuiw AT uci DOT edu  Mondays 1 - 2 pm  DBH 2068 
+
+Online Discussion
+​Group Signup Sheet
+Piazza :  ​https://piazza.com/uci/spring2016/cs122a/home.
+Please use Piazza properly.  It's a place for students to exchange ideas.  Don't post "easy" or "random" questions without much thinking.
+To encourage students to actively participate in Piazza discussions and provide high-quality answers, we will select two students with the best Piazza performance. Each student will get 2% extra credits in the overall scores.
+
+Syllabus
+
+ Date  Topic   Notes   Reading 
+ 03/29/16, Tu  Hello World and Introduction  PDF01​, PPT01​  Ch. 1 
+ 03/31/16, Th  Introduction, ER Model I  PDF02​, PPT02​  Ch. 2 
+ 04/05/16, Tu  E-R Model II  PDF03​, PPT03​  Ch. 2 
+ 04/07/16, Th  Intro to Relational  PDF04​, PPT04​  Ch. 3 
+ 04/12/16, Tu  ER-to-Relational  PDF05​, PPT05​  Ch. 3 
+ 04/14/16, Th  Relational Design (I)  PDF06​, PPT06​  Ch. 19.1-19.2 
+ 04/19/16, Tu  Relational Algebra (I)  PDF07​, PPT07​  Ch. 4.1-4.2 
+ 04/21/16, Th  ​"RelaX" service, SQL (1): Basic SPJ  PDF08​, PPT08​  Ch. 3.4, 5.1-5.3 
+ 04/26/16, Tu  SQL (2): Nested Queries, Aggregation, Grouping  PDF09​, PPT09​  Ch. 5.4-5.5 
+ 04/28/16, Th  In-class midterm   
+ 05/03/16, Tu  SQL (3): Null, Outer Joins, CRUD, ICs   PDF10​, PPT10​  Ch. 5.5-5.7 
+ 05/05/16, Th  SQL (4): Triggers, Views, Access Control   PDF11​, PPT11​  Ch. 3.3, 3.6, 5.7-5.9, 21.1-21.3 
+ 05/10/16, Tu  Relational Design Theory (1)   PDF12​, PPT12​  Ch. 19.1-19.6 
+ 05/12/16, Th  Relational Design Theory (2)   PDF13​, PPT13​  Ch. 19.1-19.6 
+ 05/17/16, Tu  Ditto   Ditto  Ditto 
+ 05/19/16, Th  Indexing   PDF14​, PPT14​  Ch. 9.1, 8.1-8.3, 10.1, 10.3 
+ 05/24/16, Tu  Ditto   Ditto  Ditto 
+ 05/26/16, Th  Ditto   Ditto, HW5-Q3  Ditto 
+ 05/31/16, Tu  Physical DB Design   PDF15​, PPT15​  Ch. 8.5, 20.1-20.7 
+ 06/02/16, Th  AsterixDB; Review   PDF16​, PPT16​  
+
+
+Course Objectives
+
+This course provides students with an introduction to the design of databases and the use of database management systems in support of applications. It covers the entity relationship (E/R) approach to database design. It then covers the relational data model, mapping of E/R designs to relations, relational database design principles, abstract query languages such as the relational algebra and relational calculus, and the industry-standard query language, SQL. Students will gain exposure to how relational database management systems are used to manage an actual database. Time permitting, the course will also touch lightly on advanced database management topics.
+
+
+This course is aimed at database design and the use of database management systems in implementing database applications. It feeds into a follow-on project course, ​CS122B, whose focus is data-centric Web applications. The CS122A/B course sequence does NOT cover the internals of database systems; that material is covered in the undergraduate course ​CS122C (co-listed as ​CS222) and its graduate-level follow-on course CS223.  (The course textbook also delves further into that material for those students who are curious about what goes on under the hood.)  Interested students are strongly encouraged to take one, two, or all of these courses. CS122B and CS122C/CS222 are independent, and each requires only CS122A as their required database background.
+
+Prerequisites
+
+Students should have programming experiences in Java, C#, or C++.
+
+Textbooks
+
+Database Management Systems (3rd Edition) by Raghu Ramakrishnan and Johannes Gehrke, a.k.a. "the Cow book".
+
+Exam Schedule
+Midterm Exam
+
+Time: April 28, Thursday, in class. Closed books, closed notes.
+
+
+Here is a sample midterm​ with sample solutions​.  Note that topics covered in each quarter might vary. So you may find some questions in the sample midterm not covered during this quarter. So, please conform to this quarter's lectures.
+
+
+Solution: midterm solution​
+
+Final Exam
+
+Time: Monday, Jun 6,  1:30 - 3:30 p.m. Place: ​Schneiderman Lecture Hall, Room 100A.
+
+
+Solution: final solution​
+
+
+Exams, Assignments, and Grading
+Grading Criteria
+
+Homework: 40%  Quizzes: 5%  Midterm: 25%  Final: 29%   Participation in EEE Class Evaluation: 1% 
+
+Homework
+
+Homework assignments must be turned in by the assigned due dates/times on EEE.
+
+The official due date for each assignment is listed here on the wiki, and it is expected that students will turn the work in on or before that date.
+We will offer a 24-hour "grace period" for each assignment, and will therefore accept submissions turned in within 24 hours of the due date, with a 10-point penalty.  It's 10 points, not 10 percent.  For example, if your late project got 87 points, then your real score will be 87-10=77 points. Notice that EEE will only keep the latest submission. If so you submit or resubmit the assignment after the deadline, it will be considered as a late submission.
+Late assignments will NOT be accepted beyond the grace period, so do always aim to be on time! Please don't even ask, as this is what the 1-day grace period is intended for.
+Discussion Sessions
+
+There will also be short weekly quizzes in the discussion session to give you further practice with the course material. Those will count very little towards your final grade. They are mostly a discussion session participation score, and they're really just there for your benefit to give you another opportunity to check your understanding of things.  You will get the full credit for each discussion session if you attend it, or 0 if you are absent.
+
+Grade Change Policy
+
+For all of the graded assignments as well as the midterm exam, if you disagree with the grading, you may discuss your concerns with the relevant staff member within 1 week after they are returned. After that, all grades will be considered final.
+
+Working in Groups
+
+Working together on the assignments is strongly encouraged. You should form groups of 3 (three) students and submit one homework solution per group making sure that the names of all the group members appear on the first page. Work in groups will be graded on a per group basis.
+
+
+Students may leave their existing group in the quarter. But they cannot join any new group after the end of the second week. For each group splitting, the group members should tell the instructor at least 1 week before the corresponding project/homework deadline.
+
+Policy on Academic Honesty
+
+All students will be expected to adhere to the UCI and ICS Academic Honesty policies (see ​http://www.editor.uci.edu/catalogue/appx/appx.2.htm#academic and ​http://www.ics.uci.edu/ugrad/policies/index.php#academic_honesty to read their details). Any student found to be involved in cheating or aiding others in doing so will be academically prosecuted to the maximum extent possible: that means you will fail this course.  Just say no to cheating!
+
+
+DBMS Platform
+
+This class will use an industrial-strength relational database management system (RDBMS) for the hands-on homework assignments, namely MySQL.  For information on how to set up and use MySQL, please see: [MySQL Installation Guide for Mac]​, [MySQL Installation Guide for Windows]​, [Sample SQL Script used in the guide]​. For information on how to use MySQL Command-Line Tool, please see: [MySQL Command-Line Tool Guide for Mac]​, [MySQL Command-Line Tool Guide for Windows]​ [Sample SQL Script used in the guide]​.  For further information on how to use the DBMS, please go here: ​https://dev.mysql.com/doc/refman/5.7/en/index.html.
+
+
+HW Due Dates &amp; Links
+Homework Assignments
+
+ Due Date  Topic  Assignment  Solution  Grading Notes  TA/Reader to contact 
+ April 14, 11:45 pm  E/R Modeling  [HW 1]​ [Template:PDF]​ [Template:PPT]​ [HW 1 Solution]​ [HW1 Grading Notes]​  Taewoo Kim 
+ April 21, 11:45 pm  E/R and Relational Translation [HW 2]​ [Template:PDF]​ [HW 2 Solution]​   Abdulrahman Alsaudi 
+ April 28, 11:45 pm  Relational Algebra and SQL query  [HW 3]​ [Template:PDF]​ [HW3 Instruction]​  [HW 3 Solution]​    Xikui Wang 
+ May 12, 11:45 pm  SQL (Hands-on)  [HW 4]​ [Template:TXT]​ [HW4 Instruction]​ [HW4 SQL script]​  [HW 4 Solution]​    Taewoo Kim 
+ May 19, 11:45 pm  More SQL (Hands-on)  [HW 5]​ [Template:TXT]​ [HW5 Instruction]​ [HW5 SQL script]​  [HW 5 Solution]​    Abdulrahman Alsaudi 
+ May 26, 11:45 pm  Relational Design Theory  [HW 6]​ [Template:DOC]​  [HW 6 Solution]​    Xikui Wang 
+ Jun 2, 11:45 pm  Indexing  [HW 7]​ [Template:PDF]​ [HW7 SQL script]​  [HW 7 Solution]​     Taewoo Kim 
+
+Discussion Section Quizzes
+
+ Week  Topic  Quiz  Solution 
+ Week 1  Academic honesty  [Quiz 1]​  [Solution 1]​ 
+ Week 2  ER diagram basics  [Quiz 2]​  [Solution 2]​ 
+ Week 3  No quiz  No quiz  No quiz
+ Week 4  Translate ER to SQL  [Quiz 3]​  [Solution 3]​ 
+ Week 5  Relational algebra and SQL  [Quiz 4]​  [Solution 4]​ 
+ Week 6  Joins, CRUD  [Quiz 5]​  [Solution 5]​ 
+ Week 7  Views, triggers, FD  [Quiz 6]​  [Solution 6]​ 
+ Week 8  Normal forms  [Quiz 7]​  [Solution 7]​ 
+ Week 9  Decomposition  [Quiz 8]​  [Solution 8]​ 
+ Week 10  Indexing  [Quiz 9]​  [Solution 9]​ 
+
+
+        
+        
+      
+      
+    
+        Attachments
+        
+            
+    Notes01.pdf​
+       (573.4 KB) -
+      added by chenli 2 years ago.
+              Notes01
+            
+            
+    2016s-cs122a-mysql-installation-guide-for-mac.pdf​
+       (1.7 MB) -
+      added by waans11 2 years ago.
+            
+            
+    2016s-cs122a-mysql-installation-guide-for-windows.pdf​
+       (2.7 MB) -
+      added by waans11 2 years ago.
+            
+            
+    sample_script.sql​
+       (3.7 KB) -
+      added by waans11 2 years ago.
+            
+            
+    2016s-cs122a-mysql-cmdtool-guide-for-mac.pdf​
+       (795.5 KB) -
+      added by waans11 2 years ago.
+            
+            
+    2016s-cs122a-mysql-cmdtool-guide-for-windows.pdf​
+       (112.1 KB) -
+      added by waans11 2 years ago.
+            
+            
+    createscript.sql​
+       (414 bytes) -
+      added by waans11 2 years ago.
+            
+            
+    Notes01.pptx​
+       (353.3 KB) -
+      added by chenli 2 years ago.
+              Notes 01: PPT
+            
+            
+    Notes02.pdf​
+       (670.0 KB) -
+      added by chenli 2 years ago.
+              Notes 02: PDF
+            
+            
+    Notes02.pptx​
+       (600.7 KB) -
+      added by chenli 2 years ago.
+              Notes 02: PPT
+            
+            
+    2016s-cs122a-hw1-template.pdf​
+       (33.0 KB) -
+      added by waans11 2 years ago.
+            
+            
+    2016s-cs122a-hw1-template.pptx​
+       (47.3 KB) -
+      added by waans11 2 years ago.
+            
+            
+    Notes03.pdf​
+       (287.0 KB) -
+      added by chenli 2 years ago.
+              Notes 03: PDF
+            
+            
+    Notes03.pptx​
+       (269.0 KB) -
+      added by chenli 2 years ago.
+              Notes 03: PPT
+            
+            
+    2016s-cs122a-hw1.pdf​
+       (133.2 KB) -
+      added by chenli 2 years ago.
+              Homework 1 (updated)
+            
+            
+    CS122AS16_quiz_2.pdf​
+       (82.6 KB) -
+      added by un.niranjan 2 years ago.
+            
+            
+    CS122AS16_quiz_2_solution.pdf​
+       (85.9 KB) -
+      added by un.niranjan 2 years ago.
+            
+            
+    CS122AS16_quiz_1.pdf​
+       (29.5 KB) -
+      added by un.niranjan 2 years ago.
+            
+            
+    CS122AS16_quiz_1_solution.pdf​
+       (66.2 KB) -
+      added by un.niranjan 2 years ago.
+            
+            
+    Notes04.pptx​
+       (173.8 KB) -
+      added by chenli 2 years ago.
+              Notes 04: PPT
+            
+            
+    Notes04.pdf​
+       (259.6 KB) -
+      added by chenli 2 years ago.
+              Notes 04: PDF
+            
+            
+    Notes05.pptx​
+       (236.8 KB) -
+      added by chenli 2 years ago.
+              Notes 05: PPT
+            
+            
+    Notes05.pdf​
+       (246.9 KB) -
+      added by chenli 2 years ago.
+              Notes 05: PDF
+            
+            
+    Notes06.pptx​
+       (933.7 KB) -
+      added by chenli 2 years ago.
+              Notes 06: PPT
+            
+            
+    Notes06.pdf​
+       (1.2 MB) -
+      added by chenli 2 years ago.
+              Notes 06: PDF
+            
+            
+    2016s-cs122a-hw2-template.pdf​
+       (21.7 KB) -
+      added by alsaudi.ad 2 years ago.
+              HW2-template
+            
+            
+    2016s-cs122a-hw2.pdf​
+       (77.3 KB) -
+      added by alsaudi.ad 2 years ago.
+              HW2
+            
+            
+    Notes07.pptx​
+       (723.2 KB) -
+      added by chenli 23 months ago.
+              Notes 07: PPT
+            
+            
+    Notes07.pdf​
+       (1.1 MB) -
+      added by chenli 23 months ago.
+              Notes 07: PDF
+            
+            
+    2016s-cs122a-hw1-solution.pdf​
+       (49.5 KB) -
+      added by waans11 23 months ago.
+            
+            
+    CS122aMidtermS14.pdf​
+       (327.2 KB) -
+      added by waans11 23 months ago.
+            
+            
+    CS122aS14MidtermSolution.pdf​
+       (2.1 MB) -
+      added by waans11 23 months ago.
+            
+            
+    CS122AS16_quiz_3.pdf​
+       (90.7 KB) -
+      added by un.niranjan 23 months ago.
+            
+            
+    CS122AS16_quiz_3_solution.pdf​
+       (109.9 KB) -
+      added by un.niranjan 23 months ago.
+            
+            
+    2016s-cs122a-hw3-template.pdf​
+       (20.4 KB) -
+      added by xkkwww 23 months ago.
+            
+            
+    2016s-cs122a-hw2-solution.pdf​
+       (85.8 KB) -
+      added by alsaudi.ad 23 months ago.
+              HW2-solution
+            
+            
+    2016S-cs122a-hw3.2.pdf​
+       (236.4 KB) -
+      added by xkkwww 23 months ago.
+            
+            
+    Notes08.pptx​
+       (414.0 KB) -
+      added by chenli 23 months ago.
+              Notes 08: PPT
+            
+            
+    Notes08.pdf​
+       (408.1 KB) -
+      added by chenli 23 months ago.
+              Notes 08: PDF
+            
+            
+    HW3_Instructions.pdf​
+       (361.3 KB) -
+      added by xkkwww 23 months ago.
+            
+            
+    Notes09.pptx​
+       (164.2 KB) -
+      added by chenli 23 months ago.
+              Notes 09: PPT
+            
+            
+    Notes09.pdf​
+       (242.9 KB) -
+      added by chenli 23 months ago.
+              Notes 09: PDF
+            
+            
+    2016s-cs122a-hw1-notes.pdf​
+       (56.2 KB) -
+      added by waans11 23 months ago.
+            
+            
+    CS122AS16_quiz_4.pdf​
+       (71.5 KB) -
+      added by un.niranjan 23 months ago.
+            
+            
+    CS122AS16_quiz_4_solution.pdf​
+       (155.9 KB) -
+      added by un.niranjan 23 months ago.
+            
+            
+    Midterm-Note.pptx​
+       (44.1 KB) -
+      added by chenli 23 months ago.
+              Midterm note
+            
+            
+    2016S-cs122a-hw3-solution.pdf​
+       (254.5 KB) -
+      added by xkkwww 23 months ago.
+            
+            
+    2016s-cs122a-hw4-script.sql​
+       (29.7 KB) -
+      added by waans11 22 months ago.
+            
+            
+    2016s-cs122a-hw4-instruction.pdf​
+       (180.7 KB) -
+      added by waans11 22 months ago.
+            
+            
+    2016s-cs122a-hw4-template.txt​
+       (874 bytes) -
+      added by waans11 22 months ago.
+            
+            
+    CS122AS16_quiz_5.pdf​
+       (56.2 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    CS122AS16_quiz_5_solution.pdf​
+       (72.8 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    Notes10.pptx​
+       (286.0 KB) -
+      added by chenli 22 months ago.
+              Notes 10: PPT
+            
+            
+    Notes10.pdf​
+       (332.7 KB) -
+      added by chenli 22 months ago.
+              Notes 10: PDF
+            
+            
+    2016s-cs122a-hw4.pdf​
+       (245.6 KB) -
+      added by waans11 22 months ago.
+            
+            
+    Notes11.pptx​
+       (290.3 KB) -
+      added by chenli 22 months ago.
+              Notes 11: PPT
+            
+            
+    Notes11.pdf​
+       (339.3 KB) -
+      added by chenli 22 months ago.
+              Notes 11: PDF
+            
+            
+    2016s-cs122a-midterm-solution.pdf​
+       (305.1 KB) -
+      added by waans11 22 months ago.
+            
+            
+    Notes12.pptx​
+       (1.0 MB) -
+      added by chenli 22 months ago.
+              Notes 12: PPT
+            
+            
+    Notes12.pdf​
+       (1.4 MB) -
+      added by chenli 22 months ago.
+              Notes 12: PDF
+            
+            
+    2016s-cs122a-hw5.pdf​
+       (244.3 KB) -
+      added by alsaudi.ad 22 months ago.
+              HW5
+            
+            
+    2016s-cs122a-hw5-template.txt​
+       (874 bytes) -
+      added by alsaudi.ad 22 months ago.
+              HW5-instructions
+            
+            
+    2016s-cs122a-hw5-script.sql​
+       (30.1 KB) -
+      added by alsaudi.ad 22 months ago.
+              HW5-schema
+            
+            
+    2016s-cs122a-hw5-instruction.pdf​
+       (180.7 KB) -
+      added by alsaudi.ad 22 months ago.
+              HW5-instructions
+            
+            
+    2016s-cs122a-hw5-template.2.txt​
+       (874 bytes) -
+      added by alsaudi.ad 22 months ago.
+              HW5-templete
+            
+            
+    CS122AS16_quiz_6_solution.2.pdf​
+       (62.6 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    CS122AS16_quiz_6_solution.pdf​
+       (62.6 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    CS122AS16_quiz_6.pdf​
+       (56.0 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    CS122AS16_quiz_7.pdf​
+       (49.6 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    CS122AS16_quiz_7_solution.pdf​
+       (58.3 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    2016s-cs122a-hw6.docx.pdf​
+       (160.6 KB) -
+      added by xkkwww 22 months ago.
+            
+            
+    HW6_GroupID_Template.docx​
+       (4.6 KB) -
+      added by xkkwww 22 months ago.
+            
+            
+    2016s-cs122a-hw5-solution.pdf​
+       (187.4 KB) -
+      added by alsaudi.ad 22 months ago.
+              HW5-solution
+            
+            
+    2016s-cs122a-hw6-v2.pdf​
+       (174.7 KB) -
+      added by xkkwww 22 months ago.
+            
+            
+    2016s-cs122a-hw6.pdf​
+       (174.7 KB) -
+      added by xkkwww 22 months ago.
+            
+            
+    Notes14.pptx​
+       (276.2 KB) -
+      added by chenli 22 months ago.
+              Notes 14: PPT
+            
+            
+    Notes14.pdf​
+       (502.7 KB) -
+      added by chenli 22 months ago.
+              Notes 14: PDF
+            
+            
+    Notes13.pptx​
+       (338.9 KB) -
+      added by chenli 22 months ago.
+              Notes 13: PPT
+            
+            
+    Notes13.pdf​
+       (429.5 KB) -
+      added by chenli 22 months ago.
+              Notes 13: PDF
+            
+            
+    2016s-cs122a-hw7-template.pdf​
+       (21.0 KB) -
+      added by waans11 22 months ago.
+            
+            
+    CS122AS16_quiz_8.pdf​
+       (45.2 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    CS122AS16_quiz_8_solution.pdf​
+       (136.9 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    2016s-cs122a-hw4-solution.pdf​
+       (177.4 KB) -
+      added by waans11 22 months ago.
+            
+            
+    Notes15.pptx​
+       (131.1 KB) -
+      added by chenli 22 months ago.
+              Notes 15: PPT
+            
+            
+    Notes15.pdf​
+       (138.8 KB) -
+      added by chenli 22 months ago.
+              Notes 15: PDF
+            
+            
+    2016s-cs122a-hw7.pdf​
+       (191.5 KB) -
+      added by waans11 22 months ago.
+            
+            
+    CS122AS16_quiz_9.pdf​
+       (69.0 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    CS122AS16_quiz_9_solution.pdf​
+       (69.4 KB) -
+      added by un.niranjan 22 months ago.
+            
+            
+    Notes16.pptx​
+       (1.9 MB) -
+      added by chenli 22 months ago.
+              Notes 16: PPT
+            
+            
+    Notes16.pdf​
+       (2.3 MB) -
+      added by chenli 22 months ago.
+              Notes 16: PDF
+            
+            
+    2016s-cs122a-hw7-solution.pdf​
+       (160.4 KB) -
+      added by waans11 21 months ago.
+            
+            
+    2016s-cs122a-hw6-solution.pdf​
+       (187.7 KB) -
+      added by xkkwww 21 months ago.
+            
+            
+    2016s-cs122a-final-solution.pdf​
+       (227.2 KB) -
+      added by waans11 21 months ago.
+            
+        
+    
+
+    
+    
+      Download in other formats:
+      
+        
+          Plain Text
+        
+      
+    
+    
+    
+      
+      Powered by Trac 0.12.5
+        By Edgewall Software.
+      Visit the Trac open source project athttp://trac.edgewall.org/
+    
+  
+</div>

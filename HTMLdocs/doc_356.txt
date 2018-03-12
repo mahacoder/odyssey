@@ -1,0 +1,485 @@
+<div>html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40"&gt;
+
+
+
+
+
+
+
+
+
+Aditi Majumder
+
+
+
+
+
+
+&lt;!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-536870145 1791491579 18 0 131231 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-536870145 1791491579 18 0 131231 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073743103 0 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-536870145 1791491579 18 0 131231 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+h3
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"MS Mincho";
+	font-weight:bold;}
+h4
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 4 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"MS Mincho";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	mso-style-unhide:no;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-unhide:no;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:"Times New Roman";
+	color:#4F81BD;
+	font-weight:bold;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 4";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:Cambria;
+	mso-bidi-font-family:"Times New Roman";
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:44452078;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1979194524 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--&gt;
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+  
+   
+   
+  Home
+   
+  Projects
+   
+  iGravi
+  (Interactive Graphics
+  &amp; Visualization Lab)
+   
+  Publications
+   
+  Students
+   
+  Teaching
+   
+  CV
+   
+   
+  
+  
+  
+  
+  
+  Aditi Majumder 
+  Professor
+  University of California, Irvine
+  Department of Computer Science
+  4056 Bren Hall 
+  Irvine, CA 92697-3435
+  (949) 824-8877 - voice
+  (949) 824-4056 - fax
+  majumder @ ics.uci.edu
+   
+  Affiliated with:
+  California Institute of
+  Telecommunication and Information Technology (Calit2)
+  
+ 
+
+
+Research Interests 
+
+
+ Novel
+     Display Technologies
+ Computational
+     Cameras and Projectors
+ Image
+     or Video Processing
+ Computer
+     Graphics and Visualization
+ Computer
+     Vision
+
+
+A Peek at My Research
+
+          Our Multi-Projector Display Research
+
+Awards
+
+
+ Deans
+     Mid-Career Research Award, School of Information and Computer Science,
+     UC-Irvine, 2011
+ NSF
+     CAREER Award, 2009 on Ubiquitous
+     Displays Via a Distributed Framework
+ Best
+     Paper Award, IEEE Virtual Reality, 2010
+ Runner-up
+     for Best Paper Award, IEEE Visualization 2009
+ Best
+     Paper Award at IEEE Workshop on Projector Camera Systems, 2010
+ Faculty
+     Research Incentive Award, 2009
+
+
+Recent Academic Activities
+
+
+ Best
+     Paper Award, 3DTV, Lisbon, Portugal, 2015.
+ Associate
+     Editor, IEEE Computer Graphics and Applications, 2014 – Present
+ Associate
+     Editor, Computer and Graphics, 2013-2015
+ Program
+     Co-Chair, ACM Virtual
+     Reality Software and Technology (VRST), Edinburgh, UK, 2014
+ General
+     Chair, IEEE Virtual
+     Reality (VR), Orange County, March 2012. 
+ Program
+     Chair, IEEE Virtual
+     Reality (VR), Singapore, March, 2011.
+ Program
+     Chair, IEEE/ACM Workshop on
+     Projector-Camera Systems (PROCAMS), Miami, June 2009.
+ General
+     Co-Chair, ACM Virtual Reality
+     Software and Technology (VRST),  Newport Beach, November, 2007.
+ Program
+     Co-Chair, IEEE CVPR Workshop
+     on Projector-Camera Systems (PROCAMS) , San Diego, June 2005.
+
+
+Recent Industrial Activities
+
+
+ Advisory
+     Board, Allosphere, University of California, Santa Barbara.
+ Advising
+     Consultant, Disney Imagineering, June 2009-June 2010
+ Advisory
+     Board Member and Consultant, Ostendo Technologies, Carlsbad, 2006-Present [Developed the first curved screen multi-projector
+     desktop]
+
+
+Recent Pedagogical Activities
+
+
+ E-Tech Booth at Siggraph 2015
+
+
+ 
+
+  
+
+
+ Book
+
+
+ 
+
+
+ 
+  
+  
+  
+  
+   
+   
+   
+  Aditi Majumder and Michael S. Brown, Practical Multi-Projector Display Design, A.K. Peters, 2007
+   
+  
+ 
+
+
+ 
+
+
+ Book Chapter
+
+
+ 
+
+
+ 
+  
+  
+  
+  
+   
+   
+   
+  Chapter 15 on Ubiquitous Displays by Aditi Majumder, Distributed Video Sensor Networks,
+  Edited by Bir Bhanu, Chinya V. Ravishankar, Amit K. Roy-Chowdhury, Hamid
+  Aghajan and Demetri Terzopoulos, Springer, 2011
+   
+  
+ 
+
+
+ 
+
+
+ Summer Course
+ 
+  Visual
+      Perception for Visualization and Multimedia Group, Department of
+      Informatics, University of Zurich, Switzerland, August 2010.
+ 
+
+
+ 
+
+
+ Invited Presentations
+ 
+  Keynote
+      Speaker, BayArea Multi-media Forum,
+      San Jose, April, 2015
+  Keynote
+      Speaker, Brazilian Symposium on
+      Virtual Reality, Rio, May, 2012
+  Keynote
+      Speaker, International Symposium on
+      Visual Computing, Las Vegas, December, 2010
+  Invited
+      Speaker, Ubiquitous Displays Via a
+      Distributed Framework, Johannes
+      Kepler University,
+      Linz, Austria, May, 2010.
+  Invited
+      Speaker, Course on Projector in
+      Graphics, Organized by Ramesh Raskar and Oliver Bimber, SIGGRAPH 2009
+      (pdf).
+  Invited
+      Panelist, Future of the
+      Projector-Camera Systems, IEEE Workshop on Projector-Camera Systems,
+      2008.
+ 
+
+
+ Released Software
+
+
+ Contrast
+     Enhancement of Images
+
+
+ 
+
+
+
+
+
+
+
+
+</div>

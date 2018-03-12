@@ -1,0 +1,827 @@
+<div>html xmlns="http://www.w3.org/1999/xhtml"&gt;
+
+                course updates @ the bren school of information and computer sciences
+                
+                
+                
+                
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+      
+
+
+         #school_header
+
+
+         #school_link
+
+
+         #uci_link
+
+
+      
+
+
+
+      
+
+         
+
+         
+
+      
+
+
+
+
+
+
+
+
+
+    
+
+                
+            
+                
+                
+                
+                    ABOUT
+
+                    
+                    
+                        About the School
+                        Dean's Welcome
+                        Facts and Figures
+                        Donald Bren Hall
+                        Visit the Bren School
+                        Equity &amp; Diversity
+                        Contact Us
+                        
+                                   
+                
+                
+                
+                
+                     DEPARTMENTS 
+                    
+
+                    
+                        Computer Science
+                        Informatics
+                        Statistics
+                                   
+                
+                
+                
+                
+                     RESEARCH 
+                
+                
+                    
+                        Research Areas
+                        Research Centers
+                        Research Highlights
+                    
+                
+                
+                
+                
+                
+                
+                    EDUCATION
+                    
+
+                    
+                        Graduate ▸ 
+                        
+                            
+                            Prospective Students
+                            How to Apply
+                            Programs of Study
+                            Academic Year Plan
+                            Forms
+                            Policies
+                            Funding &amp; Housing
+                            Computing Support
+                            Campus Resources
+                            Visit the Bren School
+                            Graduate Student Handbook
+                            Contact
+                            
+
+                        
+                        
+                        Undergraduate ▸ 
+                        
+                            
+                            Contact
+                            Academic Advising
+                            Course Updates
+                            Academic Year Plan
+                            Petitions
+                            ICS Majors
+                            ICS Minors
+
+                            Policies: Academic Integrity
+                            Policies: Academic Standing
+                            Policies: Add, drop, &amp; change options
+                            Policies: Coursework outside UCI
+                            Policies: Grade policy
+                            Policies: Laptop &amp; computer use
+                            Policies: Withdrawal/Readmission
+                            Policies: CS 199 / IN4MATX 199 Courses
+
+                              Graduation
+                              ICS Student Life
+                              Upcoming Events
+                              Computing Support
+                              
+                           
+                        
+
+                        
+                        Prospective Undergrad
+
+
+                        Scholarships &amp; Fellowships
+                        
+                                                    
+                                   
+                
+
+    
+                
+                    
+                    PEOPLE                      
+                    
+                
+                    
+                        Faculty
+                        Staff
+                        Graduate Students
+                        Alumni
+                       
+                
+                                
+                
+                 
+                
+                    NEWS &amp; EVENTS
+                    
+                    
+                    
+                        Newsroom
+                        Events
+                        Press Releases
+                        Annual Reports
+                        Student Blogs
+                       
+                
+
+                
+                
+                    GET INVOLVED
+                
+                
+                    
+                    
+                            Make a Gift
+                            Leadership Council
+                            Corporate Partners
+                            Sponsor Projects
+                            Product Development Competition
+                            ZotLink Jobs &amp; Internships
+                            
+                                   
+                
+
+
+                 
+                                 
+
+            
+
+ url('/bin/icssearchstyle/css/icssearch.css');
+
+
+
+
+            
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+Bren school home &gt; Undergraduate &gt; Academic advising
+
+
+  
+Course Updates
+
+
+
+
+Winter 2018
+Keep checking here or on our ICS SAO Facebook page as restrictions will be updated regularly throughout the enrollment period.
+Restrictions will be lifted, at the latest, at the Winter fee payment deadline (Friday, 12/15/17).
+CSE majors under the School of Engineering are eligible to register for core CSE courses taught in the School of ICS (e.g., Stats 67, INF 43) and any upper-division CompSci (CS 100-199) or Informatics (Inf 100-139) course with the general "N" restriction only. If a course has the an "N" restriction and you meet the prerequisites but you are unable to enroll, please visit to the ICS Student Affairs office for assistance.
+ 
+
+
+
+COMPSCI Courses
+
+
+Course
+Current Restrictions
+
+
+
+CS 112
+
+
+A &amp; N —School of ICS majors only
+
+
+
+
+CS 116
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+CS 121/INF 141
+
+
+I &amp; L — CS and CGS seniors only
+
+
+
+
+CS 122A/EECS 116
+
+
+A &amp; N — School of Engineering and School of ICS only
+
+
+
+
+CS 122B
+
+
+A &amp; N — School of ICS majors and CSE majors only
+
+
+
+
+CS 125
+
+A &amp; N — School of ICS majors only
+
+
+
+CS 132
+
+A &amp; N — School of ICS majors and CSE majors only
+
+
+
+CS 133
+
+A &amp; N — School of ICS majors only
+
+
+
+CS 134
+
+A &amp; N — School of ICS majors only
+
+
+
+CS 142A
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+CS 143A
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+CS 143B
+
+
+A &amp; N — School of ICS majors and CSE majors only
+
+
+
+
+CS 145/CS 145L
+
+
+I &amp; N — Seniors only; School of ICS majors only (*CSE majors: enroll through CSE 145/145L)
+
+
+
+
+CS 152
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+CS 153
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+CS 154
+
+
+A &amp; N — School of ICS majors and CSE majors only
+
+
+
+
+CS 161
+
+
+A &amp; N — School of ICS majors and CSE majors only
+
+
+
+
+CS 162/Linguis 102
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+CS 164
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+CS 167
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+CS 171
+
+
+A &amp; N — School of ICS majors and CSE majors only
+
+
+
+
+CS 172B
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+CS 175
+
+
+A &amp; N — School of ICS majors and CSE majors only
+
+
+
+
+CS 178
+
+
+A &amp; N — School of ICS majors and CSE majors only
+
+
+
+
+ 
+
+
+
+I&amp;C SCI Courses
+
+
+Course
+Current Restrictions
+
+
+
+ICS 6B
+
+
+A &amp; N — School of ICS &amp; CSE majors only
+
+
+
+
+ICS 6D
+
+
+A &amp; N — School of ICS &amp; CSE majors only
+
+
+
+
+ICS 6N
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ICS 31
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ICS 32
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ICS 33
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ICS 45C
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ICS 45J
+
+
+A &amp; L — INF, BIM, and SE majors only
+
+
+
+
+ICS 46
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ICS 51
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ICS 53/ICS 53L
+
+
+A &amp; L — CS majors only
+
+
+
+
+ICS 61
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ICS 139W
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ICS 161
+
+A &amp; N — School of ICS majors only
+
+
+
+ICS 162
+
+A &amp; N — School of ICS majors only
+
+
+
+ICS 166
+
+A &amp; N — School of ICS majors only
+
+
+
+ICS 167
+
+A &amp; N — School of ICS majors only
+
+
+
+ICS 169B
+
+A &amp; N — School of ICS majors only
+
+
+
+      
+
+
+
+IN4MATX Courses
+
+
+Course
+Current Restrictions
+
+
+
+INF 43
+
+
+A &amp; N — School of ICS &amp; CSE majors only
+
+
+
+
+INF 113
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 121
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 122
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 131
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 132
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 134
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 141/CS 121
+
+
+I &amp; L — CS and CGS Seniors only
+
+
+
+
+INF 148
+
+
+A &amp; N — School of ICS majors onlyors only
+
+
+
+
+
+INF 151
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 161
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 162W
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 191A
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+INF 191B
+
+
+I &amp; N — School of ICS majors only
+
+
+
+
+
+      
+
+
+
+STATS Courses
+
+
+Course
+Current Restrictions
+
+
+
+ST 5
+
+
+A &amp; L — DS majors only
+
+
+
+
+ST 67
+
+
+A &amp; N — School of ICS &amp; CSE majors only
+
+
+
+
+ST 111
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ST 115
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ST 120B
+
+
+A &amp; N — School of ICS majors only
+
+
+
+
+ST 170A
+
+
+I &amp; N — School of ICS majors only
+
+
+
+
+updated: 12/5/2017
+
+
+
+
+
+
+More Undergraduate »
+
+Contact
+Academic advising
+Course updates
+Academic year plan
+ICS majors
+
+Double major
+2nd baccalaureate
+
+
+ICS minors
+Petitions
+Policies
+
+Academic honesty
+Academic standing
+Add, drop, &amp; change options
+Coursework outside UCI
+Grade policy
+Laptop &amp; computer use
+Withdrawal/Readmission
+CS 199 / IN4MATX 199
+
+
+Graduation
+ICS student life
+Upcoming events
+Computing support
+
+Quick Links 
+        
+
+Copyright Inquiries | UCI Directory | Intranet | icswebmaster
+
+
+
+
+</div>

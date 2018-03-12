@@ -1,0 +1,2 @@
+<div>meta http-equiv="refresh" content="0;url=index.php"&gt;
+</div>
