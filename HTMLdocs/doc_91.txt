@@ -1,25 +1,77 @@
-<div>html&gt;
- 
- Publications of Exact Reaction Leaping Methods  
- 
- 
-  
- Publications of Exact Reaction Leaping Methods 
+<div>!DOCTYPE HTML&gt;
 
-List of publications related to exaction and hierarchical reaction leaping:
+ ICS / Intranet - Please login!
 
 
 
- David Orendorff, Eric Mjolsness.  A Hierarchical Exact Accelerated Stochastic Simulation Algorithm. 
-In review, 2012. 
-[webpage]
-
- David Orendorff. Exact and Hierarchical Reaction Leaping:   
-Asymptotic Improvements to the Stochastic Simulation Algorithm   , PhD Thesis,  UC Irvine, 2012 .
-[PDF]
-
- Eric Mjolsness, David Orendorff, Philippe Chatelain, and Petros Koumoutsakos. 
-An Exact Accelerated Stochastic Simulation Algorithm.  Journal of Chemical Physics 130, 144110 (2009). [webpage]
 
 
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ICS / Intranet
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please login!
+
+
+HELP
+
+
+
+
+     You are not currently logged into ICS / Intranet!
+                                                  
+                                                          
+                                                  
+
+                                                  
+                                                     
+                                                        
+                                                           Please login with your UCInetID and password.
+                                                        
+                                                     
+                                                        
+                                                        
+                                                           
+                                                              
+                                                                 UCInetID: 
+                                                                 
+                                                              
+                                                              
+                                                                 Password: 
+                                                                 
+                                                              
+                                                              
+                                                                 
+                                                              
+                                                           
+                                                           
+                                                        
+                                                     
+                                                  
+          
+
+                                                  
+                                                      </div>

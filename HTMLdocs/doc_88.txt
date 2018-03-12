@@ -1,67 +1,62 @@
-<div>!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt; 
+<div>HTML&gt; 
+ 
+ HiER-leap  
+ 
+ 
+ 
+
+  HIERARCHICAL EXACT REACTION LEAPING 
 
 
-  
-  
-    
-    
-    Dependency Diagrams and Graph-Constrained Correlation
-    Dynamics: New Systems for Probabilistic Graphical Modeling
-    
-     
-    
-         
-  
-  
-    
-      
-	Dependency Diagrams and Graph-Constrained Correlation
-        Dynamics: New Systems for Probabilistic Graphical Modeling
-	
-          My PhD thesis focused on two novel approaches in probabilistic
-          graphical
-	  models. Each of these is described on its
-	  own page. Each page also includes links to download software
-	  packages for the Mathematica programming langauge, and
-	  example notebooks. 
-          Dependency
-	  Diagrams extend  
-          factor graphs (a superset of Bayesian networks and Markov
-          random fields). Dependency diagrams add to factor graphs the
-          power to represent indexing, gating, and hard
-          constraints. This new formalism makes the modeling of
-          systems with unknown or variable structures explicit and
-          straightforward. The dependency diagram framework also
-          enables the automatic translation of diagrams that represent
-          models into diagrams that represent Markov chain Monte Carlo
-          sampling and inference algorithms, and the subsequent
-          autogeneration of runnable code.  I used Dependency Diagrams
-          to implement a package that, 
-          among other things, automatically generates runnable source
-          code for the process of performing Metropolis-Hastings
-          sampling on arbitrary
-	  distributions. 
-          Graph-Constrained   
-	    Correlation Dynamics formalizes a method of
-	  representing probability distributions that evolve
-	  continuously in time according to the chemical master
-	  equation. This is accomplished by combining a Markov
-	  Random Field, which represents the instantaneous
-	  probability of the system, with a set of ordinary
-	  differential equations on the parameters of the MRF.  
-          My research included the development of two methods to
-	  optimize the fit between a GCCD model and the
-	  corresponding reaction network. 
-          I have implemented a 
-	  software package, linked above, which leverages 
-	  Dependency Diagrams to optimize GCCD models. 
-           
-          A pdf copy of my thesis is available 
-          here. 
-        
-      
-    
-  
+
+
+
+
+
+
+Software: 
+Exact acceleration of Gillespie's Stochastic Simulation Algorithm, with acceleration using
+parallel architecture. 
+Developed By: 
+David Orendorff and Eric Mjolsness at UC Irvine (2012).
+Language: 
+C/C++
+License: 
+GPL
+
+
+
+ 
+Welcome to the HiER-leap download page. 
+
+HiER-leap utilizes multicore CPUs to accelerate the sampling of single trajectories
+of the Stochastic Simulation Algorithm (SSA). 
+Additionally, the HiER-leap algorithm utilizes rejection sampling to exactly sample
+SSA using a "reaction leaping" method.
+
+
+The code is written in C++. It requires the libSBML library before being compiled.
+It was developed using Mac OS X (v10.6) although other operating systems and environments are expected to work. 
+Dependencies
+
+  libSBML 
+  Intel Threading Building Blocks 
+  BOOST 
+
+Download 
+ Source Code  (6/20/2012)
+
+Contact
+For questions or discussion, please contact...
+ 
+  Eric Mjolsness  (corresponding author)
+ David Orendorff 
+ 
+
+
+References
+David Orendorff, Eric Mjolsness.  A Hierarchical Exact Accelerated Stochastic Simulation Algorithm.
+In review, 2012.
+
 
 </div>

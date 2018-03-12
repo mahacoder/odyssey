@@ -1,20 +1,10 @@
-<div>
+<div>html xmlns="http://www.w3.org/1999/xhtml"&gt;
 
-
-		
-	
-	
-		
-Recognitions – Ramesh Jain
-
-
-
-
-
-		
-		
-img.wp-smiley,
-img.emoji
+                account quota @ the bren school of information and computer sciences
+                
+                
+                
+                
 
 
 
@@ -22,10 +12,183 @@ img.emoji
 
 
 
+
+
+
+
+    
+
+        
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    » Account
+
+    
+    » New User Guide
+    » Activation
+    » Password Change/Reset
+    » Quota
+    » Renewal
+    » Mapping Network Drive
+      
+      » Windows
+      » Mac
+      
+    » FAQs     
+    
+
+
+
+
+    » E-mail
+
+    
+    » ICS Google Mail
+    » Specify Delivery Point
+    » Webmail
+    » Thunderbird for ICS Gmail
+    » Thunderbird
+    » Mailing Lists
+    » Forwarding/Vacation/Spam Settings
+    » Email Servers Information
+    » Checking Group Account Email
+    
+
+
+
+
+    » Network
+
+    
+    » UCInet Mobile
+    » VPN
+    » ICS Netreg
+    » UCI Weather Report
+    » Open Port Request
+    
+
+
+
+
+    » Linux
+    
+    
+    » ICS hosts
+    » Changing shell
+    » Using modules
+    » Security
+    » Group account access (gsu)
+    » Sun Grid Engine
+        
+
+
+
+
+    » Other Services
+
+    
+    » Labs
+    » Printing
+    » Activate MS Office
+    » Sophos
+      
+      » Windows
+      » Mac
+          
+    » Microsoft Imagine
+    » File Restore
+      
+      » Self-restore snapshot
+      » Restore request
+      
+      » Quarterly announcements
+       
 
 
  
 
+    » Web
+    
+    
+    » Personal Webpage
+    » General Information
+       
+
+
+
+
+    » Policies
+    
+    
+    » Ethics
+    » Ethics Summary
+    
+
+
+
+
+    » Contact
+    
+    
+    » Helpdesk
+    » Support Staff
+    » Who To Contact
+    
+
+
+
+
+ url("/bin/icssearchstyle/css/icssearch.css");
+
+
+
+  
+Account Quota
+
+
+
+
+Each account type is assigned a different amount of quota as listed below. If your advisor has his/her own space, you may request for your account to be moved there.  This may result in a higher quota.  Please check with your advisor for details.
+If you need more space, please try using the Student Extra Space (not backed up).  To access this storage, ssh into openlab.ics.uci.edu, navigate to /extra/ugrad_space, and create a folder with your username, for example: /extra/ugrad_space/peter.  Please be aware that anything that you store here will not be backed up, so plan accordingly.  
+Quota Allocation
+
+Student
+
+Undergrad - 128GB
+Grad -192GB
+
+
+
+
+Staff 
+
+128GB
+
+
+
+
+Faculty 
+
+192GB
+
+
+
+
+Visitor 
+
+128GB
 
 
 
@@ -33,161 +196,9 @@ img.emoji
 
 
 
-	
-	
-				
-				
-	
-		
-								
-						
-			
-				
-			
-										
-		Search
-		
-	
-						
-							
-																		 
-								
-									Ramesh Jain								
-							
-														Entrepreneur, Researcher, and Teacher
-																
-				
-			
-		
-		
-		
-	
-					About Ramesh
-
-	News
-	Events
 
 
-Towards Weaving the Visual Web
-Research
-
-	Books
-	Patents
-	Presentations
-	Projects
-	Research Papers
-	
-		Computer Vision
-		Experiential Computing
-		Multimedia Information Management
-	
-
-
-
-Teaching
-
-	Current Courses
-	Past Courses
-
-
-Entrepreneurship
-
-	Current Companies
-	Past Companies
-
-
-Partners
-
-	Current Students
-	Past Students
-	Collaborators
-
-
-Professional/Social
-
-	Services
-	Recognitions
-	Interviews
-
-
-Personal
-
-	Affiliations
-	Education
-	Favorite Books
-	Favorite Quotes
-
-
-Digital India: A potentially transformative opportunity
-Navigation
-					 		
-				
-		
-				
-
-
-	
-
-	
-		
-
-			
-			
-    			
-    				Recognitions    			
-  			
-
-  			
-  			
-  			
-    			Award Recognitions
-
-ACM Sig Multimedia Outstanding Achievements Award, 2010
-
-Fellowship Recognitions
-
-American Association for Artificial Intelligence (AAAI)
-Association for Computing Machinery (ACM)
-International Association for Pattern Recognition (IAPR)
-Institute of Electrical and Electronics Engineers (IEEE)
-Society for Photo-optical Instrumentation Engineers (SPIE)
-
-    			  			
-
-  			
-
-
-	
-	
-	
-
-		
-	
-
-
-
-	   
-
-	   
-	   	
-	   
-	   
-			
-
-
-
-				
-			
-				
-			
-			Copyright © 2018 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
-			Back to Top		
-	   
-			
-
-	
-
-	 
+UC copyright | UCI directory | Intranet | Site Map | icswebmaster@ics.uci.edu |    
 
 
 

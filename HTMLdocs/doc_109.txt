@@ -1,6 +1,6 @@
 <div>html xmlns="http://www.w3.org/1999/xhtml"&gt;
 
-                undergraduate degree in computer science and engineering @ the bren school of information and computer sciences
+                add, drop, and change options @ the bren school of information and computer sciences
                 
                 
                 
@@ -237,57 +237,82 @@
 
     
 
-Bren school home &gt; Undergraduate &gt; Degrees
+Bren school home &gt; Undergraduate &gt; policies
 
 
   
-Undergraduate degree in Computer Science and Engineering
+Undergraduate Student Policies
 
 
 
 
-DEGREES AVAILABLE: Major Offered jointly with The Henry Samueli School of Engineering 
+Add, Drop, and Change Options
+The Bren School strictly follows the campus policy for adding, dropping, and changing grade option or variable units for its courses at both the undergraduate and graduate levels.
+However, instructors will sometimes set earlier add or drop deadlines, so it is important to read the syllabus for each class carefully at the start of the quarter. It is the student's responsibility to be aware of deadlines and make the modifications to his or her schedule before those deadlines pass.
+ 
 
-The Computer Science and Engineering major gives students access to multidisciplinary problems with a focus on total systems engineering.
-Students will learn the computer science principles that are critical to development of software, hardware and networking of computer systems.
-From that background, engineering concepts and methods are added to give students exposure to circuit design, network design and digital signal processing.
-Elements of engineering practice include the systems view, manufacturing and economic issues, and multi-disciplinary engineering applications.
-This program is designed to provide students with the fundamentals of computer science, both hardware and software, and the application of engineering concepts, techniques and methods to both computer systems engineering and software system design.
- › Is Computer Science and Engineering for me? › What do I take? › What can I do with this degree? › Still not sure? 
+» Add, Drop, and Change Deadlines
+Always check the course syllabus carefully for course specific add and drop information. If earlier add/drop deadliness are required by the instructor, enrollment will be controlled by the instructor with authorization codes.
+The deadline to add or drop courses and to change grade option or variable units is 5:00pm on Friday of Week 2.
+Once these deadlines have passed, an Enrollment Exception request must be submitted through Student Access.
+ 
 
-Is Computer Science and Engineering for me?
-Graduates of the program will:
 
-establish a productive Computer Science and Engineering career in industry, government, or academia;
-engage in professional practice of computer systems engineering and software systems engineering;
-promote the development of innovative systems and solutions using hardware and software integration;
-promote design, research, and implementation of products and services in the field of Computer Science and Engineering through strong communication, leadership, and entrepreneurial skills.
 
-For more information on CSE goals and objectives see http://plaza.eng.uci.edu/degree-program/cse/mission.
-Annual student enrollment and graduation data can be found at: http://www.oir.uci.edu/student-data.html. Please note that annual student enrollment and graduation data for CSE is the sum of the data under both Engineering and Information and Computer Science.
-↑ Back to top
+Timeline of Enrollment Changes
 
-What do I take?
-CSE Sample 4 Year Plan
-For a full listing of the degree requirements, see the General Catalogue.
-To better help students plan their upcoming quarters, a list of approved science elective courses* for satisfying the CSE major's science elective requirement has been made available.
-*The science elective must be taken at UCI if the student is currently enrolled at UCI.
-Students are encouraged to consult an academic advisor in the Bren School of ICS to determine the coursework designed to meet their educational goals.
-↑ Back to top
 
-What can I do with this degree?
-Computer Science and Engineering majors are involved in building the hardware infrastructure – computers, networks, embedded devices, as well as operating systems, compilers and networking software.
-The focus is on cooperation between hardware and software to yield the highest performance.
-Examples of such problem areas would be in traffic management, flight control, earthquake monitoring, automotive control and smart homes.
-Many students also go on to graduate school, continuing their studies, conducting research, and earning graduate degrees in computer engineering, computer science, information science, management or law.
-↑Back to top
+Week
+Enrollment Actions
+Notes
 
-Still not sure?
- 
-Prospective and current UCI students interested in learning more about the Bren Schoolâs degree options are encouraged to contact us at
-ucounsel@uci.edu.
- 
-↑Back to top
+
+1
+Use WebReg to add, drop, and change grade option or variable units.
+No fee applies.
+
+
+2
+Use WebReg to add, drop, and change grade option or variable units.
+The deadline to add, drop or to change grade option or variable units is 5:00pm on Friday.
+
+
+3-6
+An enrollment exception request must be submitted for adds, drops and changes to grade option or variable units. Supporting documentation is required for all exception requests.
+A $3 transaction fee will apply if the request is approved.
+
+
+7-10
+An enrollment exception request must be submitted for adds, drops and changes to grade option or variable units. Supporting documentation is required for all exception requests.
+A $3 transaction fee will apply if the request is approved. The "W" notation on transcript is applied for dropped courses.
+
+
+
+ 
+» Submitting Enrollment Exception Requests
+Requests to add or drop are reviewed by the academic advising office of the school offering the course, as well as the school of the student's major (if different). Requests to change grade option or variable units require the approval of the academic advising office of the student's major.
+Enrollment exceptions for adds, drops, and change of grade option or variable units in ICS are not guaranteed. Exception requests will only be approved for extenuating and documented circumstances outside of the student's control. It is therefore important to continue attending class meetings and keep up with the assignments until your request is fully processed.
+Requests will be denied if submitted for the following reasons:
+
+You did notknow the deadlines
+You did not understand the Add/Drop process
+You did not know the grade requirements for your degree
+The course is not required to meet Major, School, or University requirements
+You are doing poorly in the course because of difficulties with the course material
+You are doing poorly in the course because of a heavy course/work load
+You are doing poorly in the course because of failure to attend
+
+If your drop request is approved, please let your professor know as a courtesy once you have formally dropped the course.
+ 
+» Course Conflicts
+Time conflicts between courses may be approved on a case-by-case basis. Note that a lecture to lecture conflict will not be approved under any circumstances. If a course's lab or discussion time conflicts with another course's lecture, lab, or discussion, AND there are open spaces in both conflicting sections, follow these steps:
+
+Enroll in one of the conflicting courses (if the conflict involves a lecture, be sure to enroll in the lecture).
+Obtain written approval from both instructors to allow the conflict.
+Forward that approval to ucounsel@uci.edu. Be sure to provide the 5-digit course codes for the conflicting courses.
+Allow ICS Student Affairs 2-3 business days to process the request. You will be notified by email when it has been reviewed.
+If approved, use WebReg to enroll in the conflicting section.
+
 
 
 

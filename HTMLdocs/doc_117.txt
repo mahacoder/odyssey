@@ -1,60 +1,8 @@
-<div>!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-
-
-
-
-p.margin
-{
-margin-top:-1cm;
-margin-bottom:2cm;
-margin-right:2cm;
-margin-left:5cm;
-}
-
-Hernando Ombao UCIrvine
-
-
-
-
-
-Hernando Ombao, Ph.D. 
-
-
-
-Professor 
-Department of Statistics 
-University of California at Irvine  
-Bren Hall, Room 2206 
-Irvine, CA 92697 USA
-Phone: (949) 824-5679 
-Email: hombao AT uci DOT edu 
-
-
-CV
-
-
-
-
-
-
-
-RESEARCH AREAS
-
-
-
-
-Time Series Analysis
-Spatio-temporal modelling
-Statistical Learning
-Applications to Brain Science (fMRI, EEG, MEG, EROS)
-
-
-
-
-
-
-
-RESEARCH GROUPS 
+<div>html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40"&gt;
 
 
 
@@ -63,29 +11,336 @@ RESEARCH GROUPS
 
 
 
-Space-Time Modeling at UC-Irvine
 
-
-Computational Research in Neuroscience 
-
-  
-Recent NSF-Funded Workshop on Statistics in NeuroImaging 
-
- 
-24 July to 26 July 2012 at San Diego, CA 
-
- 
-Co-orgznized with M. Lindquist (Johns Hopkins) 
-and W. Thompson (UCSD) 
- 
-
- 
+Richard H. Lathrop home page
 
 
 
 
-I Support 
-up-and-coming artists
+
+&lt;!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:lightyellow;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:lightyellow;
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:lightyellow;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#FFFF20;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#EFB010;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:lightyellow;}
+address
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"HTML Address Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:lightyellow;
+	font-style:italic;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:lightyellow;}
+span.HTMLAddressChar
+	{mso-style-name:"HTML Address Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"HTML Address";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:lightyellow;
+	font-style:italic;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	color:lightyellow;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+--&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Richard H. Lathrop 
+
+
+
+Orcas Island, Puget Sound, state of Washington, USA 
+
+ 
+
+
+
+
+
+
+
+
+Teaching Fall'2016:
+
+ 
+
+Previous ICS-H197 class (Honors Seminar).
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+ Short Bio | Summary |  Curriculum Vitae | Publications
+| Students | Teaching | Community Service | Industrial Experience | Other 
+
+ 
+
+
+
+
+
+
+
+Research
+Areas: Biomedical
+Informatics and Computational Biology | Artificial Intelligence
+and Machine Learning
+
+Programs: ICS Honors Program
+(Director) | Computer
+Science &amp; Engineering (Steering Committee) | Institute for Genomics and Bioinformatics
+(Program Leader)
+
+Institutional:
+Computer Science Department (home)
+| Biomedical Engineering Department
+(courtesy) | Bren School of
+Information and Computer Sciences (ICS) | University of California, Irvine (UCI)
+
+
+External: Intl. Soc. for Computational Biology (Board of
+Directors) | ISMB 2012 Conference
+(Co-Chair) | Verdezyne, Inc. (Co-Founder)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+"Blessed are they who can laugh at themselves, for they shall never
+cease to be amused." 
+
+
+
+
+
+
+
+Computer ScienceDepartment
+
+Donald Bren School of Information and Computer
+Sciences 
+University of California, Irvine 
+Irvine, CA 92697-3435 USA 
+phone: (949) 824-4021 
+fax: (949) 824-4056 
+email: rickl@uci.edu 
+
+
+Last modified: November 19, 2010 
 
 
 

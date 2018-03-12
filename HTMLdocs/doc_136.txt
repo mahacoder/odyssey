@@ -1,22 +1,197 @@
-<div>P&gt;A Robust Multisignature Scheme with Applications to Multicast Acknowledgement 
-			Aggregation 
+<div>
+
+
+		
 	
-	Claude Castelluccia, Stanislaw Jarecki, Jihye Kim, Gene Tsudik
-ABSTRACT:
+	
+		
+Current Companies – Ramesh Jain
 
 
-The source of multicast communication needs to securely verify which 
-multicast group members have received a multicast message, 
-but verification of individually signed acknowledgments from each 
-receiver imposes unnecessary computation and communication 
-costs.  We propose a solution which allows the intermediate 
-nodes along the multicast distribution tree to aggregate the authenticated 
-acknowledgments sent by the multicast receivers to the source. 
-Our solution consists of a new multisignature scheme, secure under the 
-	discrete logarithm assumption in the random oracle model, which blends the 
-	well-known Schnorr signature scheme with the Merkle hash tree structure. The 
-	multisignature scheme we propose has a novel property of robustness, which 
-	allows for an efficient multisignature generation even in the presence 
-	of maliciously faulty nodes.
+
+
+
+		
+		
+img.wp-smiley,
+img.emoji
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+	
+	
+				
+				
+	
+		
+								
+						
+			
+				
+			
+										
+		Search
+		
+	
+						
+							
+																		 
+								
+									Ramesh Jain								
+							
+														Entrepreneur, Researcher, and Teacher
+																
+				
+			
+		
+		
+		
+	
+					About Ramesh
+
+	News
+	Events
+
+
+Towards Weaving the Visual Web
+Research
+
+	Books
+	Patents
+	Presentations
+	Projects
+	Research Papers
+	
+		Computer Vision
+		Experiential Computing
+		Multimedia Information Management
+	
+
+
+
+Teaching
+
+	Current Courses
+	Past Courses
+
+
+Entrepreneurship
+
+	Current Companies
+	Past Companies
+
+
+Partners
+
+	Current Students
+	Past Students
+	Collaborators
+
+
+Professional/Social
+
+	Services
+	Recognitions
+	Interviews
+
+
+Personal
+
+	Affiliations
+	Education
+	Favorite Books
+	Favorite Quotes
+
+
+Digital India: A potentially transformative opportunity
+Navigation
+					 		
+				
+		
+				
+
+
+	
+
+	
+		
+
+			
+			
+    			
+    				Current Companies    			
+  			
+
+  			
+  			
+  			
+    			
+
+
+Company
+About
+Position
+
+
+Krumbs
+ Developing early versions of Visual Web.  Every photo is connected to many other photos using implicit links. A modern photo is really a Focused Micro Blog 
+Co-Founder
+
+
+
+    			  			
+
+  			
+
+
+	
+	
+	
+
+		
+	
+
+
+
+	   
+
+	   
+	   	
+	   
+	   
+			
+
+
+
+				
+			
+				
+			
+			Copyright © 2018 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
+			Back to Top		
+	   
+			
+
+	
+
+	 
+
+
+
 
 </div>

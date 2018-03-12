@@ -1,11 +1,10 @@
-<div>!DOCTYPE html&gt;
+<div>
 
 
 
-Optimization Papers | Eric Mjolsness
 
 
-
+Contact Us – ICS Honors Program
 
 
 
@@ -17,185 +16,156 @@ img.emoji
 
 
 
+
+
+
+
+
+
+
+
+
  
 
 
 
 
 
-
-
-
-
-	
+        
+				a, 
+				.tm_client strong,
+				.postmeta a:hover,
+				#sidebar ul li a:hover,
+				.blog-post h3.entry-title,
+				.woocommerce ul.products li.product .price,
+				h2.entry-title a:hover,
+				#sidebar a:hover,
+				.copyright a,
+				.current-right h3 a,
+				.top-left .fa-envelope, .top-left .fa-phone{
+					color:#03a9f5;
+				}
+				a.blog-more:hover,
+				.nav-links .current, 
+				.nav-links a:hover,
+				#commentform input#submit,
+				input.search-submit,
+				.nivo-controlNav a.active,
+				.blog-date .date,
+				a.read-more,
+				.contact-strip,
+				.main-nav ul li.menu-item-has-children:hover a,
+				.main-nav ul li a:hover,
+				.main-nav ul li.current-menu-item a{
+					background-color:#03a9f5;
+				}
 		
+			.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
 			
-								
-					
-						Eric Mjolsness
-					
-				
-				Department of Computer Science, University of California Irvine
+			#header{
+			background: url() no-repeat;
+			background-position: center top;
+		}
+		.logo h1 a
+		
+	
+	
 
+		
+		
+				
+            	
+            				
+				
 										
-								
-
-			
-			  				Skip to content
-								
-HomeAbout
-Papers
-
-	Computational Biology Papers
-	Modeling Frameworks Papers
-	Machine Learning Papers
-	Vision and Image Analysis Papers
-	Optimization Papers
-	Cognition Papers
-	Computational Field Geology Papers
-	Neural Network Papers
-	Calculational papers
-
-
-Projects
-
-	Computational Biology Projects
-	
-		Computable Plant Project
-	
-
-
-
-Topics
-Software
-
-	Research Software – Computational Biology
-	Cambium biomathematical model translation software
-
-
-Talks
-
-	Talks – Computational Biology
-
-
-Teaching
-PhD Theses
-Reviews
-Grand Questions
-CV &amp; News
-Opportunities
-
-			
-		
-	
-
-	
-
-		
-			
-
-			
-
-				
-											Optimization Papers
-					
-					
 						
-
-
-
-
-
-(1999)  Convergence properties of the softassign quadratic assignment algorithm. Anand Rangarajan, Alan Yuille, and Eric Mjolsness, Neural Computation 11(6), 1455-1474 1999. [ Preprint ]
-(1996)  A Lagrangian relaxation network for graph matching. Anand Rangarajan and Eric Mjolsness, IEEE Transactions on Neural Networks, vol 7 no 6, November 1996. [Preprint ]
-(1996)  A novel optimizing network architecture with applications. Anand Rangarajan, Steven Gold, and Eric Mjolsness, Neural Computation, vol 8 no 5, July 1996. [ PDF Preprint | Postscript Preprint ]
-(1996)  A Multiscale Attentional Framework for Relaxation Neural Networks. Dimitris I. Tsioutsias and Eric Mjolsness,  Advances in Neural Information Processing Systems 8, MIT Press, 1996. [ Paper ]
-
-(1994)  Optimization dynamics for partitioned neural networks Dimitris I. Tsioutsias and Eric Mjolsness. International Journal of Neural Systems, December 1994. [Technical Report]
-(1993)  Accelerating neural net dynamics by boundary layer methods Willard L. Miranker and Eric Mjolsness, Applied Mathematics Letters, vol 6, no 3, pp. 85-89, 1993. [ Paper ]
-(1991)  Multiscale optimization in neural networks, Eric Mjolsness, Charles Garrett, and Willard Miranker, IEEE Transactions on Neural Networks, vol 2 no 2, March 1991. [Paper ]
-(1990)  Algebraic transformations of objective functions. Eric Mjolsness and Charles Garrett, Neural Networks , vol 3, no 6, pp 651-669, 1990. [ Paper ]
-
-
-
-
-
- 
- 
- 
- 
-
-																	
 				
-
-				
-			
-
-
-
-
-
-
-
-			
 		
-
-
 		
-			
+            	
+						
+													ICS Honors Program
 
-
-				
-					Search for:
-					
-					
-				
-							Recent Posts		
 											
-					UCI academic site
-									
-					
-		Recent CommentsArchives		
-			December 2012
-		
-		Categories		
-	Uncategorized
-
-		
-Meta			
-						Log in
-			Entries RSS
-			Comments RSS
-			WordPress.org			
+                  
 						
+							Menu
+						 						
+						
+							Program Overview
+
+	Step 1: Course Requirements
+	Step 2: Honors Seminar (ICS H197)
+	Step 3: Finding a Faculty Advisor and Taking CS H198
+	Step 4: Start Your Research
+	Step 5: Completing the Program
+
+
+Apply
+Forms
+Additional Resources
+
+	Student Testimonials
+	Graduate School Resources
+	Other Research and Honors Opportunities
+	Sample Theses
+
+
+Contact Us
+							
+												
+										
+                           
+		
+	
+    	
+                    
 		
 
+      
+         
+
+    
+        
+							
+
+	
+		Contact Us
 	
 
 	
-		
+		ICS Honors Program Faculty Advisor
+
+Professor Rick Lathrop
+
+Website: http://www.ics.uci.edu/~rickl/
+Email: rickl [at] uci.edu
+Office: DBH 4224
+
+ICS Honors Program Academic Counselor
+Michelle Nguyen
+
+Email: mvn [at] uci.edu
+Office: ICS Student Affairs Office
 
 
-
+ICS Student Affairs Office
+The ICS Student Affairs Office is located in ICS 352.
+To make an appointment, please contact us at (949) 824-5156.
 			
-				
-					Eric Mjolsness				
-			
-
-			
-								Proudly powered by WordPress.
-			
-
-		
 	
+							        
+        
+    
 
 
-
-
-
-
-
-
+        
+        	
+                
+                         
+            
+        
+    
 
 
 

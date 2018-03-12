@@ -1,213 +1,67 @@
-<div>!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
-
-
-  The Eighth IEEE Computer Society Workshop on Perceptual Organization in Computer Vision
-  
-  
-  
+<div>!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
 
 
 
+Geoffrey C. Bowker | Department of Informatics, ICS | University of California, Irvine
 
 
-  
-    
-      
-      
-      
-      
-      POCV
-2012
-      
-The Eighth IEEE Computer Society Workshop on Perceptual Organization in Computer Vision
-
-      
-      Providence, Rhode Island, USA
-June 16, 2012
-In Conjunction with IEEE CVPR 2012
-
-    
-  
-
-
-
-
-
+&lt;!--
+a:link, 
+a:visited
+a:hover
+a:active
+--&gt;
 
 
 
 
   
-    
-      
 
-Home
-      
-      
-      
-Technical Program
-
-
-      Program Committee
-
-
-
-Workshop Chairs
-      
-      
+  
         
-          
-            Iasonas Kokkinos,
-Ecole Centrale Paris
+            Geoffrey C. Bowker
+              Professor 
+              Director, Values in Design Laboratory
+              Department of Informatics
+E-mail: gbowker@uci.edu 
+
+Current CV | Bio Page
             
-Charless Fowlkes, 
-University of California, Irvine
             
           
+          
         
-      
-      
-
-
-
-      
-      
-
-
-      
-
-NEWS
-
-The submission deadline is now April 9th. 
-The electronic submission system is now online at: https://cmt.research.microsoft.com/POCV2012.
-
-
-Theme
-
-Perceptual Organization is the process of establishing a meaningful relational
-structure over raw visual data so as visual primitives arising from the common
-physical cause are grouped together. A driving motivation behind perceptual
-organization research in computer vision is to deliver compact representations
-and to reduce the space of hypotheses for higher-level visual tasks. Since
-early demonstrations in the 1980s underscored its usefulness in object
-recognition, the computer vision community has seen various applications of PO
-in artificial vision systems such as in figure-ground segmentation, contour
-completion, stereo matching, model indexing, change detection, activity
-recognition, and more. Recent progress in PO has encouraged more participation
-from experts in related areas such as object recognition, texture and motion
-analysis.
-
-Because of its wide applicability, the potential payoff from perceptual
-organization research is enormous.  Among the objectives of POCV is to
-encourage presentation of new ideas and facilitate discussion on the future of
-PO. To this end, papers introducing novel concepts will be considered for
-acceptance even if they lack full experimental validation. The schedule will
-include longer periods for questions and answers after each talk than CVPR to
-enable dialogue and the exchange of ideas. 
-
-This POCV workshop will place a special emphasis on works that use PO to build
-a bridge between low- and high-level vision. 
-
-
-
-Invited Speakers
-
-Kristin Grauman, University of Texas, Austin
-Pedro Felzenszwalb, Brown University
-Ronen Basri, Weizmann Institute
-Jitendra Malik, University of California, Berkeley
-
-
-
-
- 
-Scope
-Papers are solicited in all areas of perceptual organization, including but not limited to:
-
-     image segmentation
-     contour completion
-     spatiotemporal/motion segmentation
-     figure-ground discrimination
-     integration of top-down and bottom-up methods
-     perceptual organization for object or activity detection/recognition
-     unification of segmentation, detection and recognition
-     biologically-motivated methods
-     neural basis for perceptual organization
-     learning in perceptual organization
-     graphical methods
-     natural scene statistics 
-     evaluation methods 
-
-This POCV workshop will place a special emphasis on works that use PO to bridge the gap between low- and high-level vision. 
-
-
-
-
- 
-Paper Submission
-
-Submission is electronic, and must be in PDF format. Papers must not exceed 8
-double-column pages. Submissions must follow standard IEEE CVPR 2-column format
-of single-spaced text in 10 point Times Roman, with 12 point interline space.
-All submissions must be anonymous. Please us the IEEE Computer Society CVPR
-format kit.
-
-All reviewing will be double blind, so the paper must not
-include any information which allows the authors to be identified. For example,
-this might require that some references to the authors' previous work be left
-blank or that authors refer to their previous work in the third person. This is
-not optional. Papers that provide obvious identifying information may be
-rejected without review.
-
-As per conference policy, camera ready versions of accepted papers will be
-submitted to IEEE and authors must submit the IEEE copyright transfer form.
-Each paper is allocated 6 pages for no additional cost. Additional pages, up to
-8 total, are $100/page which must be paid with the author's registration. No
-paper may be more than 8 pages.  One author of each paper must register for the
-conference by the camera-ready due date, or the paper will not be included on
-the conference DVD or in IEEE Explorer. There will be 1-day registration too,
-if anyone wants to just attend a workshop. Otherwise the regular CVPR
-registration will cover all workshops as usual.
-
-In submitting a paper to the POCV Workshop, authors acknowledge that no paper
-of substantially similar content has been or will be submitted to another
-conference or workshop during the POCV review period. Dual submission of 
-accepted CVPR papers allowed as long as there is at least 30% new content
-
- 
-
-
-
-
-Important Dates
-
-     Submission deadline: 11:59pm PST, April 9, 2012
-     Reviews Due: April 22, 2012
-     Notification: April 24, 2012
-     Camera ready versions due May 1, 2012
+        
   
 
-Past POCV Workshops
+Here at the Bren School of Information and Computer Sciences, I am delighted to serve as Professor and Director of our Values in Design Laboratory. Prior to finding a place in the sun, I was Professor of Cyberscholarship at the iSchool, University of Pittsburgh, and before that Executive Director and the Regis and Dianne   McKenna Professor at the Center for Science, Technology and Society at Santa   Clara University (CA). 
+I research on the use of web and other  digital resources across a set of disciplines. I work with scholars to uncover  ways in which new forms of knowledge are being (or could be) generated by  creative use of  these digital resources.  For example: how did a complete database of  classical Greek literature transform work in the classics; or how could  intensive, long term monitoring of ecosystems feed into a new policy framework  for sustainability? 
+The Values in Design Laboratory has a mission to train researchers in the broad range of disciplines necessary (including Informatics, Computer Science, Design and Science and Technology Studies) to produce new forms of information systems and technology which express/perform strong social and ethical values.
+ I earned my PhD at the University of Melbourne, Australia, in   History and Philosophy of Science and followed up with an extended post doctoral   position at the Ecole des Mines in Paris.
+ My work on information infrastructure involves looking at shifting
+  classification systems in medicine, distributed collaborative work
+    practices in environmental science, data sharing practices and biodiversity informatics.
+  My central analytic
+  question here is how scientists in the various sciences contributing to
+  the subject of biodiversity communicate both with
+  each other and with
+  policymakers - and in particular how do the data structures and practices
+  in use affect this communication. Here is an interview with 
+  me about classification and infrastructure.  Here is
+  a paper
+  written with Marc Berg on medical records; and here is one written with 
+  Leigh Star on classification, standards and 
+    actor-network theory.   Here is a more complete set of papers.
+ My book on information
+  management and industrial geophysics at Schlumberger, Science
+    on the Run, is to be found in quality bookshops in airports
+  everywhere; my book with Susan Leigh Star,  Sorting Things Out: Classification and its
+    Consequences was published by MIT Press in October,
+  1999 and is available at your neighbourhood online bookseller.  A
+  paperback version came out in September 2000. I am working right now
+  (even as you are reading this) on distributed scientific work, with an emphasis on social and organizational features of emerging scientific cyberinfrastructures. My most recent publication, All Knowledge Is Local, was recently published in Learning Communities: An International Journal of Learning in Social Contexts in 2010. I am on the editorial board of The Information Society, Information and Organization, Metascience and Social Studies of Science.
+And here is my cat, or at least one of them - and that was then, you should see her now... . 
 
-     2010 CVPR (San Francisco, CA) 
-     2008 CVPR (Anchorage, AK) 
-     2006 CVPR (New York, NY) 
-     2004 CVPR (Washington, DC) 
-     2001 ICCV (Vancouver, Canada) 
-     1999 ICCV (Crete, Greece)
-     1998 CVPR (Santa Barbara, CA)
-
-
-      
-      
-    
-    
-      
-      
-      
-      
-    
-  
 
 
 
@@ -215,5 +69,11 @@ Past POCV Workshops
 
 
 
- 
+
+
+
+
+
+
+
 </div>

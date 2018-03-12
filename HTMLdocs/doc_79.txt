@@ -1,39 +1,185 @@
-<div>h1&gt;
-Cambium-Plenum Translator
+<div>!DOCTYPE html&gt;
 
 
 
-This translator provides automatic, bidirectional syntactic transformations 
-between the Cambium intermediate process language and dynamical grammar models 
-that can be simulated in Plenum.
-
+Projects | Eric Mjolsness
 
 
 
 
-Usage
 
 
-The translations operate through Mathematica transformation rules.  
-Within Mathematica, translation from Plenum to Cambium can be executed via
 
-	cambiumVersion = plenumGrammar //. TranslateP2C
+		
+		
+img.wp-smiley,
+img.emoji
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 	
-where "//." is Mathematica's ReplaceRepeated operator.  
-Similarly, Cambium-to-Plenum translation is executed as 
+		
+			
+								
+					
+						Eric Mjolsness
+					
+				
+				Department of Computer Science, University of California Irvine
 
-	plenumGrammar = cambiumVersion //. TranslateC2P
+										
+								
+
+			
+			  				Skip to content
+								
+HomeAbout
+Papers
+
+	Computational Biology Papers
+	Modeling Frameworks Papers
+	Machine Learning Papers
+	Vision and Image Analysis Papers
+	Optimization Papers
+	Cognition Papers
+	Computational Field Geology Papers
+	Neural Network Papers
+	Calculational papers
+
+
+Projects
+
+	Computational Biology Projects
 	
-Translation examples can be found in the download below.
+		Computable Plant Project
+	
+
+
+
+Topics
+Software
+
+	Research Software – Computational Biology
+	Cambium biomathematical model translation software
+
+
+Talks
+
+	Talks – Computational Biology
+
+
+Teaching
+PhD Theses
+Reviews
+Grand Questions
+CV &amp; News
+Opportunities
+
+			
+		
+	
+
+	
+
+		
+			
+
+			
+
+				
+											Projects
+					
+					
+						Computational Biology
+– Computable Plant
+Modeling Frameworks
+– Cellerator modeling languages
+– Dynamical Grammar modeling language
+Machine Learning
+Synthesis of my current interests: Mathematical approaches to mixed symbolic/numerical computing, together with machine learning, for computational science focusing mainly on computational biology.
+ 
+																	
+				
+
+				
+			
 
 
 
 
 
-Download
 
 
-The Mathematica notebook for the translator, along with several examples, 
-can be found here.  For other Plenum grammar examples, see the Plenum
-and Plenum Models pages.
+			
+		
+
+
+		
+			
+
+
+				
+					Search for:
+					
+					
+				
+							Recent Posts		
+											
+					UCI academic site
+									
+					
+		Recent CommentsArchives		
+			December 2012
+		
+		Categories		
+	Uncategorized
+
+		
+Meta			
+						Log in
+			Entries RSS
+			Comments RSS
+			WordPress.org			
+						
+		
+
+	
+
+	
+		
+
+
+
+			
+				
+					Eric Mjolsness				
+			
+
+			
+								Proudly powered by WordPress.
+			
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+
 </div>

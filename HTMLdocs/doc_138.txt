@@ -5,7 +5,7 @@
 	
 	
 		
-Professional/Social – Ramesh Jain
+Recognitions – Ramesh Jain
 
 
 
@@ -134,13 +134,25 @@ Navigation
 			
 			
     			
-    				Professional/Social    			
+    				Recognitions    			
   			
 
   			
   			
   			
-    			    			  			
+    			Award Recognitions
+
+ACM Sig Multimedia Outstanding Achievements Award, 2010
+
+Fellowship Recognitions
+
+American Association for Artificial Intelligence (AAAI)
+Association for Computing Machinery (ACM)
+International Association for Pattern Recognition (IAPR)
+Institute of Electrical and Electronics Engineers (IEEE)
+Society for Photo-optical Instrumentation Engineers (SPIE)
+
+    			  			
 
   			
 

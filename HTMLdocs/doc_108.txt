@@ -1,236 +1,11 @@
-<div>html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40"&gt;
-
-
-
-
-
-
-
-
-
-Richard H. Lathrop home page
-
-
-
-
-
-&lt;!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:roman;
-	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:lightyellow;}
-h1
-	{mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 1 Char";
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	mso-outline-level:1;
-	font-size:24.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:lightyellow;
-	font-weight:bold;}
-h2
-	{mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 2 Char";
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	mso-outline-level:2;
-	font-size:18.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:lightyellow;
-	font-weight:bold;}
-a:link, span.MsoHyperlink
-	{mso-style-priority:99;
-	color:#FFFF20;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:#EFB010;
-	text-decoration:underline;
-	text-underline:single;}
-p
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-margin-top-alt:auto;
-	margin-right:0in;
-	mso-margin-bottom-alt:auto;
-	margin-left:0in;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:lightyellow;}
-address
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"HTML Address Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:lightyellow;
-	font-style:italic;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Balloon Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	color:lightyellow;}
-span.HTMLAddressChar
-	{mso-style-name:"HTML Address Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"HTML Address";
-	mso-ansi-font-size:12.0pt;
-	mso-bidi-font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-ascii-font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	color:lightyellow;
-	font-style:italic;}
-span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 1";
-	mso-ansi-font-size:14.0pt;
-	mso-bidi-font-size:14.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#365F91;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	font-weight:bold;}
-span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 2";
-	mso-ansi-font-size:13.0pt;
-	mso-bidi-font-size:13.0pt;
-	font-family:"Cambria","serif";
-	mso-ascii-font-family:Cambria;
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Cambria;
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#4F81BD;
-	mso-themecolor:accent1;
-	font-weight:bold;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Balloon Text";
-	mso-ansi-font-size:8.0pt;
-	mso-bidi-font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";
-	mso-ascii-font-family:Tahoma;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Tahoma;
-	mso-bidi-font-family:Tahoma;
-	color:lightyellow;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;}
-@page WordSection1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
-div.WordSection1
-	{page:WordSection1;}
---&gt;
+<div>!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
 
 
 
 
 
+uc irvine::bren school::lab hours
 
 
 
@@ -238,15 +13,13 @@ div.WordSection1
 
 
 
- 
 
-Richard H. Lathrop 
 
 
+ "/bin/styles/stylesheet_secondary.css";
 
-Orcas Island, Puget Sound, state of Washington, USA 
 
- 
+ 
 
 
 
@@ -254,93 +27,368 @@ Orcas Island, Puget Sound, state of Washington, USA
 
 
 
+Skip over navigation
 
-Teaching Fall'2016:
 
- 
+This site will look much better in a browser that supports web standards, but it is accessible to any browser or Internet device.
 
-Previous ICS-H197 class (Honors Seminar).
 
- 
 
+	
 
 
 
- 
 
 
+      
 
 
+         #school_header
 
 
+         #school_link
 
- Short Bio | Summary |  Curriculum Vitae | Publications
-| Students | Teaching | Community Service | Industrial Experience | Other 
 
- 
+         #uci_link
 
 
+      
 
 
 
+      
 
+         
 
-Research
-Areas: Biomedical
-Informatics and Computational Biology | Artificial Intelligence
-and Machine Learning
+         
 
-Programs: ICS Honors Program
-(Director) | Computer
-Science &amp; Engineering (Steering Committee) | Institute for Genomics and Bioinformatics
-(Program Leader)
+      
 
-Institutional:
-Computer Science Department (home)
-| Biomedical Engineering Department
-(courtesy) | Bren School of
-Information and Computer Sciences (ICS) | University of California, Irvine (UCI)
 
 
-External: Intl. Soc. for Computational Biology (Board of
-Directors) | ISMB 2012 Conference
-(Co-Chair) | Verdezyne, Inc. (Co-Founder)
 
 
 
 
 
 
+    
 
+                
+            
+                
+                
+                
+                    ABOUT
 
+                    
+                    
+                        About the School
+                        Dean's Welcome
+                        Facts and Figures
+                        Donald Bren Hall
+                        Visit the Bren School
+                        Equity &amp; Diversity
+                        Contact Us
+                        
+                                   
+                
+                
+                
+                
+                     DEPARTMENTS 
+                    
 
+                    
+                        Computer Science
+                        Informatics
+                        Statistics
+                                   
+                
+                
+                
+                
+                     RESEARCH 
+                
+                
+                    
+                        Research Areas
+                        Research Centers
+                        Research Highlights
+                    
+                
+                
+                
+                
+                
+                
+                     EDUCATION 
+                    
+
+                    
+                        Graduate ▸ 
+                        
+                            
+                            Prospective Students
+                            How to Apply
+                            Programs of Study
+                            Academic Year Plan
+                            Forms
+                            Policies
+                            Funding &amp; Housing
+                            Computing Support
+                            Campus Resources
+                            Visit the Bren School
+                            Graduate Student Handbook
+                            Contact
+                            
+
+                        
+                        
+                        Undergraduate ▸ 
+                        
+                            
+                            Contact
+                            Academic Advising
+                            Course Updates
+                            Academic Year Plan
+                            Petitions
+                            ICS Majors
+                            ICS Minors
+
+                            Policies: Academic Integrity
+                            Policies: Academic Standing
+                            Policies: Add, drop, &amp; change options
+                            Policies: Coursework outside UCI
+                            Policies: Grade policy
+                            Policies: Laptop &amp; computer use
+                            Policies: Withdrawal/Readmission
+                            Policies: CS 199 / IN4MATX 199 Courses
+
+                              Graduation
+                              ICS Student Life
+                              Upcoming Events
+                              Computing Support
+                              
+                           
+                        
+
+                        
+                        Prospective Undergrad
+
+
+                        Scholarships &amp; Fellowships
+                        
+                                                    
+                                   
+                
+
+    
+                
+                    
+                    PEOPLE                      
+                    
+                
+                    
+                        Faculty
+                        Staff
+                        Graduate Students
+                        Alumni
+                       
+                
+                                
+                
+                 
+                
+                    NEWS &amp; EVENTS
+                    
+                    
+                    
+                        Newsroom
+                        Events
+                        Press Releases
+                        Annual Reports
+                        Student Blogs
+                       
+                
+
+                
+                
+                    GET INVOLVED
+                
+                
+                    
+                    
+                            Make a Gift
+                            Leadership Council
+                            Corporate Partners
+                            Sponsor Projects
+                            Product Development Competition
+                            ZotLink Jobs &amp; Internships
+                            
+                                   
+                
+
+
+                 
+                                 
+
+            
+
+ url('/bin/icssearchstyle/css/icssearch.css');
+
+
+
+
+            
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    	Bren school home &gt; labs home &gt; 
+	
+	
+	
+
+    Lab hours »
+
+			
+			
+
+			
+
+
+        Winter Quarter:
+        Finals Week Schedule
+
+
+        Holidays: All labs closed
+			
+
+          Martin Luther King Jr. Holiday (Monday, January 15th)
+
+          Presidents' Day Holiday (Monday, February 19th)
+        	
+
+
+        CS 364b Open Lab and 364a Laptop Instructional Lab
+			Located on the third floor of the Computer Science Building.
+
+        	
+				Monday - Friday	 8:00AM to 10:00PM
+			    Saturday - Sunday	12:00PM to 6:00PM
+        	
 
 
+        CS183,
+          CS189,
+          CS192,
+					CS2 162,
+					CS2 170
+          
+        Located on the first floor of the Computer Science Building.
+        
+          Please click on the room number above to view
+          the reservation schedule for the current quarter. Lab reservation schedules
+          are also posted outside each lab door.
+        
+          Monday - Friday	8:00AM to 8:00PM
+          Saturday - SundayClosed
+        
 
+        CS193 Reserved for Project Class in Software
+          System Design
+        Located on the first floor of the Computer Science Building. To get
+          access to this lab, you must be enrolled in Informatics 191.
+          Please read the class policy. 
+         
+	
+	
 
- 
 
-"Blessed are they who can laugh at themselves, for they shall never
-cease to be amused." 
 
 
 
+	
+							
+		
+				
+					
+						
+						
+			
+			
+			
 
+						
 
+				
+			
+				
+			
+			
+			
+			
+						
+				
+				
+			
 
+				
+			
+		
+    More labs»
+        	
 
-Computer ScienceDepartment
+      Hours
 
-Donald Bren School of Information and Computer
-Sciences 
-University of California, Irvine 
-Irvine, CA 92697-3435 USA 
-phone: (949) 824-4021 
-fax: (949) 824-4056 
-email: rickl@uci.edu 
+      Hardware/Software
 
+      Students
 
-Last modified: November 19, 2010 
+      Faculty
+
+      Policies
+
+      Lab Assistants
+
+      Project ICS
+
+      Computing Support
+             
+	
+
+
+
+
+Copyright Inquiries |
+UCI Directory |
+Intranet |
+   
+   
+ 
+icswebmaster |
+
+Updated: 
+January 04 2018
+
+
+
+
+
+
+
 
 
 

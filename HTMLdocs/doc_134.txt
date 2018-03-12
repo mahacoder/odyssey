@@ -1,210 +1,73 @@
-<div>
+<div>html&gt;
+    
+        Home : index
+	    
+        
+    
 
+    
+	    
+		    
+			    
 
-		
-	
-	
-		
-Past Companies – Ramesh Jain
-
-
-
-
-
-		
-		
-img.wp-smiley,
-img.emoji
-
-
-
-
-
-
-
-
-
+				    
  
 
 
 
 
+Michael J. Carey
+
+
+
+Department of Computer Science
+
+Bren School of Information and Computer Sciences
+
+University of California, Irvine
 
 
 
 
-	
-	
-				
-				
-	
-		
-								
-						
-			
-				
-			
-										
-		Search
-		
-	
-						
-							
-																		 
-								
-									Ramesh Jain								
-							
-														Entrepreneur, Researcher, and Teacher
-																
-				
-			
-		
-		
-		
-	
-					About Ramesh
-
-	News
-	Events
 
 
-Towards Weaving the Visual Web
-Research
-
-	Books
-	Patents
-	Presentations
-	Projects
-	Research Papers
-	
-		Computer Vision
-		Experiential Computing
-		Multimedia Information Management
-	
+	PROFESSIONAL INTERESTS
+	EDUCATION
+	PROFESSIONAL EXPERIENCE
+	PUBLICATIONS
+	PROFESSIONAL ACTIVITIES
+	GRADUATE THESES SUPERVISED
+	RESEARCH FUNDING
+	HONORS and AWARDS
+	PATENTS
+	INVITED LECTURES and PANELS
+	CONTACT
 
 
-
-Teaching
-
-	Current Courses
-	Past Courses
+ 
 
 
-Entrepreneurship
+Professional Interests
 
-	Current Companies
-	Past Companies
+Big Data management, database management systems, information integration, middleware, parallel and distributed systems, computer system performance evaluation.
 
+Education
 
-Partners
+Ph.D. in Computer Science, December 1983.
+University of California at Berkeley
 
-	Current Students
-	Past Students
-	Collaborators
+M.S. in Electrical Engineering (Computer Engineering), May 1981.
+Carnegie-Mellon University
 
-
-Professional/Social
-
-	Services
-	Recognitions
-	Interviews
+B.S. (University Honors) in Electrical Engineering and Mathematics, May 1979.
+Carnegie-Mellon University
 
 
-Personal
-
-	Affiliations
-	Education
-	Favorite Books
-	Favorite Quotes
+Home
 
 
-Digital India: A potentially transformative opportunity
-Navigation
-					 		
-				
-		
-				
-
-
-	
-
-	
-		
-
-			
-			
-    			
-    				Past Companies    			
-  			
-
-  			
-  			
-  			
-    			
-
-
-Company
-About
-Position
-
-
-
-Praja
-PRAJA was conceived and cofounded, with C.K. Prahalad, based on research at UCSD. PRAJA was the leading provider of infrastructure software technology for development of event-based information management. PRAJA worked with several companies, including Yahoo and GM. PRAJA was acquired by Tibco in September 2002.
-CTO, President, CEO, Co-Founder
-
-
-
-Virage
-The Virage platform enables the integration of streaming video with value-added applications such as advertising, pay-per-view, subscription and syndication. Virage became a public company (NASDAQ: VRGE) in June 2000.
-CEO, Chairman, Director
-
-
-
-NX Imageware
-This company was dedicated to linking virtual and physical worlds by providing solutions for surface modeling, reverse engineering, rapid prototyping and inspection. The company was the leader in its domain and automobile and aerospace industries. The company was acquired by SDRC in 1998. Now the leading surfacing products from SDRC are based on ImageWare products.
-Chairman, Director
-
-
-
-    			  			
-
-  			
-
-
-	
-	
-	
-
-		
-	
-
-
-
-	   
-
-	   
-	   	
-	   
-	   
-			
-
-
-
-				
-			
-				
-			
-			Copyright © 2018 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
-			Back to Top		
-	   
-			
-
-	
-
-	 
-
-
-
-
+                    			    
+		    
+	    
+    
 </div>

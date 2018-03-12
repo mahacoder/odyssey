@@ -1,183 +1,54 @@
 <div>
 
-
-		
-	
-	
-		
-Teacher – Ramesh Jain
-
-
-
-
-
-		
-		
-img.wp-smiley,
-img.emoji
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-	
-	
-				
-				
-	
-		
-								
-						
-			
-				
-			
-										
-		Search
-		
-	
-						
-							
-																		 
-								
-									Ramesh Jain								
-							
-														Entrepreneur, Researcher, and Teacher
-																
-				
-			
-		
-		
-		
-	
-					About Ramesh
-
-	News
-	Events
-
-
-Towards Weaving the Visual Web
-Research
-
-	Books
-	Patents
-	Presentations
-	Projects
-	Research Papers
-	
-		Computer Vision
-		Experiential Computing
-		Multimedia Information Management
-	
-
-
-
-Teaching
-
-	Current Courses
-	Past Courses
-
-
-Entrepreneurship
-
-	Current Companies
-	Past Companies
-
-
-Partners
-
-	Current Students
-	Past Students
-	Collaborators
-
-
-Professional/Social
-
-	Services
-	Recognitions
-	Interviews
-
-
-Personal
-
-	Affiliations
-	Education
-	Favorite Books
-	Favorite Quotes
-
-
-Digital India: A potentially transformative opportunity
-Navigation
-					 		
-				
-		
-				
-
-
-	
-
-	
-		
-
-			
-			
-    			
-    				Teacher    			
-  			
-
-  			
-  			
-  			
-    			    			  			
-
-  			
-
-
-	
-	
-	
-
-		
-	
-
-
-
-	   
-
-	   
-	   	
-	   
-	   
-			
-
-
-
-				
-			
-				
-			
-			Copyright © 2018 Ramesh Jain |  Theme by: Theme Horse |  Powered by: WordPress
-			Back to Top		
-	   
-			
-
-	
-
-	 
-
-
-
+  
+  Computational Vision | ICS | UC Irvine
+  
+
+
+
+  
+  
+    Computational Vision at UC Irvine  
+  
+  
+    
+      home
+      projects
+      people
+      publications
+      datasets
+      events
+      courses
+      contact
+      links
+    
+  
+
+  
+    
+      
+        
+        Phuc NguyenPhD StudentPersonal Homepage
+      
+    
+    
+      Publications
+      
+
+  
+  The Open World of Micro-VideosPhuc Nguyen, Grégory Rogez, Charless Fowlkes, Deva RamananBigVision Workshop, 2016.[pdf]
+
+      
+    
+  
+  
+    
+      Computational Vision |
+      School of Information and Computer Sciences |
+      UC Irvine
+    
+    © 2007-2017 UC Irvine
+  
+  
 
 </div>

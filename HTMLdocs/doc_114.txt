@@ -1,268 +1,198 @@
-<div>html xmlns="http://www.w3.org/1999/xhtml"&gt;
-
- Butterworth Product Development and the Beall Design Competitions @ the bren school of information and computer sciences
+<div>!DOCTYPE html&gt;
 
 
 
+Optimization Papers | Eric Mjolsness
 
 
 
 
-This site will look much better in a browser that supports web standards, but it is accessible to any browser or Internet device.
+
+
+
+		
+		
+img.wp-smiley,
+img.emoji
+
+
+
  
 
 
 
 
 
-      
 
 
-         #school_header
 
 
-         #school_link
+	
+		
+			
+								
+					
+						Eric Mjolsness
+					
+				
+				Department of Computer Science, University of California Irvine
 
+										
+								
 
-         #uci_link
+			
+			  				Skip to content
+								
+HomeAbout
+Papers
 
+	Computational Biology Papers
+	Modeling Frameworks Papers
+	Machine Learning Papers
+	Vision and Image Analysis Papers
+	Optimization Papers
+	Cognition Papers
+	Computational Field Geology Papers
+	Neural Network Papers
+	Calculational papers
 
-      
-
-
-
-      
-
-         
-
-         
-
-      
-
-
-
-
-
-
-
-
-
-    
-
-                
-            
-                
-                
-                
-                    ABOUT
-
-                    
-                    
-                        About the School
-                        Dean's Welcome
-                        Facts and Figures
-                        Donald Bren Hall
-                        Visit the Bren School
-                        Equity &amp; Diversity
-                        Contact Us
-                        
-                                   
-                
-                
-                
-                
-                     DEPARTMENTS 
-                    
-
-                    
-                        Computer Science
-                        Informatics
-                        Statistics
-                                   
-                
-                
-                
-                
-                     RESEARCH 
-                
-                
-                    
-                        Research Areas
-                        Research Centers
-                        Research Highlights
-                    
-                
-                
-                
-                
-                
-                
-                     EDUCATION 
-                    
-
-                    
-                        Graduate ▸ 
-                        
-                            
-                            Prospective Students
-                            How to Apply
-                            Programs of Study
-                            Academic Year Plan
-                            Forms
-                            Policies
-                            Funding &amp; Housing
-                            Computing Support
-                            Campus Resources
-                            Visit the Bren School
-                            Graduate Student Handbook
-                            Contact
-                            
-
-                        
-                        
-                        Undergraduate ▸ 
-                        
-                            
-                            Contact
-                            Academic Advising
-                            Course Updates
-                            Academic Year Plan
-                            Petitions
-                            ICS Majors
-                            ICS Minors
 
-                            Policies: Academic Integrity
-                            Policies: Academic Standing
-                            Policies: Add, drop, &amp; change options
-                            Policies: Coursework outside UCI
-                            Policies: Grade policy
-                            Policies: Laptop &amp; computer use
-                            Policies: Withdrawal/Readmission
-                            Policies: CS 199 / IN4MATX 199 Courses
+Projects
 
-                              Graduation
-                              ICS Student Life
-                              Upcoming Events
-                              Computing Support
-                              
-                           
-                        
+	Computational Biology Projects
+	
+		Computable Plant Project
+	
 
-                        
-                        Prospective Undergrad
 
 
-                        Scholarships &amp; Fellowships
-                        
-                                                    
-                                   
-                
+Topics
+Software
 
-    
-                
-                    
-                    PEOPLE                      
-                    
-                
-                    
-                        Faculty
-                        Staff
-                        Graduate Students
-                        Alumni
-                       
-                
-                                
-                
-                 
-                
-                    NEWS &amp; EVENTS
-                    
-                    
-                    
-                        Newsroom
-                        Events
-                        Press Releases
-                        Annual Reports
-                        Student Blogs
-                       
-                
+	Research Software – Computational Biology
+	Cambium biomathematical model translation software
 
-                
-                
-                    GET INVOLVED
-                
-                
-                    
-                    
-                            Make a Gift
-                            Leadership Council
-                            Corporate Partners
-                            Sponsor Projects
-                            Product Development Competition
-                            ZotLink Jobs &amp; Internships
-                            
-                                   
-                
 
+Talks
 
-                 
-                                 
+	Talks – Computational Biology
 
-            
 
- url('/bin/icssearchstyle/css/icssearch.css');
+Teaching
+PhD Theses
+Reviews
+Grand Questions
+CV &amp; News
+Opportunities
 
+			
+		
+	
 
+	
 
+		
+			
 
-            
+			
 
+				
+											Optimization Papers
+					
+					
+						
 
 
 
-    
 
 
+(1999)  Convergence properties of the softassign quadratic assignment algorithm. Anand Rangarajan, Alan Yuille, and Eric Mjolsness, Neural Computation 11(6), 1455-1474 1999. [ Preprint ]
+(1996)  A Lagrangian relaxation network for graph matching. Anand Rangarajan and Eric Mjolsness, IEEE Transactions on Neural Networks, vol 7 no 6, November 1996. [Preprint ]
+(1996)  A novel optimizing network architecture with applications. Anand Rangarajan, Steven Gold, and Eric Mjolsness, Neural Computation, vol 8 no 5, July 1996. [ PDF Preprint | Postscript Preprint ]
+(1996)  A Multiscale Attentional Framework for Relaxation Neural Networks. Dimitris I. Tsioutsias and Eric Mjolsness,  Advances in Neural Information Processing Systems 8, MIT Press, 1996. [ Paper ]
 
+(1994)  Optimization dynamics for partitioned neural networks Dimitris I. Tsioutsias and Eric Mjolsness. International Journal of Neural Systems, December 1994. [Technical Report]
+(1993)  Accelerating neural net dynamics by boundary layer methods Willard L. Miranker and Eric Mjolsness, Applied Mathematics Letters, vol 6, no 3, pp. 85-89, 1993. [ Paper ]
+(1991)  Multiscale optimization in neural networks, Eric Mjolsness, Charles Garrett, and Willard Miranker, IEEE Transactions on Neural Networks, vol 2 no 2, March 1991. [Paper ]
+(1990)  Algebraic transformations of objective functions. Eric Mjolsness and Charles Garrett, Neural Networks , vol 3, no 6, pp 651-669, 1990. [ Paper ]
 
 
 
 
 
+ 
+ 
+ 
+ 
 
+																	
+				
 
-    Bren school home &gt; Community &gt; Events &gt; 
- 
+				
+			
 
 
- Butterworth Product Development Competition in ICS and Beall Student Design Competition in Engineering 
-  
-&lt;!--
-.schedule_table
-   .schedule_table TD
---&gt;
 
-We've redesigned the competitions website.
-Please visit the new site at:  http://tech.uci.edu/competitions/.
 
 
-Prizes for each competition are:  1st Place: $7,500 2nd Place: $5,000 3rd Place: $2,500
- Butterworth Product Development Competition at the Donald Bren School of Information and Computer Sciences  Is a product development competition designed to encourage the creation of new technologies with potential for commercialization. Ideas and products are evaluated on their technological merits and potential to impact the marketplace. Students are encouraged to submit new products that involve the development of software and systems. Products that entail integration are acceptable as long as there is a substantial development effort.
-The competition is open to all UCI students. Teams must be composed of at least two (2) students, one (1) of which must be enrolled at the Donald Bren School of Information and Computer Sciences.
-Beall Student Design Competition at The Henry Samueli School of Engineering  Offered to encourage the creation of new technologies, or solutions to current design problems that have the potential for commercialization. Ideas and products are evaluated on their technological merits as well as potential to impact the marketplace. Students are encouraged to submit new product ideas that involve the development of hardware and devices. Products that entail integration are acceptable as long as there is a substantial development effort.
-The competition is open to all UCI students. Teams must be composed of at least two (2) students, one (1) of which must be enrolled at The Henry Samueli School of Engineering.
 
 
-Quick Links 
-       
+			
+		
 
-Copyright Inquiries |
-   UCI Directory |
-   Intranet |
-   
-   
- 
-  icswebmaster
+
+		
+			
+
+
+				
+					Search for:
+					
+					
+				
+							Recent Posts		
+											
+					UCI academic site
+									
+					
+		Recent CommentsArchives		
+			December 2012
+		
+		Categories		
+	Uncategorized
+
+		
+Meta			
+						Log in
+			Entries RSS
+			Comments RSS
+			WordPress.org			
+						
+		
+
+	
+
+	
+		
+
+
+
+			
+				
+					Eric Mjolsness				
+			
+
+			
+								Proudly powered by WordPress.
+			
+
+		
+	
+
+
+
+
+
 
 
 

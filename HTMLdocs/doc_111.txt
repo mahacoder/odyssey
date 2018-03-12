@@ -1,15 +1,40 @@
-<div>html xmlns="http://www.w3.org/1999/xhtml"&gt;
-
-graduate course listing @ the bren school of information and computer sciences
-
+<div>!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
 
 
 
 
+
+uc irvine::bren school::ics labs
+
+
+
+
+
+
+
+
+
+
+ "/bin/styles/stylesheet_secondary.css";
+
+
+ 
+
+
+
+
+
+
+Skip over navigation
 
 
 This site will look much better in a browser that supports web standards, but it is accessible to any browser or Internet device.
- 
+
+
+
+
+	
 
 
 
@@ -97,7 +122,7 @@ This site will look much better in a browser that supports web standards, but it
                 
                 
                 
-                    EDUCATION
+                     EDUCATION 
                     
 
                     
@@ -231,73 +256,86 @@ This site will look much better in a browser that supports web standards, but it
 
 
 
-    Bren school home &gt; Graduate &gt; Courses
+    
+	Bren school home &gt; labs home
+
+
+
+	
+
+	
+
+		Labs »
+
+			
+			
+
+			
+
+
+         The ICS Labs are located in the Computer Science Building. Students
+          enrolled in ICS classes can obtain computing accounts for use in the
+          labs. Here, students can put into action what they've learned in their
+          lectures. 
+        There are four labs with over two hundread machines, running Windows
+          and Linux. Scheduled labs for classes are held in the first floor labs:
+          CS183, CS189, and CS192. The main lab is located in CS364 and it is
+          the only ICS Lab that is opened on the weekend. Please see the Lab
+          Hours page for details on hours of operation.
+         
+        NEW in 2013: Kay Family Foundation Innovation Lab
+        Thanks to a generous gift from the Kay Family Foundation, the Donald Bren School of Information and Computer Sciences now features a mobile technology lab designed to foster student collaboration. more
+          
+			
+
+			
+
+	
+
+
+
+	
+	
+    More labs»
+        	
+
+      Hours
+
+      Hardware/Software
+
+      Students
+
+      Instructors
+
+      Policies
+
+      Lab Assistants
+
+      Project ICS
+
+      Computing Support
+             
+	
+
+
+
+
+Copyright Inquiries |
+UCI Directory |
+Intranet |
+   
+   
  
-Graduate course listing 
+icswebmaster |
 
-
-This is a tentative schedule of CompSci, Informatics, Networked Systems and Statistics courses that the Bren School is planning to offer.
-
-
-Please note that this proposed course schedule, while NOT guaranteed, is intended to help with your general academic planning.  You are encouraged to consider back-up options that align with your intended date of graduation, since course offerings and faculty assignments may change. 
-
-
-NOTE:  The course listings shown here are neither guaranteed, nor considered “final”.  Department Chairs may provide updated information regarding course offerings or faculty assignments throughout the year.  Be sure to check this list regularly for new or revised information.   
+Updated: 
+February 15 2013
 
 
 
 
 
 
-
-
-
-
-
-
-                    
-                    
-                        
-                            
-                                Year
-                                
-                                        
-                                    
-                                Level
-                                
-                               
-                                        
-                                    
-                                Department
-                                
-                                        
-                                    
-                                Core Classes for
-                                
-                                        
-                                    
-                                
-                                    
-                                
-                            
-                        
-                        
-                        Please select from the search criteria above.
-                    
-
-
-
-
-
-
-
-
-
-
-Quick Links 
-        
-
-Copyright Inquiries | UCI Directory | Intranet | icswebmaster
 
 
 

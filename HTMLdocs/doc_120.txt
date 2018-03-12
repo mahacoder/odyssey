@@ -1,18 +1,6 @@
-<div>
+<div>html xmlns="http://www.w3.org/1999/xhtml"&gt;
 
-
-
-
-
-Step 5: Completing the Program – ICS Honors Program
-
-
-
-
-		
-		
-img.wp-smiley,
-img.emoji
+graduate course listing @ the bren school of information and computer sciences
 
 
 
@@ -20,145 +8,299 @@ img.emoji
 
 
 
-
-
-
-
-
+This site will look much better in a browser that supports web standards, but it is accessible to any browser or Internet device.
  
 
 
 
 
 
-        
-				a, 
-				.tm_client strong,
-				.postmeta a:hover,
-				#sidebar ul li a:hover,
-				.blog-post h3.entry-title,
-				.woocommerce ul.products li.product .price,
-				h2.entry-title a:hover,
-				#sidebar a:hover,
-				.copyright a,
-				.current-right h3 a,
-				.top-left .fa-envelope, .top-left .fa-phone{
-					color:#03a9f5;
-				}
-				a.blog-more:hover,
-				.nav-links .current, 
-				.nav-links a:hover,
-				#commentform input#submit,
-				input.search-submit,
-				.nivo-controlNav a.active,
-				.blog-date .date,
-				a.read-more,
-				.contact-strip,
-				.main-nav ul li.menu-item-has-children:hover a,
-				.main-nav ul li a:hover,
-				.main-nav ul li.current-menu-item a{
-					background-color:#03a9f5;
-				}
-		
-			.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
-			
-			#header{
-			background: url() no-repeat;
-			background-position: center top;
-		}
-		.logo h1 a
-		
-	
-	
-
-		
-		
-				
-            	
-            				
-				
-										
-						
-				
-		
-		
-            	
-						
-													ICS Honors Program
-
-											
-                  
-						
-							Menu
-						 						
-						
-							Program Overview
-
-	Step 1: Course Requirements
-	Step 2: Honors Seminar (ICS H197)
-	Step 3: Finding a Faculty Advisor and Taking CS H198
-	Step 4: Start Your Research
-	Step 5: Completing the Program
+      
 
 
-Apply
-Forms
-Additional Resources
-
-	Student Testimonials
-	Graduate School Resources
-	Other Research and Honors Opportunities
-	Sample Theses
+         #school_header
 
 
-Contact Us
-							
-												
-										
-                           
-		
-	
-    	
-                    
-		
+         #school_link
+
+
+         #uci_link
+
 
       
+
+
+
+      
+
          
 
-    
-        
-							
+         
 
-	
-		Step 5: Completing the Program
-	
+      
 
-	
-		The results of your honors work as an ICSHP participant must be certified by your faculty advisor and by the program advisor to be of honors quality.
-NOTE: Students in the Campus Honors Program (CHP) should keep in contact with CHP counselors about requirements for completion, as they may differ from ICSHP requirements.
-At the end of your second quarter of independent study with your faculty advisor, you should prepare a paper describing the project and the results. Again, the format may vary considerably from one project to another. For example, one student might produce a well-documented program to be used in a lab in one of our courses, and also provide a paper describing the design choices, rationale and experience with the use of the program. Another student might not do any programming, but rather do a statistical study of the use of computers in some organization, and write a careful scholarly interpretation of the results (perhaps 20 pages) with appropriate references to the literature.
-After the paper is complete, please follow these steps:
 
-Have your faculty advisor sign the “Final Report on the Honors Project” form (see Forms Page)
-Bring the form, as well as your paper, to the program advisor for his/her signature
-Submit your paper and the form with both signatures to the ICS Student Affairs Office (SAO).
 
-The normal submission deadline is June 1. If you need more time to complete the paperwork, please make arrangements with the ICS SAO office well in advance.
-Once the paper is approved by your faculty advisor and the form is signed by both the faculty and the program advisors, you are considered to have successfully completed the ICSHP. If you have any questions about this process, don’t hesitate to discuss them with the program advisor or an SAO staff member.
-			
-	
-							        
-        
+
+
+
+
+
+
     
 
-
-        
-        	
                 
-                         
             
-        
+                
+                
+                
+                    ABOUT
+
+                    
+                    
+                        About the School
+                        Dean's Welcome
+                        Facts and Figures
+                        Donald Bren Hall
+                        Visit the Bren School
+                        Equity &amp; Diversity
+                        Contact Us
+                        
+                                   
+                
+                
+                
+                
+                     DEPARTMENTS 
+                    
+
+                    
+                        Computer Science
+                        Informatics
+                        Statistics
+                                   
+                
+                
+                
+                
+                     RESEARCH 
+                
+                
+                    
+                        Research Areas
+                        Research Centers
+                        Research Highlights
+                    
+                
+                
+                
+                
+                
+                
+                    EDUCATION
+                    
+
+                    
+                        Graduate ▸ 
+                        
+                            
+                            Prospective Students
+                            How to Apply
+                            Programs of Study
+                            Academic Year Plan
+                            Forms
+                            Policies
+                            Funding &amp; Housing
+                            Computing Support
+                            Campus Resources
+                            Visit the Bren School
+                            Graduate Student Handbook
+                            Contact
+                            
+
+                        
+                        
+                        Undergraduate ▸ 
+                        
+                            
+                            Contact
+                            Academic Advising
+                            Course Updates
+                            Academic Year Plan
+                            Petitions
+                            ICS Majors
+                            ICS Minors
+
+                            Policies: Academic Integrity
+                            Policies: Academic Standing
+                            Policies: Add, drop, &amp; change options
+                            Policies: Coursework outside UCI
+                            Policies: Grade policy
+                            Policies: Laptop &amp; computer use
+                            Policies: Withdrawal/Readmission
+                            Policies: CS 199 / IN4MATX 199 Courses
+
+                              Graduation
+                              ICS Student Life
+                              Upcoming Events
+                              Computing Support
+                              
+                           
+                        
+
+                        
+                        Prospective Undergrad
+
+
+                        Scholarships &amp; Fellowships
+                        
+                                                    
+                                   
+                
+
     
+                
+                    
+                    PEOPLE                      
+                    
+                
+                    
+                        Faculty
+                        Staff
+                        Graduate Students
+                        Alumni
+                       
+                
+                                
+                
+                 
+                
+                    NEWS &amp; EVENTS
+                    
+                    
+                    
+                        Newsroom
+                        Events
+                        Press Releases
+                        Annual Reports
+                        Student Blogs
+                       
+                
+
+                
+                
+                    GET INVOLVED
+                
+                
+                    
+                    
+                            Make a Gift
+                            Leadership Council
+                            Corporate Partners
+                            Sponsor Projects
+                            Product Development Competition
+                            ZotLink Jobs &amp; Internships
+                            
+                                   
+                
+
+
+                 
+                                 
+
+            
+
+ url('/bin/icssearchstyle/css/icssearch.css');
+
+
+
+
+            
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    Bren school home &gt; Graduate &gt; Courses
+ 
+Graduate course listing 
+
+
+This is a tentative schedule of CompSci, Informatics, Networked Systems and Statistics courses that the Bren School is planning to offer.
+
+
+Please note that this proposed course schedule, while NOT guaranteed, is intended to help with your general academic planning.  You are encouraged to consider back-up options that align with your intended date of graduation, since course offerings and faculty assignments may change. 
+
+
+NOTE:  The course listings shown here are neither guaranteed, nor considered “final”.  Department Chairs may provide updated information regarding course offerings or faculty assignments throughout the year.  Be sure to check this list regularly for new or revised information.   
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    
+                        
+                            
+                                Year
+                                
+                                        
+                                    
+                                Level
+                                
+                               
+                                        
+                                    
+                                Department
+                                
+                                        
+                                    
+                                Core Classes for
+                                
+                                        
+                                    
+                                
+                                    
+                                
+                            
+                        
+                        
+                        Please select from the search criteria above.
+                    
+
+
+
+
+
+
+
+
+
+
+Quick Links 
+        
+
+Copyright Inquiries | UCI Directory | Intranet | icswebmaster
+
+
+
 
 
 
