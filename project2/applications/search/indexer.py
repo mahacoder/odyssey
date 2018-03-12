@@ -61,11 +61,12 @@ class Indexer():
     #function for calculating idf
     def inverse_document_frequencies(self, term):
         # pass directory name or make it global
-        try:
-            file_list = os.listdir('/HTMLdocs')
-            return math.log(len(file_list)/len(self.inverted_index_list[term]))
-        except:
-            return math.log(300/len(self.inverted_index_list[term]))
+        cwd = os.getcwd()
+        path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
+        pages_dir_name = 'HTMLdocs'
+        file_list = os.listdir(os.path.join(path_till_odyssey, pages_dir_name))
+        return math.log(len(file_list)/len(self.inverted_index_list[term]))
+
     #calculate the tfidf
     def tfidf(self, term, document_name):
         idf = self.inverse_document_frequencies(term)
