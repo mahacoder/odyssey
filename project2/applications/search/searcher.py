@@ -25,21 +25,16 @@ def search_query(query):
                     results[doc] = ind.tfidf(term, doc)
         return results
 
-def top_num_results(frequency):
+def top_num_results(frequency, num):
     freq_sort = sorted(frequency.items(), key=lambda x:x[1], reverse=True)
-    return freq_sort
+    return freq_sort[:num]
 
-def find_url(docs, num):
+def find_url(docs):
     with open('doc_url_map.p', 'r') as fp:
         url_list = pickle.load(fp)
+        print(len(url_list))
         for i in docs:
-            if num<0:
-                break
-            try:
-                print(url_list[i])
-                num -= 1
-            except:
-                pass
+            print(url_list[i])
 
 if __name__ == '__main__':
     cwd = os.getcwd()
@@ -47,4 +42,4 @@ if __name__ == '__main__':
     pages_dir_name = 'pages'
     print("Please enter query:")
     query = raw_input().split()
-    find_url(top_num_results(search_query(query)), 3)
+    find_url(top_num_results(search_query(query), 3))
