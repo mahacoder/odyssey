@@ -65,7 +65,7 @@ class Indexer():
         path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
         pages_dir_name = 'HTMLdocs'
         file_list = os.listdir(os.path.join(path_till_odyssey, pages_dir_name))
-        if not inverted_index_list[term]:
+        if not self.inverted_index_list[term]:
             return 0
         return math.log(len(file_list)/len(self.inverted_index_list[term]))
 
@@ -81,12 +81,11 @@ if __name__=='__main__':
     pages_dir_name = 'HTMLdocs'
     print('path to pages: ', os.path.join(path_till_odyssey, pages_dir_name))
     indexer = Indexer()
-    is_newIndex = indexer.construct_index(os.path.join(path_till_odyssey, pages_dir_name))
+    indexer.construct_index(os.path.join(path_till_odyssey, pages_dir_name))
     # pp = pprint.PrettyPrinter(indent=4)
     # pp.pprint(indexer.inverted_index_list)
-    if is_newIndex:
-        with open('inverted_index.json', 'w') as fp:
-            json.dump(indexer.inverted_index_list, fp)
+    with open('inverted_index.json', 'w') as fp:
+        json.dump(indexer.inverted_index_list, fp)
 
-        with open('inverted_index.p', 'wb') as fp:
-            pickle.dump(indexer.inverted_index_list, fp, protocol=pickle.HIGHEST_PROTOCOL)
+    with open('inverted_index.p', 'wb') as fp:
+        pickle.dump(indexer.inverted_index_list, fp, protocol=pickle.HIGHEST_PROTOCOL)
