@@ -27,11 +27,21 @@ def search_query(query):
         '''If no search results, return random results
         Need to work on this more and try to find better results
         '''
-        if not results:
-            for i in range(10):
+        no_result_flag = False
+        for key, value in results.items():
+            if value==0.0:
+                no_result_flag = True
+        if len(results)==0:
+            no_result_flag=True
+
+        if no_result_flag:
+            results = {}
+            for i in range(5):
                 term = random.choice(inverted_index_list.keys())
                 doc = random.choice(inverted_index_list[term].keys())
                 results[doc] = 0
+            return results
+
         return results
 
 def top_num_results(frequency, num):
@@ -41,8 +51,14 @@ def top_num_results(frequency, num):
 def find_url(docs):
     with open('doc_url_map.p', 'r') as fp:
         url_list = pickle.load(fp)
+        print('File names...')
         for i in docs:
-            print(url_list[i])
+            doc_name = i[0]
+            value = i[1]
+            print(url_list[doc_name[:-4]], value)
+        for i in docs:
+            doc_name = i[0]
+            print(url_list[doc_name[:-4]])
 
 if __name__ == '__main__':
     cwd = os.getcwd()
