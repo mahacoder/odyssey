@@ -27,12 +27,10 @@ def search_query(query):
         '''If no search results, return random results
         Need to work on this more and try to find better results
         '''
-        no_result_flag = False
+        no_result_flag = True
         for key, value in results.items():
-            if value==0.0:
-                no_result_flag = True
-        if len(results)==0:
-            no_result_flag=True
+            if value!=0.0:
+                no_result_flag = False
 
         if no_result_flag:
             results = {}
@@ -62,7 +60,7 @@ def find_url(docs):
 
 if __name__ == '__main__':
     cwd = os.getcwd()
-    path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
+    path_till_ odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
     pages_dir_name = 'pages'
     print("Please enter query:")
     query = raw_input().split()
