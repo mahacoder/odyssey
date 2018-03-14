@@ -45,7 +45,7 @@ class CrawlerFrame(IApplication):
     def initialize(self):
         self.count = 0
         l = AsbapatApushpenKbaijalKyuseonyLink("http://www.ics.uci.edu/")
-        print l.full_url
+        #print l.full_url
         self.frame.add(l)
 
     def update(self):
@@ -97,6 +97,8 @@ def links_from_link(content, current_url, http_code):
         pass
         # with codecs.open('non_200.txt', mode='a', encoding='utf-8') as non_200:
         #     non_200.write(current_url+'|'+str(http_code)+'\n')
+    elif content is None:
+        pass
     else:
         doc = html.document_fromstring(content)
         xpath = doc.xpath("//a")
@@ -161,7 +163,7 @@ def is_valid(url):
     try:
         is_valid_flag = ".ics.uci.edu" in parsed.hostname \
             and not re.match(".*\.(css|js|bmp|gif|jpe?g|ico" + "|png|tiff?|mid|mp2|mp3|mp4"\
-            + "|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf" \
+            + "|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf|txt" \
             + "|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso|epub|dll|cnf|tgz|sha1" \
             + "|thmx|mso|arff|rtf|jar|csv"\
             + "|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower()) \
@@ -179,28 +181,31 @@ def is_valid(url):
 def createDocumentWithContent(dataObject):
     global counterURL
     global document_counter
-    doc_name = r'C:\Users\anant\repos\projects\odyssey\HTMLdocs\doc_' + str(document_counter)
+    cwd = os.getcwd()
+    path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
+    pages_dir_name = 'HTMLdocs'
+    doc_name = path_till_odyssey+'\HTMLdocs\doc_' + str(document_counter)
 
     with open(doc_name+ ".txt",'wb') as f:
-    
+
         doc = "doc_" + str(document_counter)
-        print (dataObject.url)
+        #print (dataObject.url)
         counterURL[doc] = dataObject.url
-        print (counterURL)
+        #print (counterURL)
         document_counter = document_counter + 1
         f.write(dataObject.content)
 
     mapper_file_name = "doc_url_map.p"
-    fileObject = open(mapper_file_name,'wb') 
-    pickle.dump(counterURL,fileObject)   
+    fileObject = open(mapper_file_name,'wb')
+    pickle.dump(counterURL,fileObject)
     fileObject.close()
 
     getCleanText(doc_name)
-
+    getCleanTextandTitle(doc_name)
 
 def getCleanText(textData):
     array = []
-    fh = open(textData+ ".txt", "r") 
+    fh = open(textData+ ".txt", "r")
     if fh.read(1):
         cleaner = Cleaner()
         parser = etree.HTMLParser()
@@ -209,11 +214,32 @@ def getCleanText(textData):
         mresult = re.sub(r' {[^}]*}','',result)
 
 
-        soup = BeautifulSoup(mresult)
+        soup = BeautifulSoup(mresult, "lxml")
         for tag in soup.find_all():
         #print (tag.name)
             array.append(tag.name)
         cleaner.remove_tags = array
 
-        with open(textData+ ".txt",'wb') as f:
-            f.write(cleaner.clean_html(mresult))   
+        with open(textData +"_clean"+ ".txt",'wb') as f:
+            f.write(cleaner.clean_html(mresult))
+
+def getCleanTextandTitle(textData):
+    fh = open(textData+ ".txt", "r")
+    if fh.read(1):
+        html = fh.read()
+        soup = BeautifulSoup(html, "lxml")
+        # kill all script and style elements
+        for script in soup(["script", "style"]):
+            script.extract()
+            # get text
+        if soup is None:
+            return
+        text = soup.get_text()
+        soup = BeautifulSoup(text, "lxml")
+
+        lines = (line.strip() for line in text.splitlines())
+        chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+        text = '\n'.join(chunk for chunk in chunks if chunk)
+
+        with codecs.open(textData +"_alternate"+ ".txt", mode='a', encoding='utf-8') as f:
+            f.write(text)
