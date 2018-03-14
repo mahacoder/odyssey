@@ -17,6 +17,7 @@ from lxml.html.clean import Cleaner
 import re, os
 from time import time
 from uuid import uuid4
+import json
 
 from urlparse import urlparse, parse_qs
 from uuid import uuid4
@@ -28,7 +29,11 @@ max_link_count = 0
 max_link_page = ''
 visited_count = 0
 redirect_count = 0
-document_counter = 0
+try:
+    with open('1.txt', 'r') as f:
+        document_counter = int(json.load(f))
+except:
+    document_counter = 0
 counterURL = {}
 
 @Producer(AsbapatApushpenKbaijalKyuseonyLink)
@@ -45,6 +50,10 @@ class CrawlerFrame(IApplication):
     def initialize(self):
         self.count = 0
         l = AsbapatApushpenKbaijalKyuseonyLink("http://www.ics.uci.edu/")
+        global document_counter
+        with open('1.txt', 'r') as f:
+            document_counter = int(json.load(f))
+        print(document_counter)
         #print l.full_url
         self.frame.add(l)
 
@@ -66,6 +75,8 @@ class CrawlerFrame(IApplication):
             file.write('Redirect Count='+str(redirect_count)+'\n')
             file.write('Page with maximum links:'+max_link_page+'\n')
             file.write('Number of links found in above page='+str(max_link_count)+'\n')
+            with open('1.txt', 'w') as f:
+                json.dump(document_counter+1,f)
         print (
             "Time time spent this session: ",
             time() - self.starttime, " seconds.")
@@ -97,10 +108,11 @@ def links_from_link(content, current_url, http_code):
         pass
         # with codecs.open('non_200.txt', mode='a', encoding='utf-8') as non_200:
         #     non_200.write(current_url+'|'+str(http_code)+'\n')
-    elif content is None:
-        pass
     else:
-        doc = html.document_fromstring(content)
+        try:
+            doc = html.document_fromstring(content)
+        except:
+            return links
         xpath = doc.xpath("//a")
         separator = '/'
         for i in xpath:
@@ -209,19 +221,22 @@ def getCleanText(textData):
     if fh.read(1):
         cleaner = Cleaner()
         parser = etree.HTMLParser()
-        tree   = etree.parse(BytesIO(fh.read()), parser)
-        result = etree.tostring(tree.getroot(), method="html")
-        mresult = re.sub(r' {[^}]*}','',result)
+        try:
+            tree   = etree.parse(BytesIO(fh.read()), parser)
+            result = etree.tostring(tree.getroot(), method="html")
+            mresult = re.sub(r' {[^}]*}','',result)
 
 
-        soup = BeautifulSoup(mresult, "lxml")
-        for tag in soup.find_all():
-        #print (tag.name)
-            array.append(tag.name)
-        cleaner.remove_tags = array
+            soup = BeautifulSoup(mresult, "lxml")
+            for tag in soup.find_all():
+            #print (tag.name)
+                array.append(tag.name)
+            cleaner.remove_tags = array
 
-        with open(textData +"_clean"+ ".txt",'wb') as f:
-            f.write(cleaner.clean_html(mresult))
+            with open(textData +"_clean"+ ".txt",'wb') as f:
+                f.write(cleaner.clean_html(mresult))
+        except:
+            pass
 
 def getCleanTextandTitle(textData):
     fh = open(textData+ ".txt", "r")
