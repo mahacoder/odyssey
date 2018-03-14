@@ -10,6 +10,7 @@ sys.path.append(os.path.join(os.getcwd(), 'odyssey'))
 from tokenizer import tokenize
 
 def search_query(query):
+    global path_till_odyssey
     ind = indexer.Indexer()
     ind.initialize_index(os.path.join(path_till_odyssey, pages_dir_name))
     inverted_index_list = ind.inverted_index_list
@@ -60,7 +61,7 @@ def find_url(docs):
 
 if __name__ == '__main__':
     cwd = os.getcwd()
-    path_till_ odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
+    path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
     pages_dir_name = 'pages'
     print("Please enter query:")
     query = raw_input().split()
