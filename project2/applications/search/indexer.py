@@ -50,9 +50,13 @@ class Indexer():
                 file_path = os.path.join(root, file_)
                 plurals = tokenize(file_path)
                 tokens_from_file = [stemmer.stem(tokens) for tokens in plurals]
-                document_length_list[file_path] = len(tokens_from_file)
-                self.create_document_inverted_list(tokens_from_file, file_path)
+                document_length_list[dir_name+"/"+file_] = len(tokens_from_file)
+                self.create_document_inverted_list(tokens_from_file, dir_name+"/"+file_)
             print(5*len(document_length_list)/len(files), "% done")
+            with open('inverted_index.json', 'w') as fp:
+                json.dump(indexer.inverted_index_list, fp)
+            with open('document_lengths.json', 'w') as fp:
+                json.dump(document_length_list, fp)
         return tokens_from_file
 
         # tokens_from_file = []
@@ -62,15 +66,17 @@ class Indexer():
 
     def initialize_index(self, directory_path):
         try:
-            with open('inverted_index.p', 'rb') as fp:
-                self.inverted_index_list = pickle.load(fp)
+            with open('inverted_index.json', 'rb') as fp:
+                self.inverted_index_list = json.load(fp)
                 return False #remove if not required
         except:
             self.construct_index(directory_path)
             return True #remove if not required
     #tf = count the number of positions
     def term_frequency(self, term, document_name):
-        return len(self.inverted_index_list[term][document_name])
+        with open('document_lengths.json', 'r') as fp:
+            document_length_list = json.load(fp)
+        return len(self.inverted_index_list[term][document_name])/float(document_length_list[document_name])
 
     #in the website, they use this function and so as lecture
     def sublinear_term_frequency(self, term, document_name):
@@ -84,16 +90,17 @@ class Indexer():
         # pass directory name or make it global
         cwd = os.getcwd()
         path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
-        pages_dir_name = 'HTMLdocs'
+        pages_dir_name = 'webpages_clean'
         file_list = os.listdir(os.path.join(path_till_odyssey, pages_dir_name))
         if not self.inverted_index_list[term]:
             return 0
-        return math.log(len(file_list)/len(self.inverted_index_list[term]))
+        return math.log(float(500*len(file_list))/len(self.inverted_index_list[term]))
 
     #calculate the tfidf
     def tfidf(self, term, document_name):
+        tf = self.term_frequency(term, document_name)
         idf = self.inverse_document_frequencies(term)
-        tf = self.sublinear_term_frequency(term, document_name)
+        print(tf*idf, tf, idf)
         return (tf*idf, tf, idf)
 
 if __name__=='__main__':
