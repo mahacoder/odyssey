@@ -38,7 +38,7 @@ class Indexer():
 
     def construct_index(self, directory_path):
         '''Constructs the inverted index'''
-        global doc_lengths_list
+        global document_length_list
         tokens_from_file = []
         stemmer = PorterStemmer()
         for root, dirs, files in os.walk(directory_path):
@@ -47,12 +47,12 @@ class Indexer():
             dir_name = root[root.rindex('\\')+1:]
             for file_ in files:
                 # file_name = print(dir_name+'/'+file_)
-                plurals = tokenize(os.path.join(root, file_))
-                doc_lengths_list[dir_name+'/'+file_] = len(plurals)
-                if len(doc_lengths_list)%1000 == 0:
-                    print(len(doc_lengths_list)/375,"% done")
+                file_path = os.path.join(root, file_)
+                plurals = tokenize(file_path)
                 tokens_from_file = [stemmer.stem(tokens) for tokens in plurals]
-
+                document_length_list[file_path] = len(tokens_from_file)
+                self.create_document_inverted_list(tokens_from_file, file_path)
+            print(5*len(document_length_list)/len(files), "% done")
         return tokens_from_file
 
         # tokens_from_file = []
@@ -70,7 +70,7 @@ class Indexer():
             return True #remove if not required
     #tf = count the number of positions
     def term_frequency(self, term, document_name):
-        return len(self.inverted_index_list[term][document_name])/doc_lengths_list[document_name]
+        return len(self.inverted_index_list[term][document_name])
 
     #in the website, they use this function and so as lecture
     def sublinear_term_frequency(self, term, document_name):
@@ -88,7 +88,7 @@ class Indexer():
         file_list = os.listdir(os.path.join(path_till_odyssey, pages_dir_name))
         if not self.inverted_index_list[term]:
             return 0
-        return math.log(500*len(file_list)/len(self.inverted_index_list[term]))
+        return math.log(len(file_list)/len(self.inverted_index_list[term]))
 
     #calculate the tfidf
     def tfidf(self, term, document_name):
@@ -101,15 +101,15 @@ if __name__=='__main__':
     path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
     pages_dir_name = 'webpages_clean'
     print('path to webpages: ', os.path.join(path_till_odyssey, pages_dir_name))
+    document_length_list = {}
     indexer = Indexer()
     start = time.time()
-    doc_lengths_list = {}
     indexer.construct_index(os.path.join(path_till_odyssey, pages_dir_name))
     print('Constructed index in {}'.format(time.time()-start))
     # pp = pprint.PrettyPrinter(indent=4)
     # pp.pprint(indexer.inverted_index_list)
-    with open('doc_lengths.json', 'w') as f:
-        json.dump(doc_lengths_list, f)
+    with open('document_length_list.json', 'w') as fp:
+        json.dump(document_length_list, fp)
 
     with open('inverted_index.json', 'w') as fp:
         json.dump(indexer.inverted_index_list, fp)
