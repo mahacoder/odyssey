@@ -1,6 +1,7 @@
 import argparse
 import re
 import codecs
+import nltk
 from collections import defaultdict
 from collections import Counter
 
@@ -23,13 +24,18 @@ def compute_word_frequencies(tokens):
     return frequencies
 
 
-def tokenize(text_file_path):
+def tokenize(text_file_path, use_nltk=False):
     tokens = []
-    with open(text_file_path) as file:
-        for line in file:
-            for word in line.split(separator):
-                word = re.sub('[^A-Za-z\d]+', '', word)
-                if len(word)!=0: tokens.append(str.lower(word))
+
+    if use_nltk:
+        file_content = codecs.open(text_file_path, 'r', 'utf-8').read()
+        tokens = nltk.word_tokenize(file_content)
+    else:
+        with codecs.open(text_file_path, 'r', 'utf-8') as file:
+            for line in file:
+                for word in line.split(separator):
+                    word = re.sub('[^A-Za-z\d]+', '', word)
+                    if len(word)!=0: tokens.append(str.lower(word))
     return tokens
 
 
@@ -45,7 +51,7 @@ def main():
         print_sorted_order(word_frequencies, output_file_name=args.output_file)
     else:
         print_sorted_order(word_frequencies)
-        
+
 
 if __name__=='__main__':
     main()
