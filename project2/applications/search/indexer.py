@@ -1,9 +1,13 @@
+from __future__ import print_function
 import json
 import os
 import sys
+import time
 import pprint
 import pickle
 import math
+import nltk
+from nltk.stem.porter import *
 
 sys.path.append(os.path.join(os.getcwd(), 'odyssey'))
 
@@ -32,21 +36,35 @@ class Indexer():
             position_list = [idx for idx, val in enumerate(tokens) if term==val]
             self.create_inverted_index(term, document, position_list)
 
-    #constructing part (whole)
     def construct_index(self, directory_path):
+        '''Constructs the inverted index'''
+
         tokens_from_file = []
-        for file_path in os.listdir(directory_path):
-             tokens_from_file = tokenize(os.path.join(directory_path, file_path))
-             self.create_document_inverted_list(tokens_from_file, file_path)
+        stemmer = PorterStemmer()
+        for root, dirs, files in os.walk(directory_path):
+            if len(dirs)!=0:
+                continue # ignore the subdirectory without files
+            dir_name = root[root.rindex('\\')+1:]
+            for file_ in files:
+                # file_name = print(dir_name+'/'+file_)
+                plurals = tokenize(os.path.join(root, file_), use_nltk=True)
+                tokens_from_file = [stemmer.stem(tokens) for tokens in plurals]
+
+        return tokens_from_file
+
+        # tokens_from_file = []
+        # for file_path in os.listdir(directory_path):
+        #      tokens_from_file = tokenize(os.path.join(directory_path, file_path))
+        #      self.create_document_inverted_list(tokens_from_file, file_path)
 
     def initialize_index(self, directory_path):
         try:
             with open('inverted_index.p', 'rb') as fp:
                 self.inverted_index_list = pickle.load(fp)
-                return False
+                return False #remove if not required
         except:
             self.construct_index(directory_path)
-            return True
+            return True #remove if not required
     #tf = count the number of positions
     def term_frequency(self, term, document_name):
         return len(self.inverted_index_list[term][document_name])
@@ -73,15 +91,17 @@ class Indexer():
     def tfidf(self, term, document_name):
         idf = self.inverse_document_frequencies(term)
         tf = self.sublinear_term_frequency(term, document_name)
-        return tf * idf
+        return (tf*idf, tf, idf)
 
 if __name__=='__main__':
     cwd = os.getcwd()
     path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
-    pages_dir_name = 'HTMLdocs'
-    print('path to pages: ', os.path.join(path_till_odyssey, pages_dir_name))
+    pages_dir_name = 'webpages_clean'
+    print('path to webpages: ', os.path.join(path_till_odyssey, pages_dir_name))
     indexer = Indexer()
+    start = time.time()
     indexer.construct_index(os.path.join(path_till_odyssey, pages_dir_name))
+    print('Constructed index in {}'.format(time.time()-start))
     # pp = pprint.PrettyPrinter(indent=4)
     # pp.pprint(indexer.inverted_index_list)
     with open('inverted_index.json', 'w') as fp:
