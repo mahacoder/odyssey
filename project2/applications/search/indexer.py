@@ -47,8 +47,10 @@ class Indexer():
             dir_name = root[root.rindex('\\')+1:]
             for file_ in files:
                 # file_name = print(dir_name+'/'+file_)
-                plurals = tokenize(os.path.join(root, file_), use_nltk=True)
+                file_path = os.path.join(root, file_)
+                plurals = tokenize(file_path, use_nltk=True)
                 tokens_from_file = [stemmer.stem(tokens) for tokens in plurals]
+                self.create_document_inverted_list(tokens_from_file, file_path)
 
         return tokens_from_file
 
