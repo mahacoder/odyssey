@@ -61,8 +61,11 @@ def find_url(docs):
 
 if __name__ == '__main__':
     cwd = os.getcwd()
+    with open('doc_lengths.json', 'r') as fp:
+        list1 = pickle.load(fp)
+
     path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
-    pages_dir_name = 'pages'
+    pages_dir_name = 'webpages_clean'
     print("Please enter query:")
     query = raw_input().split()
     find_url(top_num_results(search_query(query), 5))
