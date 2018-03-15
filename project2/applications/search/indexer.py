@@ -7,6 +7,7 @@ import pprint
 import pickle
 import math
 import nltk
+import numpy as np
 from nltk.stem.porter import *
 
 sys.path.append(os.path.join(os.getcwd(), 'odyssey'))
@@ -72,11 +73,19 @@ class Indexer():
         except:
             self.construct_index(directory_path)
             return True #remove if not required
+
+    def gaussian(self, x, mu, sig):
+        return np.exp(-np.power(x - mu, 2.) / (2 * np.power(sig, 2.)))
+
+    def position_importance(self, loc, length):
+        return self.gaussian(loc, 0, 0.5*length)
+
     #tf = count the number of positions
     def term_frequency(self, term, document_name):
         with open('document_lengths.json', 'r') as fp:
             document_length_list = json.load(fp)
-        return len(self.inverted_index_list[term][document_name])/float(document_length_list[document_name])
+            loc = sorted(self.inverted_index_list[term][document_name])[0]
+            return len(self.inverted_index_list[term][document_name])/float(document_length_list[document_name])*self.position_importance(loc, float(document_length_list[document_name]))
 
     #in the website, they use this function and so as lecture
     def sublinear_term_frequency(self, term, document_name):
@@ -97,10 +106,11 @@ class Indexer():
         return math.log(float(500*len(file_list))/len(self.inverted_index_list[term]))
 
     #calculate the tfidf
-    def tfidf(self, term, document_name):
+    def tfidf(self, term, document_name, url_list):
         tf = self.term_frequency(term, document_name)
         idf = self.inverse_document_frequencies(term)
-        print(tf*idf, tf, idf)
+        if url_list[document_name].find(term)!=-1:
+            tf *= 4.5
         return (tf*idf, tf, idf)
 
 if __name__=='__main__':
