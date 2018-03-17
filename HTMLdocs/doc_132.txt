@@ -1,0 +1,63 @@
+<div>!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+
+
+  
+  
+  Emily Navarro
+  
+  
+  
+    p.p2
+    p.p3
+    p.p4
+    p.p5
+    p.p6
+    p.p7
+    p.p8
+    p.p9
+    p.p10
+    span.s1
+    span.s2
+    span.Apple-tab-span
+    table.t1
+    td.td1
+  
+
+
+Emily Navarro	
+
+  
+    
+      
+        
+      
+      
+        
+      
+    
+  
+
+Home  |   Contact  |   Research  |   Publications  |   Teaching  |  
+
+I am a Lecturer in the Department of Informatics of the Donald Bren School of Information and Computer Sciences at the University of California, Irvine.
+I completed my Ph.D. in Information and Computer Science at UCI in 2006, with my dissertation entitled, "SimSE: A Software Engineering Simulation Environment for Software Process Education." I also hold an M.S. in Information and Computer Science from UCI, along with a B.S. in Biological Sciences, also from UCI.
+
+University of California, Irvine
+Copyright © 2014
+ 
+
+
+  
+    
+      
+        
+      
+      
+        
+      
+    
+  
+
+
+
+</div>

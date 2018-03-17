@@ -1,12 +1,23 @@
 import codecs
 import logging
+import string #added because of tf-idf
+import math #added because of tf-idf
+import pickle
+import sys
+sys.path.append('../')
+
 from datamodel.search.AsbapatApushpenKbaijalKyuseony_datamodel import AsbapatApushpenKbaijalKyuseonyLink, OneAsbapatApushpenKbaijalKyuseonyUnProcessedLink, add_server_copy, get_downloaded_content
 from spacetime.client.IApplication import IApplication
 from spacetime.client.declarations import Producer, GetterSetter, Getter, ServerTriggers
 from lxml import html,etree
+from io import StringIO, BytesIO
+from lxml.html.clean import clean_html
+from bs4 import BeautifulSoup
+from lxml.html.clean import Cleaner
 import re, os
 from time import time
 from uuid import uuid4
+import json
 
 from urlparse import urlparse, parse_qs
 from uuid import uuid4
@@ -18,6 +29,12 @@ max_link_count = 0
 max_link_page = ''
 visited_count = 0
 redirect_count = 0
+try:
+    with open('1.txt', 'r') as f:
+        document_counter = int(json.load(f))
+except:
+    document_counter = 0
+counterURL = {}
 
 @Producer(AsbapatApushpenKbaijalKyuseonyLink)
 @GetterSetter(OneAsbapatApushpenKbaijalKyuseonyUnProcessedLink)
@@ -33,7 +50,11 @@ class CrawlerFrame(IApplication):
     def initialize(self):
         self.count = 0
         l = AsbapatApushpenKbaijalKyuseonyLink("http://www.ics.uci.edu/")
-        print l.full_url
+        global document_counter
+        with open('1.txt', 'r') as f:
+            document_counter = int(json.load(f))
+        print(document_counter)
+        #print l.full_url
         self.frame.add(l)
 
     def update(self):
@@ -54,6 +75,8 @@ class CrawlerFrame(IApplication):
             file.write('Redirect Count='+str(redirect_count)+'\n')
             file.write('Page with maximum links:'+max_link_page+'\n')
             file.write('Number of links found in above page='+str(max_link_count)+'\n')
+            with open('1.txt', 'w') as f:
+                json.dump(document_counter+1,f)
         print (
             "Time time spent this session: ",
             time() - self.starttime, " seconds.")
@@ -78,15 +101,18 @@ def links_from_link(content, current_url, http_code):
     root_url = "http://www.ics.uci.edu"
     links = []
     if http_code==200 and len(content)==0:
-        return links
+        pass
         # with codecs.open('empty_html.txt', mode='a', encoding='utf-8') as html_file:
         #     html_file.write(current_url+'\n')
-    elif len(content)==0 or content is None:
-        return links
+    elif len(content)==0:
+        pass
         # with codecs.open('non_200.txt', mode='a', encoding='utf-8') as non_200:
         #     non_200.write(current_url+'|'+str(http_code)+'\n')
     else:
-        doc = html.document_fromstring(content)
+        try:
+            doc = html.document_fromstring(content)
+        except:
+            return links
         xpath = doc.xpath("//a")
         separator = '/'
         for i in xpath:
@@ -126,9 +152,11 @@ def extract_next_links(rawDataObj):
         redirect_count += 1
         outputLinks = links_from_link(rawDataObj.content, rawDataObj.final_url
             , rawDataObj.http_code)
+        createDocumentWithContent(rawDataObj)
     else:
         outputLinks = links_from_link(rawDataObj.content, rawDataObj.url
             , rawDataObj.http_code)
+        createDocumentWithContent(rawDataObj)
     return outputLinks
 
 def is_valid(url):
@@ -147,7 +175,7 @@ def is_valid(url):
     try:
         is_valid_flag = ".ics.uci.edu" in parsed.hostname \
             and not re.match(".*\.(css|js|bmp|gif|jpe?g|ico" + "|png|tiff?|mid|mp2|mp3|mp4"\
-            + "|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|txt|pdf" \
+            + "|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf|txt" \
             + "|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso|epub|dll|cnf|tgz|sha1" \
             + "|thmx|mso|arff|rtf|jar|csv"\
             + "|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower()) \
@@ -161,3 +189,72 @@ def is_valid(url):
     if not is_valid_flag:
         invalid_count += 1
     return is_valid_flag
+
+def createDocumentWithContent(dataObject):
+    global counterURL
+    global document_counter
+    cwd = os.getcwd()
+    path_till_odyssey = cwd[:cwd.index('odyssey')+len('odyssey')]
+    pages_dir_name = 'HTMLdocs'
+    doc_name = path_till_odyssey+'\HTMLdocs\doc_' + str(document_counter)
+
+    with open(doc_name+ ".txt",'wb') as f:
+
+        doc = "doc_" + str(document_counter)
+        #print (dataObject.url)
+        counterURL[doc] = dataObject.url
+        #print (counterURL)
+        document_counter = document_counter + 1
+        f.write(dataObject.content)
+
+    mapper_file_name = "doc_url_map.p"
+    fileObject = open(mapper_file_name,'wb')
+    pickle.dump(counterURL,fileObject)
+    fileObject.close()
+
+    getCleanText(doc_name)
+    getCleanTextandTitle(doc_name)
+
+def getCleanText(textData):
+    array = []
+    fh = open(textData+ ".txt", "r")
+    if fh.read(1):
+        cleaner = Cleaner()
+        parser = etree.HTMLParser()
+        try:
+            tree   = etree.parse(BytesIO(fh.read()), parser)
+            result = etree.tostring(tree.getroot(), method="html")
+            mresult = re.sub(r' {[^}]*}','',result)
+
+
+            soup = BeautifulSoup(mresult, "lxml")
+            for tag in soup.find_all():
+            #print (tag.name)
+                array.append(tag.name)
+            cleaner.remove_tags = array
+
+            with open(textData +"_clean"+ ".txt",'wb') as f:
+                f.write(cleaner.clean_html(mresult))
+        except:
+            pass
+
+def getCleanTextandTitle(textData):
+    fh = open(textData+ ".txt", "r")
+    if fh.read(1):
+        html = fh.read()
+        soup = BeautifulSoup(html, "lxml")
+        # kill all script and style elements
+        for script in soup(["script", "style"]):
+            script.extract()
+            # get text
+        if soup is None:
+            return
+        text = soup.get_text()
+        soup = BeautifulSoup(text, "lxml")
+
+        lines = (line.strip() for line in text.splitlines())
+        chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+        text = '\n'.join(chunk for chunk in chunks if chunk)
+
+        with codecs.open(textData +"_alternate"+ ".txt", mode='a', encoding='utf-8') as f:
+            f.write(text)

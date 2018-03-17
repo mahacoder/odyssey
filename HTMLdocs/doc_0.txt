@@ -1,0 +1,284 @@
+<div>
+
+Donald Bren School of Information and Computer Sciences @ University of California, Irvine
+
+
+
+
+
+
+
+
+
+This site will look much better in a browser that supports web standards, but it is accessible to any browser or Internet device.
+
+
+
+
+
+
+      
+
+
+         #school_header
+
+
+         #school_link
+
+
+         #uci_link
+
+
+      
+
+
+
+      
+
+         
+
+         
+
+      
+
+
+
+
+
+
+
+
+
+    
+
+                
+            
+                
+                
+                
+                    ABOUT
+
+                    
+                    
+                        About the School
+                        Dean's Welcome
+                        Facts and Figures
+                        Donald Bren Hall
+                        Visit the Bren School
+                        Equity &amp; Diversity
+                        Contact Us
+                        
+                                   
+                
+                
+                
+                
+                     DEPARTMENTS 
+                    
+
+                    
+                        Computer Science
+                        Informatics
+                        Statistics
+                                   
+                
+                
+                
+                
+                     RESEARCH 
+                
+                
+                    
+                        Research Areas
+                        Research Centers
+                        Research Highlights
+                    
+                
+                
+                
+                
+                
+                
+                     EDUCATION 
+                    
+
+                    
+                        Graduate ▸ 
+                        
+                            
+                            Prospective Students
+                            How to Apply
+                            Programs of Study
+                            Academic Year Plan
+                            Forms
+                            Policies
+                            Funding &amp; Housing
+                            Computing Support
+                            Campus Resources
+                            Visit the Bren School
+                            Graduate Student Handbook
+                            Contact
+                            
+
+                        
+                        
+                        Undergraduate ▸ 
+                        
+                            
+                            Contact
+                            Academic Advising
+                            Course Updates
+                            Academic Year Plan
+                            Petitions
+                            ICS Majors
+                            ICS Minors
+
+                            Policies: Academic Integrity
+                            Policies: Academic Standing
+                            Policies: Add, drop, &amp; change options
+                            Policies: Coursework outside UCI
+                            Policies: Grade policy
+                            Policies: Laptop &amp; computer use
+                            Policies: Withdrawal/Readmission
+                            Policies: CS 199 / IN4MATX 199 Courses
+
+                              Graduation
+                              ICS Student Life
+                              Upcoming Events
+                              Computing Support
+                              
+                           
+                        
+
+                        
+                        Prospective Undergrad
+
+
+                        Scholarships &amp; Fellowships
+                        
+                                                    
+                                   
+                
+
+    
+                
+                    
+                    PEOPLE                      
+                    
+                
+                    
+                        Faculty
+                        Staff
+                        Graduate Students
+                        Alumni
+                       
+                
+                                
+                
+                 
+                
+                    NEWS &amp; EVENTS
+                    
+                    
+                    
+                        Newsroom
+                        Events
+                        Press Releases
+                        Annual Reports
+                        Student Blogs
+                       
+                
+
+                
+                
+                    GET INVOLVED
+                
+                
+                    
+                    
+                            Make a Gift
+                            Leadership Council
+                            Corporate Partners
+                            Sponsor Projects
+                            Product Development Competition
+                            ZotLink Jobs &amp; Internships
+                            
+                                   
+                
+
+
+                 
+                                 
+
+            
+
+ url('/bin/icssearchstyle/css/icssearch.css');
+
+
+
+
+            
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latest News
+
+Tsudik Awarded Visiting Professorship at TU Dresden
+
+What’s Next in the Battle Over Net Neutrality?
+
+Levorato and DeepEdge Tackle DARPA SDR Hackfest
+
+Top Games and Hot Topics of 2017 at UCI’s Esports Arena
+
+Dechter, Ihler Work to Advance Probabilistic Reasoning
+           
+
+
+Hall of Fame
+
+The 2018 ICS Alumni Hall of Fame Celebration will take place at the Lyon Air Museum on Friday, March 2. Register online today!
+
+Upcoming Events
+
+
+
+View the ICS calendar &gt;
+
+
+Quick Links 
+        
+
+Copyright Inquiries | UCI Directory | Intranet | icswebmaster
+
+
+ 
+ 
+
+</div>

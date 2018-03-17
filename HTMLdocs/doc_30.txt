@@ -1,0 +1,414 @@
+<div>html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40" xml:lang="en"&gt;
+
+
+
+
+
+
+
+Project RADICLE Website
+
+
+
+
+
+&lt;!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1585994838;
+	mso-list-template-ids:686873856;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:2054648764;
+	mso-list-template-ids:1902956754;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:?;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+RADICLE 
+
+Risk Aware Data Management in Cloud
+Environments 
+
+Donald Bren School of Computer Science
+
+University of California, Irvine 
+
+
+
+
+
+
+
+ 
+
+Motivation 
+
+As data management systems become more distributed, risk of
+data loss arises whenever data migrates from more secure environments to those
+that are less secure. One way to mitigate such risk is to identify components
+that are vulnerable, and fortify them with security solutions. Nonetheless,
+such actions cannot prevent attacks carried out by insiders. For example, a
+malicious database administrator would still have access to the sensitive data
+within the databases he or she manages. In other instances, performance
+overheads involved might prevent usage of strong security practices, such as encrypting all sensitive data in motion or
+at rest. Hence, new security solutions need to be developed as data
+management systems become more distributed and migrate to the cloud.
+
+ 
+
+Overview
+
+In this project, we take an alternate/complementary
+approach towards securing query processing for database workloads. We
+acknowledge the fact that different
+system components/environments through which data moves during query processing
+offer different security guarantees. Instead of attempting to prevent or
+thwart attacks, we design risk aware query processing techniques that control
+how data flows through different components (in particular from more secure to
+less secure ones) such that the risk of loss of data, while not entirely eliminated,
+is substantially reduced. The major intuition behind our approaches is that
+migration/motion of data during query processing is primarily guided by
+efficiency concerns (such as, how much data to cache, how to access the data,
+via index or table scan etc.). Therefore, varying the characteristics of data
+movement through these components exposes a tradeoff between risk and
+performance. 
+
+For instance, query processing on a typical database
+server requires that data be brought into memory and be kept in memory (cached)
+for as long as possible to prevent expensive disk I/Os.
+Indeed, given the large amounts of data involved, often the primary
+optimization that database servers support is
+minimizing the number of disk I/Os. However, longer
+the data resides in memory, larger the risk that it can be stolen through a
+variety of memory scraping attacks.
+Instead, an alternate strategy like toss-immediately
+after use may incur performance degradation, but significantly reduce risk
+of data loss. Likewise, consider an public-private
+hybrid cloud setup, where and organization utilizes the public cloud resources
+during peak demands to offload some of the work. Again, limiting the queries
+and data offloaded to the (less-trusted) public cloud can limit exposure risks.
+
+
+Given the potential tradeoffs between performance and
+risks of data loss, we postulate the problem of risk aware query processing
+wherein the goal changes from purely attempting to minimize costs (and hence
+maximize performance) to that of achieving a balance between performance and
+exposure risks. Given the above postulation, multi-criteria optimization
+techniques can be employed to achieve a balance between performance and
+exposure risk. Two specific settings could be: (a) optimize for performance
+while ensuring that exposure risks are constrained, or alternatively, (b)
+constrain the additional overhead of query processing, while minimizing the
+risk of data loss. 
+
+The mechanisms we will design will address risk
+management at both the query optimization level, as well as, at the level of
+redesign of individual relational operators (such as joins, selections, etc.)
+so as to limit exposure risks. Additionally, we will explore data and workload
+partitioning methods for the hybrid cloud models that minimize exposure risks
+while ensuring performance goals. 
+
+ 
+
+Project Funding 
+
+This project is partially supported by grants from NSF and NEC Labs, USA. 
+
+
+
+
+
+
+
+
+ Main Page
+ News
+ People
+ Publications
+ Related Links 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Â© RADICLE | Design
+by Cirkuit Networks, Inc. Modified by Kerim Yasin Oktay, ICS 
+
+
+
+
+
+
+
+
+
+</div>

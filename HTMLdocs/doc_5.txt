@@ -1,0 +1,124 @@
+<div>!DOCTYPE html&gt;
+
+
+
+grad		
+		
+
+		
+			.slide-excerpt
+			.slide-excerpt
+			.slide-excerpt
+			.flexslider
+			.slide-image
+		
+		
+			@media only screen
+			and (min-device-width : 320px)
+			and (max-device-width : 480px)
+			}
+		 
+
+
+
+
+		
+		
+img.wp-smiley,
+img.emoji
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Department of Statistics - Donald Bren School of Information &amp; Computer SciencesDepartment of Statistics - Donald Bren School of Information &amp; Computer Sciences
+Explore
+
+	Chair’s Welcome
+	What is Statistics?
+	Seminar Series
+	UCI Center for Statistical Consulting
+	Contact the Department
+	Tutoring Resources
+
+
+Faculty
+
+	Faculty Directory
+	Job Opportunities
+
+
+Research
+Graduate Degrees
+
+	M.S. &amp; Ph.D. in Statistics
+	Current Course Listings
+	Graduate Student Directory
+
+
+Undergraduate Degrees
+
+	B.S. in Data Science
+	Minor in Statistics
+	Current Course Listings
+
+
+grad 
+{parent for grad stuff}
+				Latest News
+		
+											
+					Minin Co-Edits Special Section on Infectious Diseases in Statistical Science
+											February 12, 2018
+									
+											
+					Lakeland Times: “Autism numbers spike: The latest call to action” (Stern quoted)
+											January 22, 2018
+									
+											
+					Utts Discusses “Statistics for Good Governance” at International Conference in Sri Lanka
+											January 18, 2018
+									
+											
+					2018 ICS Projects and Predictions
+											January 16, 2018
+									
+											
+					New Faculty Spotlight: Statistics Professor Vladimir Minin is Pleased to Join Growing Community
+											October 30, 2017
+									
+					
+		
+			News Archive
+
+		
+			
+
+				
+						
+				
+
+				
+					
+					   © 2018 UC Regents
+					   Feedback
+					   Privacy Policy
+					
+				
+
+			
+	
+
+
+
+</div>
